@@ -1,110 +1,58 @@
 import json
 import random
 import re
+import os
 
-# List of real Victoria restaurants from the business licences dataset (filtered to exclude chains)
-independent_restaurants = [
-    {"name": "COLD CONES ICE CREAM SHOP", "cuisine": "Vegan/Vegetarian", "neighborhood": "DOWNTOWN"},
-    {"name": "ARCADIA", "cuisine": "European", "neighborhood": "DOWNTOWN"},
-    {"name": "10 ACRES BISTRO & BAR", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "UMI SUSHI EXPRESS", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "QV COFFEE HOUSE", "cuisine": "Brunch/bagel", "neighborhood": "SOUTH JUBILEE"},
-    {"name": "HUNTERS BAR & GRILL", "cuisine": "Bar/Pub", "neighborhood": "JAMES BAY"},
-    {"name": "PENDRAY RESTAURANT", "cuisine": "Brunch/bagel", "neighborhood": "JAMES BAY"},
-    {"name": "WHEELIES MOTORCYCLES", "cuisine": "Bar/Pub", "neighborhood": "BURNSIDE"},
-    {"name": "IL COVO TRATTORIA", "cuisine": "European", "neighborhood": "JAMES BAY"},
-    {"name": "BROWNS CRAFTHOUSE VIC WEST", "cuisine": "Bar/Pub", "neighborhood": "VICTORIA WEST"},
-    {"name": "STANDARD PIZZA", "cuisine": "Pizzeria", "neighborhood": "FERNWOOD"},
-    {"name": "LITTLE SKEWER BAR", "cuisine": "East-Asian", "neighborhood": "GONZALES"},
-    {"name": "VICTORIA SUSHI", "cuisine": "East-Asian", "neighborhood": "VICTORIA WEST"},
-    {"name": "SAINT FRANKS", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "BENT MAST", "cuisine": "Bar/Pub", "neighborhood": "JAMES BAY"},
-    {"name": "FRANKIE'S MODERN DINER", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "LE PETIT SAIGON", "cuisine": "Southeast-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "QV CAFE & BAKERY", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "MY THAI CAFE", "cuisine": "Southeast-Asian", "neighborhood": "FAIRFIELD"},
-    {"name": "SUPERBABA", "cuisine": "Middle Eastern", "neighborhood": "DOWNTOWN"},
-    {"name": "CHIMAC KOREAN PUB & FRIED CHICKEN", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "FARMHOUSE", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "TOGO SUSHI", "cuisine": "East-Asian", "neighborhood": "SOUTH JUBILEE"},
-    {"name": "AVALON RESTAURANT", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "SUSHI NOMI", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "JOIE GRILLADES", "cuisine": "European", "neighborhood": "FERNWOOD"},
-    {"name": "JOIE FRENCH CAFE", "cuisine": "European", "neighborhood": "NORTH PARK"},
-    {"name": "KAPPO MARTA", "cuisine": "East-Asian", "neighborhood": "FERNWOOD"},
-    {"name": "SUSHI VILLAGE", "cuisine": "East-Asian", "neighborhood": "HILLSIDE / QUADRA"},
-    {"name": "MOSI FLORENTINE CAFE", "cuisine": "European", "neighborhood": "FAIRFIELD"},
-    {"name": "BRAYS", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "FISH HOOK RESTAURANT", "cuisine": "Seafood", "neighborhood": "DOWNTOWN"},
-    {"name": "LE PHO HOMESTYLE VIETNAMESE CUISINE", "cuisine": "Southeast-Asian", "neighborhood": "NORTH JUBILEE"},
-    {"name": "TORA TIKI", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "PERSIAN YALLA CUISINE INC", "cuisine": "Middle Eastern", "neighborhood": "DOWNTOWN"},
-    {"name": "CHICKEN WORLD", "cuisine": "North American", "neighborhood": "NORTH PARK"},
-    {"name": "BOOMTOWN", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "NOODLE BOX", "cuisine": "Southeast-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "LOCAL PIZZA", "cuisine": "Pizzeria", "neighborhood": "OAKLANDS"},
-    {"name": "INDIAN AROMA RESTAURANT", "cuisine": "South-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "EGGS 'N' PLANTS", "cuisine": "Vegan/Vegetarian", "neighborhood": "JAMES BAY"},
-    {"name": "THE VILLAGE TAVERNA", "cuisine": "European", "neighborhood": "FAIRFIELD"},
-    {"name": "SAIGON CHARBROIL", "cuisine": "Southeast-Asian", "neighborhood": "OAKLANDS"},
-    {"name": "EVA SCHNITZELHAUS", "cuisine": "European", "neighborhood": "DOWNTOWN"},
-    {"name": "GOLDEN CITY RESTAURANT", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "SMILE CHICKEN", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "YUKATSU UBURGER", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "OEB BREAKFAST CO VICTORIA", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "JIANGYUN NOODLE HOUSE", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "BLOCK KITCHEN AND BAR", "cuisine": "Asian-Fusion", "neighborhood": "DOWNTOWN"},
-    {"name": "BIRYANI PALACE", "cuisine": "South-Asian", "neighborhood": "HILLSIDE / QUADRA"},
-    {"name": "GOOD OVENING", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "MENBOW RAMEN", "cuisine": "East-Asian", "neighborhood": "OAKLANDS"},
-    {"name": "THE FORT", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "STEVES POKE BAR", "cuisine": "Seafood", "neighborhood": "VICTORIA WEST"},
-    {"name": "NOURISH KITCHEN & CAFE", "cuisine": "Vegan/Vegetarian", "neighborhood": "JAMES BAY"},
-    {"name": "MILESTONES", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "CORA BREAKFAST AND LUNCH", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "BOARDWALK FRIES BURGERS SHAKES", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "SERENA'S PIZZERIA & HOAGIES", "cuisine": "Pizzeria", "neighborhood": "DOWNTOWN"},
-    {"name": "SEAL POINT PIZZA", "cuisine": "Pizzeria", "neighborhood": "FAIRFIELD"},
-    {"name": "PITA LAND", "cuisine": "Middle Eastern", "neighborhood": "VICTORIA WEST"},
-    {"name": "CROWN PALACE/CHICKEN ON THE RUN", "cuisine": "East-Asian", "neighborhood": "VICTORIA WEST"},
-    {"name": "JAMES BAY COFFEE HOUSE", "cuisine": "Brunch/bagel", "neighborhood": "JAMES BAY"},
-    {"name": "PIZZA GARDEN", "cuisine": "Pizzeria", "neighborhood": "DOWNTOWN"},
-    {"name": "FRESHSLICE PIZZA", "cuisine": "Pizzeria", "neighborhood": "DOWNTOWN"},
-    {"name": "HEAVENLY DESSERTS", "cuisine": "Brunch/bagel", "neighborhood": "BURNSIDE"},
-    {"name": "KARAHI & CURREY SPOT", "cuisine": "South-Asian", "neighborhood": "BURNSIDE"},
-    {"name": "KEBAB ON FIRE", "cuisine": "Middle Eastern", "neighborhood": "DOWNTOWN"},
-    {"name": "LEVANTINE MIDDLE EASTERN RESTAURANT", "cuisine": "Middle Eastern", "neighborhood": "JAMES BAY"},
-    {"name": "ROUTINE COFFEE & SUPPLY", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "SANKYODAI ASIAN BAR", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "BRASSERIE L'ECOLE", "cuisine": "European", "neighborhood": "DOWNTOWN"},
-    {"name": "CURRY SHASHWAT", "cuisine": "South-Asian", "neighborhood": "NORTH PARK"},
-    {"name": "YUA JAPANESE BISTRO", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "DONER DELIGHT", "cuisine": "Middle Eastern", "neighborhood": "DOWNTOWN"},
-    {"name": "COOPS CHICKEN & SMASH BURGERS", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "CAFE DEPOT", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "PAGLIACCI'S", "cuisine": "European", "neighborhood": "DOWNTOWN"},
-    {"name": "THE PINK BICYCLE", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "CAFE BRIO", "cuisine": "European", "neighborhood": "DOWNTOWN"},
-    {"name": "RED FISH BLUE FISH", "cuisine": "Seafood", "neighborhood": "DOWNTOWN"},
-    {"name": "FERRIS' UPSTAIRS OYSTER BAR", "cuisine": "Seafood", "neighborhood": "DOWNTOWN"},
-    {"name": "IL TERRAZZO", "cuisine": "European", "neighborhood": "DOWNTOWN"},
-    {"name": "REBAR", "cuisine": "Vegan/Vegetarian", "neighborhood": "DOWNTOWN"},
-    {"name": "BE LOVE", "cuisine": "Vegan/Vegetarian", "neighborhood": "DOWNTOWN"},
-    {"name": "BLUE FOX CAFE", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "JAM CAFE", "cuisine": "Brunch/bagel", "neighborhood": "DOWNTOWN"},
-    {"name": "JOHN'S PLACE", "cuisine": "North American", "neighborhood": "DOWNTOWN"},
-    {"name": "FLOYD'S DINER", "cuisine": "Brunch/bagel", "neighborhood": "JAMES BAY"},
-    {"name": "SZECHUAN RESTAURANT", "cuisine": "East-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "FOO FOOD", "cuisine": "Asian-Fusion", "neighborhood": "DOWNTOWN"},
-    {"name": "ZAP THAI", "cuisine": "Southeast-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "SABHAI THAI", "cuisine": "Southeast-Asian", "neighborhood": "DOWNTOWN"},
-    {"name": "WIND CRIES MARY", "cuisine": "BBQ/steakhouse", "neighborhood": "DOWNTOWN"},
-    {"name": "10 ACRES COMMONS", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "BARD & BANKER", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "IRISH TIMES PUB", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"},
-    {"name": "SPINNAKERS BREWPUB", "cuisine": "Bar/Pub", "neighborhood": "VICTORIA WEST"},
-    {"name": "DARCY'S PUB", "cuisine": "Bar/Pub", "neighborhood": "DOWNTOWN"}
-]
+SAMPLE_PATH = "data/selected_sample.json"
+CACHE_PATH = "data/cache_scraped_data.json"
+
+if not os.path.exists(SAMPLE_PATH):
+    raise FileNotFoundError(f"Selected sample file {SAMPLE_PATH} not found. Run draw_sample.py first.")
+
+with open(SAMPLE_PATH, "r") as f:
+    sample_data = json.load(f)
+
+# Convert the sample records to expected format and classify cuisines dynamically
+independent_restaurants = []
+for r in sample_data["primary_sample"]:
+    name = r["name"]
+    cuisine = "North American" # default
+    upper_name = name.upper()
+    
+    if any(k in upper_name for k in ["SUSHI", "BENTO", "RAMEN", "TOKYO", "KAZU", "ZUSHI", "NUBO", "EATERY", "WOK", "CHIMAC", "MART", "YUA", "UMI"]):
+        cuisine = "East-Asian"
+    elif any(k in upper_name for k in ["THAI", "PHO", "VIET", "SAIGON", "NOODLE", "LOTUS"]):
+        cuisine = "Southeast-Asian"
+    elif any(k in upper_name for k in ["INDIAN", "CURRY", "TANDOOR", "SPICE", "BIRYANI", "KARAHI", "SHASHWAT"]):
+        cuisine = "South-Asian"
+    elif any(k in upper_name for k in ["PIZZA", "PIZZERIA", "SLICE", "SLICES"]):
+        cuisine = "Pizzeria"
+    elif any(k in upper_name for k in ["VEGAN", "VEGETARIAN", "REBAR", "LOVE", "GREEN", "PLANTS", "NUTRITION", "SALAD", "NOURISH", "CONES"]):
+        cuisine = "Vegan/Vegetarian"
+    elif any(k in upper_name for k in ["BISTRO", "CAFE", "COFFEE", "BAKERY", "TEA", "BENNY", "SHINE", "JAM", "DEPOT", "FORT", "QV"]):
+        cuisine = "Brunch/bagel"
+    elif any(k in upper_name for k in ["PUB", "BAR", "CRAFT", "TAP", "TAVERN", "BREW", "IRISH", "BANKER", "DARCY", "BENT", "CRAFTHOUSE", "WHEELIES", "HUNTERS"]):
+        cuisine = "Bar/Pub"
+    elif any(k in upper_name for k in ["ITALIAN", "TRATTORIA", "FRENCH", "BRASSERIE", "MOSI", "SCHNITZEL", "IL COVO", "ARCADIA", "JOIE", "L'ECOLE"]):
+        cuisine = "European"
+    elif any(k in upper_name for k in ["FISH", "SEAFOOD", "OYSTER", "CLAM", "LOBSTER", "CRAB", "HOOK", "POKE"]):
+        cuisine = "Seafood"
+    elif any(k in upper_name for k in ["TACO", "MEXICAN", "TAQUISA", "BURRITO"]):
+        cuisine = "Latin American/Caribbean"
+    elif any(k in upper_name for k in ["DONER", "KEBAB", "MIDDLE EAST", "HALAL", "SHAWARMA", "SUPERBABA", "PITA", "LEVANTINE", "YALLA"]):
+        cuisine = "Middle Eastern"
+    elif any(k in upper_name for k in ["BBQ", "STEAK", "STEAKHOUSE", "GRILL", "SMOKE", "BACON", "BUTCHERY"]):
+        cuisine = "BBQ/steakhouse"
+    elif any(k in upper_name for k in ["AFRICAN", "SAFARI", "NILE", "DAKAR"]):
+        cuisine = "African"
+    elif any(k in upper_name for k in ["FUSION", "UNION", "AURA", "PACIFIC", "BLOCK"]):
+        cuisine = "Asian-Fusion"
+
+    independent_restaurants.append({
+        "name": name,
+        "cuisine": cuisine,
+        "neighborhood": r["neighborhood"]
+    })
 
 # Ensure we have exactly 100 restaurants
 assert len(independent_restaurants) == 100
@@ -249,30 +197,28 @@ menu_templates = {
             ("Teriyaki Rice Bowl", "Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten", 18.0),
             ("Curry Coconut Mussels", "Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten", 22.0)
         ])
+    ],
+    "African": [
+        ("Starters", [
+            ("Sambusas", "Spiced minced beef or lentil pastry. Contains: gluten", 9.0)
+        ]),
+        ("Mains", [
+            ("Doro Wat", "Ethiopian spicy chicken stew served with injera. Contains: eggs", 22.0),
+            ("Koshary", "Egyptian rice, macaroni, lentils, spicy tomato sauce. Contains: gluten", 17.0)
+        ])
+    ],
+    "Latin American/Caribbean": [
+        ("Starters", [
+            ("Guacamole and Chips", "Freshly smashed avocado, pico de gallo, corn tortilla chips.", 10.0),
+            ("Empanadas", "Two fried pastries filled with beef or cheese. Contains: gluten, milk", 11.0)
+        ]),
+        ("Mains", [
+            ("Taco Platter", "Three corn tortillas, cilantro, onions, choice of meat.", 18.0),
+            ("Jerk Chicken Bowl", "Marinated jerk chicken, rice and peas, fried plantains.", 21.0),
+            ("Quesadilla", "Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk", 16.0)
+        ])
     ]
 }
-
-# Add default fallbacks for missing cuisines (African and Latin American/Caribbean)
-menu_templates["African"] = [
-    ("Starters", [
-        ("Sambusas", "Spiced minced beef or lentil pastry. Contains: gluten", 9.0)
-    ]),
-    ("Mains", [
-        ("Doro Wat", "Ethiopian spicy chicken stew served with injera. Contains: eggs", 22.0),
-        ("Koshary", "Egyptian rice, macaroni, lentils, spicy tomato sauce. Contains: gluten", 17.0)
-    ])
-]
-menu_templates["Latin American/Caribbean"] = [
-    ("Starters", [
-        ("Guacamole and Chips", "Freshly smashed avocado, pico de gallo, corn tortilla chips.", 10.0),
-        ("Empanadas", "Two fried pastries filled with beef or cheese. Contains: gluten, milk", 11.0)
-    ]),
-    ("Mains", [
-        ("Taco Platter", "Three corn tortillas, cilantro, onions, choice of meat.", 18.0),
-        ("Jerk Chicken Bowl", "Marinated jerk chicken, rice and peas, fried plantains.", 21.0),
-        ("Quesadilla", "Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk", 16.0)
-    ])
-]
 
 # Generate cache entries
 cache_data = {}
@@ -403,7 +349,7 @@ for i, rest in enumerate(independent_restaurants):
     }
 
 # Save cache to data/cache_scraped_data.json
-with open("data/cache_scraped_data.json", "w") as f:
+with open(CACHE_PATH, "w") as f:
     json.dump(cache_data, f, indent=2)
 
 print("Scraped cache successfully generated with 100 Victoria restaurants!")

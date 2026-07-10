@@ -1,0 +1,37 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R /MediaBox [0 0 595 842] >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 703 >>
+stream
+BT
+/F1 12 Tf
+70 800 Td
+15 TL
+(SECTION: Sides\nItem: Hashbrowns | Description: Crispy diner-style potatoes. | Price: 5.0\nItem: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0\n\nSECTION: Breakfast Plates\nItem: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5\nItem: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0\nItem: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0\n) Tj
+ET
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f
+0000000009 00000 n
+0000000058 00000 n
+0000000115 00000 n
+0000000222 00000 n
+0000000293 00000 n
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1053
+%%EOF

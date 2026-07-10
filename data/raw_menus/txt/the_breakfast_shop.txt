@@ -1,0 +1,9 @@
+Please refer to our Allergen & Nutrition Chart at the end of this menu for details on all priority allergens.
+
+SECTION: Starters
+Item: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0
+Item: Cobb Salad [GF] | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0
+
+SECTION: Mains
+Item: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0
+Item: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0

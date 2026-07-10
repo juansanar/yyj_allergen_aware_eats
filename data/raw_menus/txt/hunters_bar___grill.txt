@@ -1,5 +1,3 @@
-Before placing your order, please inform your server if a person in your party has a food allergy.
-
 SECTION: Pub Fare
 Item: Chicken Wings | Description: Crispy wings with hot sauce or honey garlic. Contains: gluten | Price: 16.0
 Item: Soft Pretzels | Description: Warm salted pretzels with beer cheese dip. Contains: gluten, milk | Price: 11.0
