@@ -1,7 +1,7 @@
 {
   "BLOCK KITCHEN AND BAR": {
     "trade_name": "BLOCK KITCHEN AND BAR",
-    "website_url": "www.block_kitchen_and_bar.ca",
+    "website_url": "blockvictoria.ca",
     "tripadvisor_rating": 4.4,
     "cost_indicator": 1,
     "num_locations": 1,
@@ -11,11 +11,12 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Pub Fare\nItem: Chicken Wings | Description: Crispy wings with hot sauce or honey garlic. Contains: gluten | Price: 16.0\nItem: Soft Pretzels | Description: Warm salted pretzels with beer cheese dip. Contains: gluten, milk | Price: 11.0\n\nSECTION: Mains\nItem: Classic Burger | Description: Beef patty, cheddar, lettuce, tomato, brioche bun, house fries. Contains: gluten, milk | Price: 18.5\nItem: Fish and Chips | Description: Beer-battered cod, double-cooked chips, tartar sauce. Contains: fish, gluten, eggs | Price: 21.0\nItem: Steak Sandwich | Description: 6oz sirloin on garlic toast with onion rings. Contains: gluten, milk | Price: 25.0\n"
+    "menu_text": "SECTION: Pub Fare\nItem: Chicken Wings | Description: Crispy wings with hot sauce or honey garlic. Contains: gluten | Price: 16.0\nItem: Soft Pretzels | Description: Warm salted pretzels with beer cheese dip. Contains: gluten, milk | Price: 11.0\n\nSECTION: Mains\nItem: Classic Burger | Description: Beef patty, cheddar, lettuce, tomato, brioche bun, house fries. Contains: gluten, milk | Price: 18.5\nItem: Fish and Chips | Description: Beer-battered cod, double-cooked chips, tartar sauce. Contains: fish, gluten, eggs | Price: 21.0\nItem: Steak Sandwich | Description: 6oz sirloin on garlic toast with onion rings. Contains: gluten, milk | Price: 25.0\n",
+    "website_full_url": "https://blockvictoria.ca"
   },
   "FISHER HOUSE BED & BREAKFAST": {
     "trade_name": "FISHER HOUSE BED & BREAKFAST",
-    "website_url": "www.fisher_house_bed___breakfast.ca",
+    "website_url": "fisherhousevictoria.com",
     "tripadvisor_rating": 3.9,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -25,11 +26,12 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.\n\nSECTION: Appetizers\nItem: Oysters on the Half Shell | Description: Fresh local oysters, mignonette, lemon. Contains: molluscs | Price: 18.0\nItem: Clam Chowder | Description: Creamy New England style chowder. Contains: milk, molluscs, gluten | Price: 11.0\n\nSECTION: Mains\nItem: Pan Seared Halibut | Description: Local halibut, spring pea puree, lemon butter sauce. Contains: fish, milk | Price: 34.0\nItem: Seafood Linguine | Description: Mussels, clams, prawns, white wine garlic sauce. Contains: gluten, molluscs, crustaceans | Price: 28.0\n"
+    "menu_text": "Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.\n\nSECTION: Appetizers\nItem: Oysters on the Half Shell | Description: Fresh local oysters, mignonette, lemon. Contains: molluscs | Price: 18.0\nItem: Clam Chowder | Description: Creamy New England style chowder. Contains: milk, molluscs, gluten | Price: 11.0\n\nSECTION: Mains\nItem: Pan Seared Halibut | Description: Local halibut, spring pea puree, lemon butter sauce. Contains: fish, milk | Price: 34.0\nItem: Seafood Linguine | Description: Mussels, clams, prawns, white wine garlic sauce. Contains: gluten, molluscs, crustaceans | Price: 28.0\n",
+    "website_full_url": "https://fisherhousevictoria.com"
   },
   "SEN ZUSHI (2004) INC": {
     "trade_name": "SEN ZUSHI (2004) INC",
-    "website_url": "www.sen_zushi__2004__inc.ca",
+    "website_url": "senzushi.com",
     "tripadvisor_rating": 3.9,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -39,11 +41,12 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Appetizers\nItem: Edamame | Description: Steamed soybeans with sea salt. Contains: soybeans | Price: 6.0\nItem: Gyoza | Description: Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans | Price: 9.0\nItem: Tempura App | Description: Crispy prawns and vegetables with soy dip. Contains: gluten, crustaceans, soybeans | Price: 12.0\n\nSECTION: Mains\nItem: Sushi Combo | Description: Assorted sushi pieces with pickled ginger. Contains: fish | Price: 24.0\nItem: Tonkotsu Ramen | Description: Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans | Price: 19.5\nItem: Miso Glazed Salmon | Description: Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans | Price: 26.0\n"
+    "menu_text": "SECTION: Appetizers\nItem: Edamame | Description: Steamed soybeans with sea salt. Contains: soybeans | Price: 6.0\nItem: Gyoza | Description: Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans | Price: 9.0\nItem: Tempura App | Description: Crispy prawns and vegetables with soy dip. Contains: gluten, crustaceans, soybeans | Price: 12.0\n\nSECTION: Mains\nItem: Sushi Combo | Description: Assorted sushi pieces with pickled ginger. Contains: fish | Price: 24.0\nItem: Tonkotsu Ramen | Description: Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans | Price: 19.5\nItem: Miso Glazed Salmon | Description: Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans | Price: 26.0\n",
+    "website_full_url": "https://senzushi.com"
   },
   "DISCOVERY COFFEE": {
     "trade_name": "DISCOVERY COFFEE",
-    "website_url": "www.discovery_coffee.ca",
+    "website_url": "discoverycoffee.com",
     "tripadvisor_rating": 4.2,
     "cost_indicator": 1,
     "num_locations": 1,
@@ -53,11 +56,12 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Sides\nItem: Hashbrowns | Description: Crispy diner-style potatoes. | Price: 5.0\nItem: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0\n\nSECTION: Breakfast Plates\nItem: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5\nItem: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0\nItem: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0\n"
+    "menu_text": "SECTION: Sides\nItem: Hashbrowns | Description: Crispy diner-style potatoes. | Price: 5.0\nItem: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0\n\nSECTION: Breakfast Plates\nItem: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5\nItem: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0\nItem: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0\n",
+    "website_full_url": "https://discoverycoffee.com"
   },
   "49 BELOW ICE CREAM": {
     "trade_name": "49 BELOW ICE CREAM",
-    "website_url": "www.49_below_ice_cream.ca",
+    "website_url": "49below.ca",
     "tripadvisor_rating": 5.0,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -67,7 +71,8 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://49below.ca"
   },
   "TIBETAN KITCHEN CAFE": {
     "trade_name": "TIBETAN KITCHEN CAFE",
@@ -85,7 +90,7 @@
   },
   "LA TAQUISA RESTAURANT": {
     "trade_name": "LA TAQUISA RESTAURANT",
-    "website_url": "www.la_taquisa_restaurant.ca",
+    "website_url": "lataquisa.com",
     "tripadvisor_rating": 4.2,
     "cost_indicator": 1,
     "num_locations": 1,
@@ -95,7 +100,8 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Starters\nItem: Guacamole and Chips | Description: Freshly smashed avocado, pico de gallo, corn tortilla chips. | Price: 10.0\nItem: Empanadas | Description: Two fried pastries filled with beef or cheese. Contains: gluten, milk | Price: 11.0\n\nSECTION: Mains\nItem: Taco Platter | Description: Three corn tortillas, cilantro, onions, choice of meat. | Price: 18.0\nItem: Jerk Chicken Bowl | Description: Marinated jerk chicken, rice and peas, fried plantains. | Price: 21.0\nItem: Quesadilla | Description: Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk | Price: 16.0\n"
+    "menu_text": "SECTION: Starters\nItem: Guacamole and Chips | Description: Freshly smashed avocado, pico de gallo, corn tortilla chips. | Price: 10.0\nItem: Empanadas | Description: Two fried pastries filled with beef or cheese. Contains: gluten, milk | Price: 11.0\n\nSECTION: Mains\nItem: Taco Platter | Description: Three corn tortillas, cilantro, onions, choice of meat. | Price: 18.0\nItem: Jerk Chicken Bowl | Description: Marinated jerk chicken, rice and peas, fried plantains. | Price: 21.0\nItem: Quesadilla | Description: Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk | Price: 16.0\n",
+    "website_full_url": "https://lataquisa.com"
   },
   "KANPAI ASIAN EATERY & BAR": {
     "trade_name": "KANPAI ASIAN EATERY & BAR",
@@ -113,7 +119,7 @@
   },
   "CERA": {
     "trade_name": "CERA",
-    "website_url": "www.cera.ca",
+    "website_url": "ceratapas.com",
     "tripadvisor_rating": 3.9,
     "cost_indicator": 1,
     "num_locations": 1,
@@ -123,11 +129,12 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": true,
-    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://ceratapas.com"
   },
   "HOTEL GRAND PACIFIC": {
     "trade_name": "HOTEL GRAND PACIFIC",
-    "website_url": "www.hotel_grand_pacific.ca",
+    "website_url": "hotelgrandpacific.com",
     "tripadvisor_rating": 4.8,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -137,7 +144,8 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Appetizers\nItem: Korean Fried Cauliflower | Description: Sweet and spicy gochujang glaze, sesame seeds. Contains: sesame, gluten | Price: 13.0\nItem: Tuna Tataki | Description: Seared albacore tuna, ponzu sauce. Contains: fish, soybeans, gluten | Price: 15.0\n\nSECTION: Mains\nItem: Teriyaki Rice Bowl | Description: Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten | Price: 18.0\nItem: Curry Coconut Mussels | Description: Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten | Price: 22.0\n"
+    "menu_text": "SECTION: Appetizers\nItem: Korean Fried Cauliflower | Description: Sweet and spicy gochujang glaze, sesame seeds. Contains: sesame, gluten | Price: 13.0\nItem: Tuna Tataki | Description: Seared albacore tuna, ponzu sauce. Contains: fish, soybeans, gluten | Price: 15.0\n\nSECTION: Mains\nItem: Teriyaki Rice Bowl | Description: Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten | Price: 18.0\nItem: Curry Coconut Mussels | Description: Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten | Price: 22.0\n",
+    "website_full_url": "https://hotelgrandpacific.com"
   },
   "CAFFE FANTASTICO": {
     "trade_name": "CAFFE FANTASTICO",
