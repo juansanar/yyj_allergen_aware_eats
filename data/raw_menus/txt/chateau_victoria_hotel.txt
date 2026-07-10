@@ -1,5 +1,5 @@
 SECTION: Sides
-Item: Hashbrowns [GF] | Description: Crispy diner-style potatoes. | Price: 5.0
+Item: Hashbrowns | Description: Crispy diner-style potatoes. | Price: 5.0
 Item: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0
 
 SECTION: Breakfast Plates

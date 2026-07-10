@@ -5,4 +5,3 @@ Item: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Conta
 SECTION: Mains
 Item: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0
 Item: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0
-

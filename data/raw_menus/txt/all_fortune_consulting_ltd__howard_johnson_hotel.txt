@@ -1,8 +1,442 @@
-SECTION: Sides
-Item: Hashbrowns | Description: Crispy diner-style potatoes. | Price: 5.0
-Item: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0
-
-SECTION: Breakfast Plates
-Item: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5
-Item: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0
-Item: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0
+TOGETHER  
+    ARTIN
+ STRATEGIC PLAN 
+2025-2030 2
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA
+Territory Acknowledgment
+The Art Gallery of Greater Victoria acknowledges it is located on the traditional territories of the l əkk̓̓ ʷəŋən 
+Peoples, today known as the Songhees and Esquimalt Nations. As guests on these lands we extend our 
+appreciation for the opportunity to live and learn on their territory.
+3
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA
+IMAGE CREDITS 
+Programming, exhibition, and engagement photos used through-
+out this document are courtesy of the Art Gallery of Greater 
+Victoria, unless otherwise noted.
+COVER (top left) 
+Michael Snow, Bikini (detail), 1963, oil on canvas, overall: 154 x 
+227.7 cm Robert A. Laidlaw Fund, AGGV 1969.064.001 a-c.
+INSIDE COVER (top right) 
+Dana Claxton, Headdress – Connie, 2019, LED Firebox with 
+transmounted chromogenic transparency, Courtesy of the artist.
+BACK COVER 
+(top left) Cedar weaving workshop at the AGGV with Jessica 
+Sault, Nuu-chah-nulth from the Tseshaht First Nation, and 
+Cheyanne Tinoco from the Cowichan Nation.
+(bottom left) Installation image of Adorned exhibition at the 
+AGGV, featuring artist Meghan O'Brien.
+The Art Gallery of Greater Victoria (AGGV) 
+has been a vibrant member of the city’s arts 
+community since a volunteer group of artists 
+began “The Little Arts Centre” in the 1940s. Over 
+80 years later, the AGGV welcomes over 70,000 
+visitors each year, houses the largest public 
+collection in British Columbia, and is supported by 
+valued members, donors, funders, volunteers, an 
+expert staff and dedicated board of directors.
+The AGGV is at an exciting crossroads —one that 
+includes plans for a long-anticipated return to 
+downtown, and much more. The Gallery will be 
+guided in the next stage of its journey by this new 
+strategic plan and particularly by the strategic 
+vision, mission and values that emerged from 
+conversations with the community—Indigenous 
+Peoples, the public, members, donors, artists, arts 
+leaders, educators, and volunteers. Thank you 
+to everyone who contributed to our new shared 
+strategic vision: Together in Art . 
+Over the next five years, the Gallery will focus on 
+the key strategic priorities  outlined in this plan.  
+We look forward to collaborating with the 
+community to produce thought-provoking 
+exhibitions and programs that matter to an 
+increasingly broad and diverse community. 
+The Collection will be the inspiration and 
+foundation for telling resonant stories.  Using 
+different mediums, putting art and artists at the 
+centre of programming, the Gallery will engage 
+with people in new and exciting ways.
+The Gallery will provide opportunities for 
+inclusive and welcoming art experiences for all . 
+Everyone should be able to see themselves when 
+they walk through the door of a Gallery that is 
+barrier-free and meets the operational needs of a 
+21st-century art museum.
+We are committed to building the understanding 
+and trust that are critical for strong relationships 
+with Indigenous communities . We wish to honour 
+the Indigenous principle of “nothing about us 
+without us.” This begins with listening, learning, 
+and working together to break down historical 
+barriers and find pathways to reconciliation. 
+The Gallery looks forward to building and 
+nurturing all relationships —ensuring they are 
+centered around equity, diversity, inclusion 
+and accessibility for people of all ages and 
+backgrounds, and in a truly inclusive space.
+Thank you for joining the AGGV as we work 
+Together in Art to create a new future for the 
+Gallery and our community.
+ 
+Foreword 4
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA
+Our Vision
+The Art Gallery of Greater 
+Victoria is a welcoming public 
+space that encourages 
+dialogue and understanding 
+through art. 
+Our Mission
+The Art Gallery of Greater Victoria connects people and art to build a better understanding 
+of our world. We are an accessible gathering place for people to experience art through 
+exhibitions, programs, and other media and to create spaces for conversation and learning. 
+We responsibly steward the collections for future generations. 
+We Value
+  ART AND ARTISTS
+We believe in the power of art and artists to 
+bring us together.
+  CHANGE
+We strive to adapt to and inspire change 
+and create relevant experiences for the 
+community.
+  COURAGE
+We take chances and use art to challenge 
+the status quo.
+  BELONGING
+We foster belonging by centering equity, 
+diversity, and inclusion in all that we do.
+  CURIOSITY
+We embrace learning, new ideas, and 
+welcome critical perspectives.5
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA
+Where We’re Headed  2025-2030
+STRATEGIC GOAL 
+Create a welcoming and 
+inclusive art experience.
+WHAT WILL THIS LOOK LIKE? 
+• The AGGV is a welcoming and 
+accessible space for all to 
+enjoy art, in person and online.
+• The AGGV audiences grow and 
+are more diverse.
+• Greater collaborations across 
+disciplines expand our reach 
+and strengthen the art 
+experience.
+1
+STRATEGIC GOAL 
+Build a new gallery.
+WHAT WILL THIS LOOK LIKE? 
+• We have a plan to successfully 
+deliver the project.
+• The Gallery has a clear 
+operational plan for the future.
+• The new Gallery will be 
+informed by community 
+conversations.
+4
+STRATEGIC GOAL 
+Center Indigenous voices 
+and perspectives in 
+Gallery operations. 
+WHAT WILL THIS LOOK LIKE? 
+Activating the Canadian Museum 
+Association’s Moved to Action 
+report as a guide:
+• Decisions related to Indigenous 
+art and artists are made by 
+and with Indigenous People.
+• AGGV policies support 
+Indigenous rights, practice, 
+and knowledge.
+• AGGV grows Indigenous 
+collections, programs, and 
+exhibitions.
+• AGGV builds, sustains, 
+and retains Indigenous 
+relationships.
+3
+STRATEGIC GOAL 
+Animate our collection  
+to tell stories.
+WHAT WILL THIS LOOK LIKE? 
+• The collection is at the heart of 
+our programming.
+• Access to the collection is 
+improved.
+• The collection is more 
+representative of the diversity 
+of contemporary society.
+2
+WHAT WILL THIS LOOK LIKE? 
+• We are financially and 
+environmentally sustainable.
+• Increased awareness of who 
+we are and our impact.
+• We center equity, diversity, 
+inclusion, and accessibility 
+to create a safe and healthy 
+organizational culture.
+STRATEGIC GOAL 
+Strengthen operational 
+resilience.
+56
+1 Auguste Rodin, Mercury Emerging from a Cloud (Study for the Gates of Hell), n.d., bronze, overall 
+(measurements for figure) 35.5 x 37.5 x 18.5 cm, Mrs. Massy Goolden Purchase Fund, AGGV.1964.075.001  
+2 Lawren S. Harris, Mountain Sketch LI (Near Moraine Lake), n.d., oil, image: 37.5 × 29.5 cm, Gift of Ian and 
+Andrew Burchett from the estate of their parents, Peter and Damaris Burchett, AGGV.2019.021.003   
+3 Terrance Houle, Urban Indian Series (#7), Photographer: Jarusha Brown, 2007, digital C print, LightJet; 
+colour, 72.4 x 92.9 cm, Honouring John McCaig for 6 years of service on the AGGV Board of Directors 
+from 2008-2014, AGGV.2010.022.001  4 Sophie Pemberton, Untitled (Portrait of a Girl), 1902, oil, overall 
+(image/support): 63.5 × 76.3 cm, Estate of Theresa Susan Yoder Moyle, AGGV.1989.002.001  5 Kent 
+Monkman, Watercolour Study for Constellation of Knowledge (Cobalt) (detail), 2022, watercolour on 
+acid-free paper, 55.8 x 74.9 cm. AGGV.2023.012.001  6 Takao Tanabe, Skeena #2, 1970, acrylic, overall: 
+86.4 x 85 cm, Gift of the Artist, AGGV.2004.031.013  7 Hjalmer Wenstob, Bentwood Box, 2017, styrofoam, 
+operculum shells, overall: 45.7 × 61 × 30.5 cm, Purchased with the assistance of Donna and John 
+de Haan. In memory of Stella S. Zwirzenski. AGGV 2020.008.001 a.b  8 Kraak Charger with Birds and 
+Vegetation Motif, porcelain; blue underglaze, overall (diameter of rim): 10 x 49.7 cm base (diameter of 
+rim): 26.2 cm, Gift of Alice H. and Ramsay Gordon Cooper, AGGV.1993.067.001
+Our Collection
+With over 22,000 works of art, the 
+Art Gallery has the largest public 
+collection in British Columbia, 
+including the most important 
+collection of Asian art in Western 
+Canada.
+4
+6
+8
+5
+7
+3
+2
+17
+9 Edward John Hughes, Steamer at the Old Wharf, Nanaimo, 1958, oil, overall (support; sight: 60.3 x 93; framed: 77.0 x 110): 61 x 94 cm, Gift of Mary Alice Segal, Miles 
+Keenleyside, Anne Katherine McCullum and Sara Lynn Jackson, AGGV.1992.056.001  10 Kano Sanraku, Peacocks and Pine Trees (Screen from Nijo Castle, Kyoto), 
+c.1620, mineral colours, gold leaf, overall: 216 x 2332.2 cm, Gift of Uno and Dianne Langmann, AGGV.1995.019.001  11 Brendan Tang, Manga Ormolu Version 5.0o, 2014, 
+ceramic, overall: 47 × 21.5 × 21.5 cm, Purchased with the support of the Canada Council for the Arts Acquisition Grants program and the George and Lola Kidd 
+BC Art Acquisitions Fund, AGGV.2015.012.001  12 Emily Carr, Odds and Ends, 1939, oil, overall: 67.4 x 109.5 cm, Formerly in the collection of the Greater Victoria Public 
+Library, transferred to the Art Gallery of Greater Victoria, AGGV.1998.001.001  13 Walter Joseph Phillips, York Boat on Lake Winnipeg, 1930, woodcut (medium remarks: 
+ink, black, grey green, red, blue, green, dark brown, ochre, yellow, grey, buff), overall: 26.1 x 35 cm, Gift of Mrs. H.V. Bartholomew, AGGV.1965.090.001  14 France 
+Trépanier, Refuge: Shelter, 2021, pastel, charcoal, 154.2 × 101.6 cm, Purchased from the artist, AGGV.2022.018.004  15 Alfred Joseph Casson, Summer Morning, Bon 
+Echo Rock, Lake Mazinaw, 1959, oil, overall: 60.5 x 76 cm, Gift of George & Lola Kidd, AGGV.2008.003.025
+11
+13 14 15
+12
+109The exhibition 
+tour was an amazing 
+experience. It was 
+fascinating learning 
+about the different lives 
+of the artists behind 
+the artwork. As a first-
+generation immigrant, 
+I could resonate a lot 
+with the stories that 
+were told. The gallery is 
+a beautiful place with 
+so much culture.”
+—STUDENT 
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA8
+One of the best 
+art galleries I've 
+been to across 
+Canada.”
+—VISITOR
+The sheer size of 
+the Art Gallery Paint-In 
+shows how active our 
+artistic community is in 
+Victoria. It is amazing to 
+have a place and time 
+where we can all share 
+our work with the greater 
+community and meet 
+one another.”
+—LOCAL ARTIST  
+I appreciated the 
+beautiful installations 
+at the AGGV. There were 
+many interactive pieces 
+which we were able to 
+take part in.”
+—VISITOR
+Visiting the galleries 
+today was a visual and 
+emotional delight, thank 
+you for opening all the 
+doors so I could access 
+the galleries in my 
+wheelchair.”
+—VISITOR
+Thank-you again 
+for your assistance 
+with booking and with 
+your informative and 
+engaging school tour! 
+I loved the hands-on 
+activities for the students, 
+how they were engaged 
+in group discussions, and 
+that they had time to 
+share and ask questions 
+during the tour.”
+—TEACHER
+Our Impact
+AGGV impacts the community in many ways: fostering social cohesion, improving visitors' 
+wellbeing, creating community and belonging, improving our society, creating change, and 
+affecting lives. Here are some of the ways we accomplish this:As a major arts and 
+culture asset with an 
+internationally-renowned 
+collection, we have a 
+lead role in contributing 
+to cultural development 
+in the province and to 
+showcasing our creative 
+city. We share in the City’s 
+vision of “Victoria radiating 
+creativity and thriving as 
+a home to creative people 
+and everyday artistic 
+encounters.”
+Our Role
+WHAT MAKES US DIFFERENT? 
+With over 22,000 works of art, the Art Gallery has the 
+largest public collection in British Columbia including 
+one of the most important collections of Asian art in 
+North America.
+When it first opened in 1951, the Art Gallery of Greater 
+Victoria exhibited art in the historic 1889 mansion that 
+is now adjacent to its seven modern galleries, which 
+were added in the 1950s and 1970s. 
+We play a starring role as an arts and cultural 
+attraction in the Provincial Capital Region. The AGGV is 
+situated on the traditional lands of the Songhees and 
+Esquimalt Nations, who have hosted visitors from near 
+and far for centuries. We hope to honour their spirit by 
+welcoming all people to our spaces.
+By working Together in Art through collaboration 
+and partnerships, and the continued support of our 
+amazing donors, the AGGV promises to uphold its 
+relationship to everyone we serve; and to continue 
+to foster social cohesion and promote education ; 
+to serve as a safe convenor of conversation and 
+community, and be a point of pride for all people of 
+this province.
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA 9
+tourists
+universities
+colleges
+members
+donors
+teachers
+staff
+board
+volunteers
+artists
+interest-holders
+immigrantsindigenous
+2SLGBTQI+
+parents
+sponsors
+museums galleries
+education
+Y YJ
+people with disabilities
+pride
+funders
+outreach
+businesses
+corporationscollectors visitors
+wholesalers
+city builders
+funders
+families
+schools10
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA
+What We Heard
+Our Strategic Vision is Informed by You!
+BIG CULTURAL SECTOR SHIFTS AND OUR 
+PLANNING CONTEXT
+Like any sector, the cultural sector has 
+experienced major social, technological, 
+economic, and environmental shifts in recent 
+years which continue to play out, and our 
+strategic goals intentionally reflect these 
+considerations.
+• Truth and Reconciliation 
+• Shifting life cycle of arts organizations 
+• Equity, diversity, inclusion, and accessibility
+• New approaches to art-making 
+• Responding to community issues with arts-
+based interventions and strategies 
+• New operating, funding, and governance 
+models
+• Generational considerations
+• Festivals and events are a leading way for 
+participatory cultural consumption
+• Technology including immersive experiences, 
+digital competencies, and AI
+• Climate crisis
+HOW WE ENGAGED
+The AGGV is grateful to all those who contributed 
+their voices to shaping our future direction—
+Together in Art—including over 500 sources of 
+individual input we have gathered, themed, and 
+analyzed. Thank you!
+The AGGV's engagement journey took place 
+over two years and included a variety of ways to 
+listen to our members, donors, visitors, artists, the 
+Indigenous community, as well as the public. This 
+included:
+• Community workshops
+• Interviews with groups representing IBPOC, 
+2SLGBTQI+, people with disabilities, and 
+newcomers
+• Public survey
+• Open houses
+• Educator surveys
+• Indigenous Community Roundtable
+• Donor/member sessions
+• Board and staff workshops
+• Board and management strategic planning 
+retreat
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA10
+TOGETHER IN ART: ART GALLERY OF GREATER VICTORIA
+11
+Be a Part of It!
+• Visit the Gallery
+• Participate in programming
+• Attend openings and events
+• Become a member
+• Donate today
+• Leave a legacy
+• Follow us and share on 
+socials
+ABOVE (bottom left) 
+Installation image of Afroquatics: A Call and Response Below the Surface featuring work by Kemi Craig.
+LEFT (far left) 
+Indigenous engagement at the AGGV. Photo courtesy of Called to Action Collaborative. 
+aggv.ca/support
+How We Move Ahead
+And Work Together in Art
+Together in Art requires building trust with everyone we 
+serve. Active listening and collaboration will be critical 
+as we step out the supporting actions to our strategic 
+vision.
+As we look more deeply at our programming and at 
+ways to animate the collection, a key metric will be 
+outlining ways to share diverse and transformative art 
+experiences that invite curiosity.
+Other ways of measuring our success will include 
+identifying supporting actions to our strategic vision 
+that bring people more joy and happiness—we want 
+to be a point of pride and a place that celebrates our 
+community and its relationship to art.
+The supporting actions to this vision also need to ensure 
+that people’s voices continue to be reflected in the 
+strategy’s implementation—that is just another way we 
+can build trust as we work Together in Art .1040 Moss Street, 
+Victoria, BC  V8V 4P1   
+T: 250.384.4171    
+aggv.ca             

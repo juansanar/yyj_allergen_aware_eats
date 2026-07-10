@@ -6,3 +6,4 @@ SECTION: Mains
 Item: Pad Thai | Description: Rice noodles, tofu, bean sprouts, peanuts, tamarind sauce. Contains: peanuts, eggs | Price: 18.0
 Item: Green Curry | Description: Spicy green coconut milk curry with bamboo shoots and basil. Contains: crustaceans | Price: 19.5
 Item: Pho Bo | Description: Vietnamese beef noodle soup with rice noodles and fresh herbs. | Price: 17.5
+

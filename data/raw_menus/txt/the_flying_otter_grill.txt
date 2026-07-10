@@ -1,3 +1,5 @@
+Before placing your order, please inform your server if a person in your party has a food allergy.
+
 SECTION: Starters
 Item: Smoked Bacon Belly | Description: Maple glaze, pickled red onions. | Price: 14.0
 Item: Wedge Salad | Description: Iceberg lettuce, blue cheese dressing, bacon bits. Contains: milk, eggs | Price: 13.0

@@ -1,3 +1,5 @@
+DISCLAIMER: Please notify your server of any food allergies before ordering. We take precautions to avoid cross-contact, but cannot guarantee a 100% allergen-free environment.
+
 SECTION: Appetizers
 Item: Edamame | Description: Steamed soybeans with sea salt. Contains: soybeans | Price: 6.0
 Item: Gyoza | Description: Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans | Price: 9.0

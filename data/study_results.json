@@ -2,27 +2,27 @@
   "summary": {
     "total_restaurants": 100,
     "has_allergen_symbols": {
-      "count": 12,
-      "percentage": 12.0
+      "count": 10,
+      "percentage": 10.0
     },
     "has_allergen_statement": {
-      "count": 15,
-      "percentage": 15.0
+      "count": 18,
+      "percentage": 18.0
     },
     "has_separate_menu": {
       "count": 1,
       "percentage": 1.0
     },
     "has_separate_chart": {
-      "count": 5,
-      "percentage": 5.0
+      "count": 2,
+      "percentage": 2.0
     }
   },
   "cuisine_distribution": {
-    "North American": 44,
-    "Brunch/bagel": 16,
+    "North American": 47,
+    "Brunch/bagel": 15,
     "East-Asian": 12,
-    "Bar/Pub": 6,
+    "Bar/Pub": 5,
     "Asian-Fusion": 5,
     "Southeast-Asian": 4,
     "BBQ/steakhouse": 3,
@@ -30,12 +30,12 @@
     "Latin American/Caribbean": 2,
     "Pizzeria": 2,
     "South-Asian": 2,
-    "Middle Eastern": 2
+    "Middle Eastern": 1
   },
   "cuisine_cross_tabulation": [
     {
       "cuisine": "Bar/Pub",
-      "total": 6,
+      "total": 5,
       "has_symbols": 0,
       "symbols_percent": 0.0,
       "has_statement": 0,
@@ -46,32 +46,32 @@
       "total": 2,
       "has_symbols": 1,
       "symbols_percent": 50.0,
-      "has_statement": 1,
-      "statement_percent": 50.0
+      "has_statement": 2,
+      "statement_percent": 100.0
     },
     {
       "cuisine": "East-Asian",
       "total": 12,
-      "has_symbols": 1,
-      "symbols_percent": 8.3,
-      "has_statement": 4,
-      "statement_percent": 33.3
+      "has_symbols": 2,
+      "symbols_percent": 16.7,
+      "has_statement": 5,
+      "statement_percent": 41.7
     },
     {
       "cuisine": "Brunch/bagel",
-      "total": 16,
-      "has_symbols": 1,
-      "symbols_percent": 6.2,
+      "total": 15,
+      "has_symbols": 0,
+      "symbols_percent": 0.0,
       "has_statement": 2,
-      "statement_percent": 12.5
+      "statement_percent": 13.3
     },
     {
       "cuisine": "North American",
-      "total": 44,
+      "total": 47,
       "has_symbols": 4,
-      "symbols_percent": 9.1,
-      "has_statement": 4,
-      "statement_percent": 9.1
+      "symbols_percent": 8.5,
+      "has_statement": 7,
+      "statement_percent": 14.9
     },
     {
       "cuisine": "Latin American/Caribbean",
@@ -92,16 +92,16 @@
     {
       "cuisine": "Southeast-Asian",
       "total": 4,
-      "has_symbols": 1,
-      "symbols_percent": 25.0,
-      "has_statement": 3,
-      "statement_percent": 75.0
+      "has_symbols": 0,
+      "symbols_percent": 0.0,
+      "has_statement": 0,
+      "statement_percent": 0.0
     },
     {
       "cuisine": "Pizzeria",
       "total": 2,
-      "has_symbols": 1,
-      "symbols_percent": 50.0,
+      "has_symbols": 0,
+      "symbols_percent": 0.0,
       "has_statement": 0,
       "statement_percent": 0.0
     },
@@ -116,16 +116,16 @@
     {
       "cuisine": "BBQ/steakhouse",
       "total": 3,
-      "has_symbols": 1,
-      "symbols_percent": 33.3,
-      "has_statement": 1,
-      "statement_percent": 33.3
+      "has_symbols": 0,
+      "symbols_percent": 0.0,
+      "has_statement": 2,
+      "statement_percent": 66.7
     },
     {
       "cuisine": "Middle Eastern",
-      "total": 2,
-      "has_symbols": 0,
-      "symbols_percent": 0.0,
+      "total": 1,
+      "has_symbols": 1,
+      "symbols_percent": 100.0,
       "has_statement": 0,
       "statement_percent": 0.0
     }
@@ -133,104 +133,104 @@
   "cost_cross_tabulation": [
     {
       "cost_indicator": 1,
-      "total": 43,
-      "has_symbols": 4,
-      "symbols_percent": 9.3,
-      "has_statement": 7,
-      "statement_percent": 16.3
+      "total": 37,
+      "has_symbols": 1,
+      "symbols_percent": 2.7,
+      "has_statement": 6,
+      "statement_percent": 16.2
     },
     {
       "cost_indicator": 2,
-      "total": 46,
-      "has_symbols": 5,
-      "symbols_percent": 10.9,
-      "has_statement": 4,
-      "statement_percent": 8.7
+      "total": 53,
+      "has_symbols": 7,
+      "symbols_percent": 13.2,
+      "has_statement": 7,
+      "statement_percent": 13.2
     },
     {
       "cost_indicator": 3,
-      "total": 10,
+      "total": 9,
       "has_symbols": 2,
-      "symbols_percent": 20.0,
-      "has_statement": 3,
-      "statement_percent": 30.0
+      "symbols_percent": 22.2,
+      "has_statement": 5,
+      "statement_percent": 55.6
     },
     {
       "cost_indicator": 4,
       "total": 1,
-      "has_symbols": 1,
-      "symbols_percent": 100.0,
-      "has_statement": 1,
-      "statement_percent": 100.0
+      "has_symbols": 0,
+      "symbols_percent": 0.0,
+      "has_statement": 0,
+      "statement_percent": 0.0
     }
   ],
   "regression_results": {
     "symbols_model": [
       {
         "variable": "Intercept",
-        "coefficient": -1.3391,
-        "odds_ratio": 0.2621,
-        "p_value": 0.7581,
-        "ci_95_lower": 0.0001,
-        "ci_95_upper": 1317.2055
+        "coefficient": -7.6792,
+        "odds_ratio": 0.0005,
+        "p_value": 0.1225,
+        "ci_95_lower": 0.0,
+        "ci_95_upper": 7.9063
       },
       {
         "variable": "cost_indicator",
-        "coefficient": 0.6903,
-        "odds_ratio": 1.9943,
-        "p_value": 0.1028,
-        "ci_95_lower": 0.8703,
-        "ci_95_upper": 4.5701
+        "coefficient": 0.8811,
+        "odds_ratio": 2.4136,
+        "p_value": 0.0551,
+        "ci_95_lower": 0.981,
+        "ci_95_upper": 5.9383
       },
       {
         "variable": "tripadvisor_rating",
-        "coefficient": -0.5812,
-        "odds_ratio": 0.5592,
-        "p_value": 0.6159,
-        "ci_95_lower": 0.0577,
-        "ci_95_upper": 5.4178
+        "coefficient": 0.7648,
+        "odds_ratio": 2.1487,
+        "p_value": 0.5153,
+        "ci_95_lower": 0.2145,
+        "ci_95_upper": 21.5188
       },
       {
         "variable": "num_locations",
-        "coefficient": 0.3926,
-        "odds_ratio": 1.4808,
-        "p_value": 0.279,
-        "ci_95_lower": 0.7275,
-        "ci_95_upper": 3.014
+        "coefficient": 0.412,
+        "odds_ratio": 1.5098,
+        "p_value": 0.1153,
+        "ci_95_lower": 0.9041,
+        "ci_95_upper": 2.5212
       }
     ],
     "statements_model": [
       {
         "variable": "Intercept",
-        "coefficient": 0.6439,
-        "odds_ratio": 1.9038,
-        "p_value": 0.6584,
-        "ci_95_lower": 0.1096,
-        "ci_95_upper": 33.0667
+        "coefficient": -4.6235,
+        "odds_ratio": 0.0098,
+        "p_value": 0.0119,
+        "ci_95_lower": 0.0003,
+        "ci_95_upper": 0.36
       },
       {
         "variable": "cost_indicator",
-        "coefficient": 0.4355,
-        "odds_ratio": 1.5457,
-        "p_value": 0.4154,
-        "ci_95_lower": 0.542,
-        "ci_95_upper": 4.4081
+        "coefficient": 0.5781,
+        "odds_ratio": 1.7827,
+        "p_value": 0.295,
+        "ci_95_lower": 0.6042,
+        "ci_95_upper": 5.2592
       },
       {
         "variable": "tripadvisor_rating",
-        "coefficient": -0.8109,
-        "odds_ratio": 0.4444,
-        "p_value": 0.0121,
-        "ci_95_lower": 0.2358,
-        "ci_95_upper": 0.8376
+        "coefficient": 0.4926,
+        "odds_ratio": 1.6366,
+        "p_value": 0.1299,
+        "ci_95_lower": 0.8651,
+        "ci_95_upper": 3.0961
       },
       {
         "variable": "num_locations",
-        "coefficient": 0.1995,
-        "odds_ratio": 1.2208,
-        "p_value": 0.5054,
-        "ci_95_lower": 0.6787,
-        "ci_95_upper": 2.196
+        "coefficient": -0.0345,
+        "odds_ratio": 0.9661,
+        "p_value": 0.8706,
+        "ci_95_lower": 0.6375,
+        "ci_95_upper": 1.464
       }
     ]
   },
@@ -696,7 +696,7 @@
       "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.tibetan_kitchen_cafe.ca",
+      "website_url": "restaurantji.com",
       "menu_text_file": "txt/tibetan_kitchen_cafe.txt",
       "menu_pdf_file": "pdf/tibetan_kitchen_cafe.pdf",
       "menu_sections": [
@@ -869,7 +869,7 @@
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.kanpai_asian_eatery___bar.ca",
+      "website_url": "findglocal.com",
       "menu_text_file": "txt/kanpai_asian_eatery___bar.txt",
       "menu_pdf_file": "pdf/kanpai_asian_eatery___bar.pdf",
       "menu_sections": [
@@ -1133,7 +1133,7 @@
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.caffe_fantastico.ca",
+      "website_url": "caffefantastico.com",
       "menu_text_file": "txt/caffe_fantastico.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -1214,7 +1214,7 @@
       "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.the_local_kitchen.ca",
+      "website_url": "thelocalvictoria.com",
       "menu_text_file": "txt/the_local_kitchen.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -1295,7 +1295,7 @@
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.milano_coffee.ca",
+      "website_url": "milanocoffee.ca",
       "menu_text_file": "txt/milano_coffee.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -1386,7 +1386,7 @@
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.donohue__dianne.ca",
+      "website_url": "victoria.ca",
       "menu_text_file": "txt/donohue__dianne.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -1467,7 +1467,7 @@
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.the_kraken_by_the_breakwater.ca",
+      "website_url": "hungryfoody.com",
       "menu_text_file": "txt/the_kraken_by_the_breakwater.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -1534,97 +1534,6 @@
       ]
     },
     {
-      "name": "CACTUS CLUB CAFE",
-      "slug": "cactus_club_cafe",
-      "address": "1125 DOUGLAS ST\r\nVICTORIA BC  V8W 3L7",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363585.4695,
-      "longitude": 473000.2228,
-      "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.4,
-      "cost_indicator": 2,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.cactus_club_cafe.ca",
-      "menu_text_file": "txt/cactus_club_cafe.txt",
-      "menu_pdf_file": "pdf/cactus_club_cafe.pdf",
-      "menu_sections": [
-        {
-          "name": "Sides",
-          "items": [
-            {
-              "name": "Hashbrowns",
-              "description": "Crispy diner-style potatoes.",
-              "price": 5.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": []
-            },
-            {
-              "name": "Sourdough Toast",
-              "description": "House-baked sourdough toast with butter. Contains: gluten, milk",
-              "price": 4.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Breakfast Plates",
-          "items": [
-            {
-              "name": "Classic Eggs Benny",
-              "description": "Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk",
-              "price": 17.5,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "eggs",
-                "gluten",
-                "milk"
-              ]
-            },
-            {
-              "name": "Avocado Toast",
-              "description": "Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs",
-              "price": 16.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Buttermilk Pancakes",
-              "description": "Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs",
-              "price": 15.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "SUSHI ISLAND JAPANESE RESTAURANT",
       "slug": "sushi_island_japanese_restaurant",
       "address": "105-1633 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C4",
@@ -1632,14 +1541,14 @@
       "latitude": 5365812.428,
       "longitude": 475273.8406,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 4.5,
-      "cost_indicator": 1,
-      "num_locations": 2,
+      "tripadvisor_rating": 4.4,
+      "cost_indicator": 2,
+      "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": true,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.sushi_island_japanese_restaurant.ca",
+      "website_url": "restaurantji.com",
       "menu_text_file": "txt/sushi_island_japanese_restaurant.txt",
       "menu_pdf_file": "pdf/sushi_island_japanese_restaurant.pdf",
       "menu_sections": [
@@ -1735,16 +1644,16 @@
       "latitude": 5363913.9822,
       "longitude": 472961.1649,
       "cuisine": "North American",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 2,
-      "num_locations": 1,
+      "tripadvisor_rating": 4.5,
+      "cost_indicator": 1,
+      "num_locations": 2,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.encore_by_paparazzi.ca",
+      "website_url": "livevictoria.com",
       "menu_text_file": "txt/encore_by_paparazzi.txt",
-      "menu_pdf_file": "pdf/encore_by_paparazzi.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Starters",
@@ -1816,14 +1725,14 @@
       "latitude": 5362507.5587,
       "longitude": 472330.3379,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.4,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.5,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.piggy_and_paisley_tea_room.ca",
+      "website_url": "piggyandpaisley.ca",
       "menu_text_file": "txt/piggy_and_paisley_tea_room.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -1900,109 +1809,6 @@
       ]
     },
     {
-      "name": "MANCHU WOK",
-      "slug": "manchu_wok",
-      "address": "FC9-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "cuisine": "East-Asian",
-      "tripadvisor_rating": 4.3,
-      "cost_indicator": 1,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": true,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.manchu_wok.ca",
-      "menu_text_file": "txt/manchu_wok.txt",
-      "menu_pdf_file": "pdf/manchu_wok.pdf",
-      "menu_sections": [
-        {
-          "name": "Appetizers",
-          "items": [
-            {
-              "name": "Edamame",
-              "description": "Steamed soybeans with sea salt. Contains: soybeans",
-              "price": 6.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "soybeans"
-              ]
-            },
-            {
-              "name": "Gyoza",
-              "description": "Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans",
-              "price": 9.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "soybeans"
-              ]
-            },
-            {
-              "name": "Tempura App",
-              "description": "Crispy prawns and vegetables with soy dip. Contains: gluten, crustaceans, soybeans",
-              "price": 12.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "crustaceans",
-                "soybeans"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Sushi Combo",
-              "description": "Assorted sushi pieces with pickled ginger. Contains: fish",
-              "price": 24.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "fish"
-              ]
-            },
-            {
-              "name": "Tonkotsu Ramen",
-              "description": "Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans",
-              "price": 19.5,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "eggs",
-                "soybeans"
-              ]
-            },
-            {
-              "name": "Miso Glazed Salmon",
-              "description": "Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans",
-              "price": 26.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "fish",
-                "soybeans"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "CHIBA SUSHI",
       "slug": "chiba_sushi",
       "address": "B-2630 QUADRA ST\r\nVICTORIA BC  V8T 4E4",
@@ -2010,14 +1816,14 @@
       "latitude": 5365076.8737,
       "longitude": 473428.8513,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.0,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.chiba_sushi.ca",
+      "website_url": "chibasushirestaurant.com",
       "menu_text_file": "txt/chiba_sushi.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2113,16 +1919,16 @@
       "latitude": 5363462.8561,
       "longitude": 473146.3268,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 5.0,
+      "tripadvisor_rating": 4.2,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.bond_bonds_bakery.ca",
+      "website_url": "restaurantji.com",
       "menu_text_file": "txt/bond_bonds_bakery.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/bond_bonds_bakery.pdf",
       "menu_sections": [
         {
           "name": "Sides",
@@ -2204,16 +2010,16 @@
       "latitude": 5363844.9756,
       "longitude": 473203.2914,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.7,
-      "cost_indicator": 3,
+      "tripadvisor_rating": 4.1,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.rossouw__jonathan.ca",
+      "website_url": "bforbnetworks.com",
       "menu_text_file": "txt/rossouw__jonathan.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/rossouw__jonathan.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -2285,14 +2091,14 @@
       "latitude": 5363358.1966,
       "longitude": 472904.0072,
       "cuisine": "Southeast-Asian",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 3.9,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": true,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.noodle_box.ca",
+      "website_url": "noodlebox.ca",
       "menu_text_file": "txt/noodle_box.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2370,14 +2176,14 @@
       "latitude": 5363051.8041,
       "longitude": 472386.683,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.0,
+      "tripadvisor_rating": 5.0,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.royal_scot_suite_hotel.ca",
+      "website_url": "royalscot.com",
       "menu_text_file": "txt/royal_scot_suite_hotel.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2451,14 +2257,14 @@
       "latitude": 5363509.7096,
       "longitude": 473109.3566,
       "cuisine": "Pizzeria",
-      "tripadvisor_rating": 3.7,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.7,
+      "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.ali_baba_pizza.ca",
+      "website_url": "alibabapizza.com",
       "menu_text_file": "txt/ali_baba_pizza.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2544,14 +2350,14 @@
       "latitude": 5363696.5839,
       "longitude": 473109.4949,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 4.4,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 1,
-      "num_locations": 3,
+      "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.sushi_time_express.ca",
+      "website_url": "sushi-time-express.com",
       "menu_text_file": "txt/sushi_time_express.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2647,14 +2453,14 @@
       "latitude": 5363214.8676,
       "longitude": 473032.8198,
       "cuisine": "North American",
-      "tripadvisor_rating": 3.8,
-      "cost_indicator": 2,
-      "num_locations": 2,
-      "has_allergen_symbols": true,
+      "tripadvisor_rating": 4.0,
+      "cost_indicator": 1,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
       "has_allergen_statement": false,
-      "has_separate_menu": true,
+      "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.victoria_marriott_inner_harbour.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/victoria_marriott_inner_harbour.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2678,7 +2484,7 @@
               "name": "Cobb Salad",
               "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
               "price": 17.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -2728,14 +2534,14 @@
       "latitude": 5363224.4518,
       "longitude": 472237.2032,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.4,
-      "cost_indicator": 1,
-      "num_locations": 2,
+      "tripadvisor_rating": 3.7,
+      "cost_indicator": 2,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.huntingdon_manor.ca",
+      "website_url": "huntingdonhotelandsuites.com",
       "menu_text_file": "txt/huntingdon_manor.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2809,14 +2615,14 @@
       "latitude": 5363199.7821,
       "longitude": 471617.0552,
       "cuisine": "Seafood",
-      "tripadvisor_rating": 4.2,
+      "tripadvisor_rating": 4.4,
       "cost_indicator": 3,
-      "num_locations": 2,
+      "num_locations": 3,
       "has_allergen_symbols": true,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.finest_at_sea_seafood_boutique.ca",
+      "has_separate_chart": true,
+      "website_url": "finestatsea.com",
       "menu_text_file": "txt/finest_at_sea_seafood_boutique.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2889,14 +2695,14 @@
       "latitude": 5363387.846,
       "longitude": 471628.1309,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 3.8,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.jackson_s_ice_cream_float.ca",
+      "website_url": "restaurantji.com",
       "menu_text_file": "txt/jackson_s_ice_cream_float.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -2963,88 +2769,6 @@
       ]
     },
     {
-      "name": "TACO TIME",
-      "slug": "taco_time",
-      "address": "FC3-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "cuisine": "Latin American/Caribbean",
-      "tripadvisor_rating": 4.0,
-      "cost_indicator": 1,
-      "num_locations": 2,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.taco_time.ca",
-      "menu_text_file": "txt/taco_time.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Starters",
-          "items": [
-            {
-              "name": "Guacamole and Chips",
-              "description": "Freshly smashed avocado, pico de gallo, corn tortilla chips.",
-              "price": 10.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": []
-            },
-            {
-              "name": "Empanadas",
-              "description": "Two fried pastries filled with beef or cheese. Contains: gluten, milk",
-              "price": 11.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Taco Platter",
-              "description": "Three corn tortillas, cilantro, onions, choice of meat.",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": []
-            },
-            {
-              "name": "Jerk Chicken Bowl",
-              "description": "Marinated jerk chicken, rice and peas, fried plantains.",
-              "price": 21.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": []
-            },
-            {
-              "name": "Quesadilla",
-              "description": "Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk",
-              "price": 16.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "LOCAL PIZZA",
       "slug": "local_pizza",
       "address": "105-1483 DOUGLAS ST\r\nVICTORIA BC  V8W 3K4",
@@ -3052,14 +2776,14 @@
       "latitude": 5363897.8674,
       "longitude": 473059.2769,
       "cuisine": "Pizzeria",
-      "tripadvisor_rating": 4.6,
-      "cost_indicator": 3,
+      "tripadvisor_rating": 4.8,
+      "cost_indicator": 2,
       "num_locations": 1,
-      "has_allergen_symbols": true,
+      "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.local_pizza.ca",
+      "website_url": "mymenuweb.com",
       "menu_text_file": "txt/local_pizza.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -3145,14 +2869,14 @@
       "latitude": 5365385.8879,
       "longitude": 472366.8787,
       "cuisine": "South-Asian",
-      "tripadvisor_rating": 3.8,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.2,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.tandoori_trails.ca",
+      "website_url": "tandooritrails.ca",
       "menu_text_file": "txt/tandoori_trails.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -3230,16 +2954,16 @@
       "latitude": 5363845.5736,
       "longitude": 473417.2213,
       "cuisine": "BBQ/steakhouse",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 4.0,
       "cost_indicator": 4,
       "num_locations": 1,
-      "has_allergen_symbols": true,
-      "has_allergen_statement": true,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
-      "has_separate_chart": true,
-      "website_url": "www.bold_butchery___grill.ca",
+      "has_separate_chart": false,
+      "website_url": "boldshawarma.com",
       "menu_text_file": "txt/bold_butchery___grill.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/bold_butchery___grill.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -3248,7 +2972,7 @@
               "name": "Smoked Bacon Belly",
               "description": "Maple glaze, pickled red onions.",
               "price": 14.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": []
@@ -3257,7 +2981,7 @@
               "name": "Wedge Salad",
               "description": "Iceberg lettuce, blue cheese dressing, bacon bits. Contains: milk, eggs",
               "price": 13.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -3274,7 +2998,7 @@
               "name": "Ribeye Steak",
               "description": "12oz hand-cut ribeye steak, baked potato with butter. Contains: milk",
               "price": 45.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -3305,14 +3029,14 @@
       "latitude": 5363694.7682,
       "longitude": 472770.526,
       "cuisine": "Bar/Pub",
-      "tripadvisor_rating": 4.0,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.3,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.irish_times_pub.ca",
+      "website_url": "irishtimespub.ca",
       "menu_text_file": "txt/irish_times_pub.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -3396,9 +3120,9 @@
       "latitude": 5364048.3677,
       "longitude": 472682.1491,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 4.2,
       "cost_indicator": 2,
-      "num_locations": 1,
+      "num_locations": 5,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
@@ -3477,14 +3201,14 @@
       "latitude": 5364021.7307,
       "longitude": 472604.9593,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 2,
-      "num_locations": 1,
+      "tripadvisor_rating": 4.7,
+      "cost_indicator": 1,
+      "num_locations": 2,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.nubo_kitchen.ca",
+      "website_url": "nubokitchen.com",
       "menu_text_file": "txt/nubo_kitchen.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -3580,16 +3304,16 @@
       "latitude": 5363224.4518,
       "longitude": 472237.2032,
       "cuisine": "Bar/Pub",
-      "tripadvisor_rating": 4.6,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.hunters_bar___grill.ca",
+      "website_url": "mainmenus.com",
       "menu_text_file": "txt/hunters_bar___grill.txt",
-      "menu_pdf_file": "pdf/hunters_bar___grill.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Pub Fare",
@@ -3672,105 +3396,14 @@
       "longitude": 472643.1054,
       "cuisine": "Bar/Pub",
       "tripadvisor_rating": 4.2,
-      "cost_indicator": 2,
+      "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.lucky_bar.ca",
+      "website_url": "luckybar.ca",
       "menu_text_file": "txt/lucky_bar.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Pub Fare",
-          "items": [
-            {
-              "name": "Chicken Wings",
-              "description": "Crispy wings with hot sauce or honey garlic. Contains: gluten",
-              "price": 16.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten"
-              ]
-            },
-            {
-              "name": "Soft Pretzels",
-              "description": "Warm salted pretzels with beer cheese dip. Contains: gluten, milk",
-              "price": 11.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Classic Burger",
-              "description": "Beef patty, cheddar, lettuce, tomato, brioche bun, house fries. Contains: gluten, milk",
-              "price": 18.5,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            },
-            {
-              "name": "Fish and Chips",
-              "description": "Beer-battered cod, double-cooked chips, tartar sauce. Contains: fish, gluten, eggs",
-              "price": 21.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "fish",
-                "gluten",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Steak Sandwich",
-              "description": "6oz sirloin on garlic toast with onion rings. Contains: gluten, milk",
-              "price": 25.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "BROWNS CRAFTHOUSE VIC WEST",
-      "slug": "browns_crafthouse_vic_west",
-      "address": "100-184 WILSON ST\r\nVICTORIA BC  V9A 7N6",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364485.7827,
-      "longitude": 471827.5917,
-      "cuisine": "Bar/Pub",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 1,
-      "num_locations": 2,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.browns_crafthouse_vic_west.ca",
-      "menu_text_file": "txt/browns_crafthouse_vic_west.txt",
       "menu_pdf_file": null,
       "menu_sections": [
         {
@@ -3853,16 +3486,16 @@
       "latitude": 5363766.6635,
       "longitude": 472592.7506,
       "cuisine": "North American",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.4,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.dosa_paragon.ca",
+      "website_url": "dosaparagon.ca",
       "menu_text_file": "txt/dosa_paragon.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/dosa_paragon.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -3934,14 +3567,14 @@
       "latitude": 5363055.9633,
       "longitude": 474876.1631,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.3,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 2,
       "num_locations": 1,
-      "has_allergen_symbols": true,
+      "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.abbeymoore_manor_b_b.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/abbeymoore_manor_b_b.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -3965,7 +3598,7 @@
               "name": "Cobb Salad",
               "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
               "price": 17.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -4015,14 +3648,14 @@
       "latitude": 5363385.4643,
       "longitude": 473844.2078,
       "cuisine": "North American",
-      "tripadvisor_rating": 3.9,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 2,
-      "num_locations": 5,
-      "has_allergen_symbols": true,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
-      "has_separate_chart": true,
-      "website_url": "www.the_breakfast_shop.ca",
+      "has_separate_chart": false,
+      "website_url": "listings.citywidedigital.ca",
       "menu_text_file": "txt/the_breakfast_shop.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -4046,7 +3679,7 @@
               "name": "Cobb Salad",
               "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
               "price": 17.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -4096,14 +3729,14 @@
       "latitude": 5363068.0334,
       "longitude": 473558.6738,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.4,
+      "tripadvisor_rating": 4.5,
       "cost_indicator": 2,
-      "num_locations": 2,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.the_boho.ca",
+      "website_url": "thebohemianhouse.ca",
       "menu_text_file": "txt/the_boho.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -4177,14 +3810,14 @@
       "latitude": 5362512.7021,
       "longitude": 472623.6081,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.5,
-      "cost_indicator": 1,
-      "num_locations": 2,
+      "tripadvisor_rating": 4.2,
+      "cost_indicator": 2,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.james_bay_inn_ltd.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/james_bay_inn_ltd.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -4269,15 +3902,15 @@
       "longitude": 473203.2914,
       "cuisine": "North American",
       "tripadvisor_rating": 4.5,
-      "cost_indicator": 1,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.loyola__margarita.ca",
+      "website_url": "ca.linkedin.com",
       "menu_text_file": "txt/loyola__margarita.txt",
-      "menu_pdf_file": "pdf/loyola__margarita.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Starters",
@@ -4349,14 +3982,14 @@
       "latitude": 5365555.4639,
       "longitude": 471703.8581,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.4,
+      "tripadvisor_rating": 4.9,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.days_inn_victoria_uptown.ca",
+      "website_url": "daysinnvictoriauptown.com",
       "menu_text_file": "txt/days_inn_victoria_uptown.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -4430,7 +4063,7 @@
       "latitude": 5363523.3226,
       "longitude": 473373.3732,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 4.4,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
@@ -4504,79 +4137,6 @@
       ]
     },
     {
-      "name": "PITA LAND",
-      "slug": "pita_land",
-      "address": "110-182 WILSON ST\r\nVICTORIA BC  V9A 7N6",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364485.7827,
-      "longitude": 471827.5917,
-      "cuisine": "Middle Eastern",
-      "tripadvisor_rating": 4.4,
-      "cost_indicator": 2,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.pita_land.ca",
-      "menu_text_file": "txt/pita_land.txt",
-      "menu_pdf_file": "pdf/pita_land.pdf",
-      "menu_sections": [
-        {
-          "name": "Mezze",
-          "items": [
-            {
-              "name": "Falafel Plate",
-              "description": "Four crispy falafels, tahini, pickles. Contains: sesame",
-              "price": 9.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "sesame"
-              ]
-            },
-            {
-              "name": "Tabbouleh Salad",
-              "description": "Chopped parsley, mint, tomatoes, bulgur, lemon dress. Contains: gluten",
-              "price": 11.5,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Chicken Shawarma",
-              "description": "Shaved chicken shawarma, garlic sauce, pita bread. Contains: gluten",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten"
-              ]
-            },
-            {
-              "name": "Lamb Kebabs",
-              "description": "Spiced ground lamb skewers, saffron rice, grilled tomato.",
-              "price": 23.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "CHOTIROS THAI RESTAURANT",
       "slug": "chotiros_thai_restaurant",
       "address": "1813 DOUGLAS ST\r\nVICTORIA BC  V8T 4K5",
@@ -4584,16 +4144,16 @@
       "latitude": 5364243.4828,
       "longitude": 473069.8364,
       "cuisine": "Southeast-Asian",
-      "tripadvisor_rating": 3.8,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.2,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.chotiros_thai_restaurant.ca",
+      "website_url": "chotiros.com",
       "menu_text_file": "txt/chotiros_thai_restaurant.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/chotiros_thai_restaurant.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -4669,16 +4229,16 @@
       "latitude": 5363876.3631,
       "longitude": 472964.2545,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 3.6,
+      "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.paparazzi_nightclub.ca",
+      "website_url": "instagram.com",
       "menu_text_file": "txt/paparazzi_nightclub.txt",
-      "menu_pdf_file": "pdf/paparazzi_nightclub.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Starters",
@@ -4750,14 +4310,14 @@
       "latitude": 5365400.6457,
       "longitude": 472657.8212,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.5,
+      "tripadvisor_rating": 4.0,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.metro_inn_ltd.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/metro_inn_ltd.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -4831,14 +4391,14 @@
       "latitude": 5364064.5596,
       "longitude": 473008.1411,
       "cuisine": "BBQ/steakhouse",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 3.9,
       "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.sura_korean_grill_house.ca",
+      "website_url": "suravictoria.ca",
       "menu_text_file": "txt/sura_korean_grill_house.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -4906,14 +4466,14 @@
       "latitude": 5365928.5985,
       "longitude": 475128.5993,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.3,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.bobadog.ca",
+      "website_url": "restaurantji.com",
       "menu_text_file": "txt/bobadog.txt",
       "menu_pdf_file": "pdf/bobadog.pdf",
       "menu_sections": [
@@ -4987,14 +4547,14 @@
       "latitude": 5364115.8499,
       "longitude": 472871.4562,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.6,
+      "tripadvisor_rating": 3.9,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.qv_cafe___bakery.ca",
+      "website_url": "qvcafe.ca",
       "menu_text_file": "txt/qv_cafe___bakery.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -5071,86 +4631,6 @@
       ]
     },
     {
-      "name": "MCDONALDS RESTAURANTS OF CANADA LTD",
-      "slug": "mcdonalds_restaurants_of_canada_ltd",
-      "address": "B-1581 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C1",
-      "neighborhood": "OAKLANDS",
-      "latitude": 5365709.6885,
-      "longitude": 475120.2567,
-      "cuisine": "Asian-Fusion",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 2,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.mcdonalds_restaurants_of_canada_ltd.ca",
-      "menu_text_file": "txt/mcdonalds_restaurants_of_canada_ltd.txt",
-      "menu_pdf_file": "pdf/mcdonalds_restaurants_of_canada_ltd.pdf",
-      "menu_sections": [
-        {
-          "name": "Appetizers",
-          "items": [
-            {
-              "name": "Korean Fried Cauliflower",
-              "description": "Sweet and spicy gochujang glaze, sesame seeds. Contains: sesame, gluten",
-              "price": 13.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "sesame",
-                "gluten"
-              ]
-            },
-            {
-              "name": "Tuna Tataki",
-              "description": "Seared albacore tuna, ponzu sauce. Contains: fish, soybeans, gluten",
-              "price": 15.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "fish",
-                "soybeans",
-                "gluten"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Teriyaki Rice Bowl",
-              "description": "Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "soybeans",
-                "gluten"
-              ]
-            },
-            {
-              "name": "Curry Coconut Mussels",
-              "description": "Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten",
-              "price": 22.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "molluscs",
-                "gluten"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "LE PHO HOMESTYLE VIETNAMESE CUISINE",
       "slug": "le_pho_homestyle_vietnamese_cuisine",
       "address": "103-1990 FORT ST\r\nVICTORIA BC  V8R 6V4",
@@ -5158,14 +4638,14 @@
       "latitude": 5364409.4336,
       "longitude": 476120.2922,
       "cuisine": "Southeast-Asian",
-      "tripadvisor_rating": 4.0,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": true,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.le_pho_homestyle_vietnamese_cuisine.ca",
+      "website_url": "lepho.ca",
       "menu_text_file": "txt/le_pho_homestyle_vietnamese_cuisine.txt",
       "menu_pdf_file": "pdf/le_pho_homestyle_vietnamese_cuisine.pdf",
       "menu_sections": [
@@ -5243,8 +4723,8 @@
       "latitude": 5363858.0379,
       "longitude": 472859.1039,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 3,
+      "tripadvisor_rating": 4.2,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
@@ -5324,16 +4804,16 @@
       "latitude": 5365582.0664,
       "longitude": 471456.2256,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.6,
+      "tripadvisor_rating": 4.5,
       "cost_indicator": 2,
-      "num_locations": 2,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
       "website_url": "www.floyds_diner.ca",
       "menu_text_file": "txt/floyds_diner.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/floyds_diner.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -5405,14 +4885,14 @@
       "latitude": 5363925.6536,
       "longitude": 473000.6296,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.3,
+      "tripadvisor_rating": 4.2,
       "cost_indicator": 2,
-      "num_locations": 1,
+      "num_locations": 5,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.canitalia_estates_ltd__hotel_rialto.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/canitalia_estates_ltd__hotel_rialto.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -5486,16 +4966,16 @@
       "latitude": 5365163.4413,
       "longitude": 472959.0866,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.8,
+      "tripadvisor_rating": 4.5,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.2__jazz_coffee.ca",
+      "website_url": "2percentjazz.com",
       "menu_text_file": "txt/2__jazz_coffee.txt",
-      "menu_pdf_file": "pdf/2__jazz_coffee.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Sides",
@@ -5577,14 +5057,14 @@
       "latitude": 5364485.7827,
       "longitude": 471827.5917,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.3,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.big_wheel_burger.ca",
+      "website_url": "bigwheelburger.com",
       "menu_text_file": "txt/big_wheel_burger.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -5658,16 +5138,16 @@
       "latitude": 5363363.2816,
       "longitude": 472846.9257,
       "cuisine": "Asian-Fusion",
-      "tripadvisor_rating": 4.1,
+      "tripadvisor_rating": 4.2,
       "cost_indicator": 1,
       "num_locations": 1,
-      "has_allergen_symbols": true,
+      "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
-      "has_separate_chart": true,
-      "website_url": "www.union_club_of_bc.ca",
+      "has_separate_chart": false,
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/union_club_of_bc.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/union_club_of_bc.pdf",
       "menu_sections": [
         {
           "name": "Appetizers",
@@ -5738,14 +5218,14 @@
       "latitude": 5362234.8722,
       "longitude": 474964.1764,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 3.5,
+      "tripadvisor_rating": 3.8,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": true,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.sushi_field_inc.ca",
+      "website_url": "sushifield.com",
       "menu_text_file": "txt/sushi_field_inc.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -5841,14 +5321,14 @@
       "latitude": 5364141.0289,
       "longitude": 473091.4825,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.5,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.0,
+      "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.midnight_tea_party.ca",
+      "website_url": "midnightteaparty.ca",
       "menu_text_file": "txt/midnight_tea_party.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -5925,87 +5405,6 @@
       ]
     },
     {
-      "name": "TRAVELODGE VICTORIA",
-      "slug": "travelodge_victoria",
-      "address": "123 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365582.0664,
-      "longitude": 471456.2256,
-      "cuisine": "North American",
-      "tripadvisor_rating": 4.0,
-      "cost_indicator": 3,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": true,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.travelodge_victoria.ca",
-      "menu_text_file": "txt/travelodge_victoria.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Starters",
-          "items": [
-            {
-              "name": "Mac and Cheese Bites",
-              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
-              "price": 12.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Cobb Salad",
-              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
-              "price": 17.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "milk",
-                "eggs"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Meatloaf",
-              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
-              "price": 20.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Pulled Pork Sandwich",
-              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "PICNIC TOO",
       "slug": "picnic_too",
       "address": "1019 FORT ST\r\nVICTORIA BC  V8V 3K5",
@@ -6013,16 +5412,16 @@
       "latitude": 5363417.2248,
       "longitude": 473655.9339,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.4,
+      "tripadvisor_rating": 4.0,
       "cost_indicator": 2,
-      "num_locations": 1,
+      "num_locations": 3,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.picnic_too.ca",
+      "website_url": "picniccoffee.com",
       "menu_text_file": "txt/picnic_too.txt",
-      "menu_pdf_file": "pdf/picnic_too.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Starters",
@@ -6094,16 +5493,16 @@
       "latitude": 5365928.5985,
       "longitude": 475128.5993,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 4.3,
+      "tripadvisor_rating": 4.4,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": true,
       "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.raku_sushi.ca",
+      "website_url": "rakuramen.com",
       "menu_text_file": "txt/raku_sushi.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/raku_sushi.pdf",
       "menu_sections": [
         {
           "name": "Appetizers",
@@ -6198,13 +5597,13 @@
       "longitude": 473119.4841,
       "cuisine": "South-Asian",
       "tripadvisor_rating": 4.5,
-      "cost_indicator": 2,
-      "num_locations": 3,
+      "cost_indicator": 1,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.taste_of_village_indian_kitchen___bar_ltd.ca",
+      "website_url": "tasteofvillagevictoria.ca",
       "menu_text_file": "txt/taste_of_village_indian_kitchen___bar_ltd.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -6282,16 +5681,16 @@
       "latitude": 5364485.7827,
       "longitude": 471827.5917,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 4.3,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.1,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.victoria_sushi.ca",
+      "website_url": "victoria-sushi.ca",
       "menu_text_file": "txt/victoria_sushi.txt",
-      "menu_pdf_file": "pdf/victoria_sushi.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Appetizers",
@@ -6385,14 +5784,14 @@
       "latitude": 5362651.0092,
       "longitude": 472587.6753,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.6,
+      "tripadvisor_rating": 4.7,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.reid__michael__reid__chris.ca",
+      "website_url": "victoria.ca",
       "menu_text_file": "txt/reid__michael__reid__chris.txt",
       "menu_pdf_file": "pdf/reid__michael__reid__chris.pdf",
       "menu_sections": [
@@ -6466,14 +5865,14 @@
       "latitude": 5363970.7632,
       "longitude": 473423.5918,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.2,
-      "cost_indicator": 1,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "tripadvisor_rating": 4.7,
+      "cost_indicator": 2,
+      "num_locations": 2,
+      "has_allergen_symbols": true,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.backpackers_inn___turtle_hostel.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/backpackers_inn___turtle_hostel.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -6497,88 +5896,7 @@
               "name": "Cobb Salad",
               "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
               "price": 17.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "milk",
-                "eggs"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Meatloaf",
-              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
-              "price": 20.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Pulled Pork Sandwich",
-              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "BB.Q CHICKEN",
-      "slug": "bb_q_chicken",
-      "address": "317-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 2,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.bb_q_chicken.ca",
-      "menu_text_file": "txt/bb_q_chicken.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Starters",
-          "items": [
-            {
-              "name": "Mac and Cheese Bites",
-              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
-              "price": 12.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Cobb Salad",
-              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
-              "price": 17.0,
-              "is_gf_marked": false,
+              "is_gf_marked": true,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -6631,11 +5949,11 @@
       "tripadvisor_rating": 4.3,
       "cost_indicator": 1,
       "num_locations": 1,
-      "has_allergen_symbols": true,
-      "has_allergen_statement": true,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.ox_king_noodles.ca",
+      "website_url": "ox-king-noodles.localoria.com",
       "menu_text_file": "txt/ox_king_noodles.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -6657,7 +5975,7 @@
               "name": "Satay Chicken Skewers",
               "description": "Grilled skewers with peanut sauce. Contains: peanuts",
               "price": 11.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -6673,7 +5991,7 @@
               "name": "Pad Thai",
               "description": "Rice noodles, tofu, bean sprouts, peanuts, tamarind sauce. Contains: peanuts, eggs",
               "price": 18.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -6685,7 +6003,7 @@
               "name": "Green Curry",
               "description": "Spicy green coconut milk curry with bamboo shoots and basil. Contains: crustaceans",
               "price": 19.5,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -6696,7 +6014,7 @@
               "name": "Pho Bo",
               "description": "Vietnamese beef noodle soup with rice noodles and fresh herbs.",
               "price": 17.5,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": []
@@ -6713,14 +6031,14 @@
       "latitude": 5363382.9879,
       "longitude": 472783.8557,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.2,
+      "tripadvisor_rating": 4.0,
       "cost_indicator": 2,
-      "num_locations": 1,
+      "num_locations": 2,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.tractor_everyday_healthy_foods.ca",
+      "website_url": "tractorfoods.com",
       "menu_text_file": "txt/tractor_everyday_healthy_foods.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -6787,97 +6105,6 @@
       ]
     },
     {
-      "name": "ALL FORTUNE CONSULTING LTD\r\nHOWARD JOHNSON HOTEL",
-      "slug": "all_fortune_consulting_ltd__howard_johnson_hotel",
-      "address": "310 GORGE RD E\r\nVICTORIA BC  V8T 2W2",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365637.4349,
-      "longitude": 472005.5215,
-      "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 3.7,
-      "cost_indicator": 1,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.all_fortune_consulting_ltd__howard_johnson_hotel.ca",
-      "menu_text_file": "txt/all_fortune_consulting_ltd__howard_johnson_hotel.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Sides",
-          "items": [
-            {
-              "name": "Hashbrowns",
-              "description": "Crispy diner-style potatoes.",
-              "price": 5.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": []
-            },
-            {
-              "name": "Sourdough Toast",
-              "description": "House-baked sourdough toast with butter. Contains: gluten, milk",
-              "price": 4.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Breakfast Plates",
-          "items": [
-            {
-              "name": "Classic Eggs Benny",
-              "description": "Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk",
-              "price": 17.5,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "eggs",
-                "gluten",
-                "milk"
-              ]
-            },
-            {
-              "name": "Avocado Toast",
-              "description": "Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs",
-              "price": 16.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Buttermilk Pancakes",
-              "description": "Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs",
-              "price": 15.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "KOFFI",
       "slug": "koffi",
       "address": "1441 HAULTAIN ST\r\nVICTORIA BC  V8R 2J8",
@@ -6885,16 +6112,16 @@
       "latitude": 5364817.5307,
       "longitude": 474842.7728,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.5,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.6,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.koffi.ca",
+      "website_url": "koffihouse.ca",
       "menu_text_file": "txt/koffi.txt",
-      "menu_pdf_file": "pdf/koffi.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Starters",
@@ -6966,16 +6193,16 @@
       "latitude": 5363844.9756,
       "longitude": 473203.2914,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.0,
-      "cost_indicator": 3,
+      "tripadvisor_rating": 4.7,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": true,
       "has_separate_menu": false,
-      "has_separate_chart": true,
-      "website_url": "www.macchiato_caffe.ca",
+      "has_separate_chart": false,
+      "website_url": "macchiatocaffe.ca",
       "menu_text_file": "txt/macchiato_caffe.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/macchiato_caffe.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -7047,96 +6274,15 @@
       "latitude": 5364752.3577,
       "longitude": 473425.6235,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.3,
-      "cost_indicator": 1,
-      "num_locations": 2,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.royal_british_columbia_museum_corporation.ca",
-      "menu_text_file": "txt/royal_british_columbia_museum_corporation.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Starters",
-          "items": [
-            {
-              "name": "Mac and Cheese Bites",
-              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
-              "price": 12.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Cobb Salad",
-              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
-              "price": 17.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "milk",
-                "eggs"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Meatloaf",
-              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
-              "price": 20.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Pulled Pork Sandwich",
-              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "QUALITY INN DOWNTOWN INNER HARBOUR VICTORIA",
-      "slug": "quality_inn_downtown_inner_harbour_victoria",
-      "address": "850 BLANSHARD ST\r\nVICTORIA BC  V8W 2H2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363324.4798,
-      "longitude": 473109.529,
-      "cuisine": "North American",
-      "tripadvisor_rating": 3.7,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.5,
+      "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.quality_inn_downtown_inner_harbour_victoria.ca",
-      "menu_text_file": "txt/quality_inn_downtown_inner_harbour_victoria.txt",
+      "website_url": "rbcm.ca",
+      "menu_text_file": "txt/royal_british_columbia_museum_corporation.txt",
       "menu_pdf_file": null,
       "menu_sections": [
         {
@@ -7209,14 +6355,14 @@
       "latitude": 5363411.0821,
       "longitude": 472799.3448,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.6,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 3.7,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.10_acres_bistro___bar.ca",
+      "website_url": "10acresgroup.ca",
       "menu_text_file": "txt/10_acres_bistro___bar.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7300,14 +6446,14 @@
       "latitude": 5363462.8561,
       "longitude": 473146.3268,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.5,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 2,
-      "num_locations": 2,
-      "has_allergen_symbols": false,
+      "num_locations": 1,
+      "has_allergen_symbols": true,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.yukatsu_uburger.ca",
+      "website_url": "fantuanorder.com",
       "menu_text_file": "txt/yukatsu_uburger.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7331,7 +6477,7 @@
               "name": "Cobb Salad",
               "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
               "price": 17.0,
-              "is_gf_marked": false,
+              "is_gf_marked": true,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -7381,14 +6527,14 @@
       "latitude": 5362593.8891,
       "longitude": 472388.8149,
       "cuisine": "Middle Eastern",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 3.6,
+      "cost_indicator": 2,
       "num_locations": 1,
-      "has_allergen_symbols": false,
+      "has_allergen_symbols": true,
       "has_allergen_statement": false,
-      "has_separate_menu": false,
+      "has_separate_menu": true,
       "has_separate_chart": false,
-      "website_url": "www.levantine_middle_eastern_restaurant.ca",
+      "website_url": "levantinerestaurant.net",
       "menu_text_file": "txt/levantine_middle_eastern_restaurant.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7399,7 +6545,7 @@
               "name": "Falafel Plate",
               "description": "Four crispy falafels, tahini, pickles. Contains: sesame",
               "price": 9.0,
-              "is_gf_marked": false,
+              "is_gf_marked": true,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": [
@@ -7437,7 +6583,7 @@
               "name": "Lamb Kebabs",
               "description": "Spiced ground lamb skewers, saffron rice, grilled tomato.",
               "price": 23.0,
-              "is_gf_marked": false,
+              "is_gf_marked": true,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": []
@@ -7454,14 +6600,14 @@
       "latitude": 5363467.675,
       "longitude": 472554.0113,
       "cuisine": "BBQ/steakhouse",
-      "tripadvisor_rating": 3.8,
+      "tripadvisor_rating": 4.7,
       "cost_indicator": 3,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.the_flying_otter_grill.ca",
+      "website_url": "flyingotter.ca",
       "menu_text_file": "txt/the_flying_otter_grill.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7529,14 +6675,14 @@
       "latitude": 5363959.0833,
       "longitude": 472783.5204,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.5,
-      "cost_indicator": 3,
+      "tripadvisor_rating": 4.4,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.hands_business_solutions_inc.ca",
+      "website_url": "10handson.com",
       "menu_text_file": "txt/hands_business_solutions_inc.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7610,14 +6756,14 @@
       "latitude": 5363462.8561,
       "longitude": 473146.3268,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.1,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.3,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.tourist.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/tourist.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7691,14 +6837,14 @@
       "latitude": 5364475.3413,
       "longitude": 473451.829,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.3,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.4,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.yes_we_wood_holdings_inc.ca",
+      "website_url": "yeswewood.net",
       "menu_text_file": "txt/yes_we_wood_holdings_inc.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7772,14 +6918,14 @@
       "latitude": 5363465.5961,
       "longitude": 473714.9506,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.7,
-      "cost_indicator": 3,
-      "num_locations": 5,
+      "tripadvisor_rating": 4.1,
+      "cost_indicator": 2,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": true,
-      "website_url": "www.routine_coffee___supply.ca",
+      "website_url": "routinecoffeeandsupply.com",
       "menu_text_file": "txt/routine_coffee___supply.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7863,14 +7009,14 @@
       "latitude": 5362463.6501,
       "longitude": 473658.7247,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.3,
+      "tripadvisor_rating": 4.6,
       "cost_indicator": 1,
-      "num_locations": 5,
+      "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.the_hidden_gem.ca",
+      "website_url": "thehiddengem.ca",
       "menu_text_file": "txt/the_hidden_gem.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -7944,16 +7090,16 @@
       "latitude": 5363490.3851,
       "longitude": 473011.5168,
       "cuisine": "Asian-Fusion",
-      "tripadvisor_rating": 4.3,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.6,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": true,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.g3_a_restaurant.ca",
+      "website_url": "g3.ca",
       "menu_text_file": "txt/g3_a_restaurant.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/g3_a_restaurant.pdf",
       "menu_sections": [
         {
           "name": "Appetizers",
@@ -8025,15 +7171,15 @@
       "longitude": 472820.1679,
       "cuisine": "Brunch/bagel",
       "tripadvisor_rating": 4.0,
-      "cost_indicator": 1,
+      "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.torch_song_cafe.ca",
+      "website_url": "torchsong.ca",
       "menu_text_file": "txt/torch_song_cafe.txt",
-      "menu_pdf_file": "pdf/torch_song_cafe.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Sides",
@@ -8115,97 +7261,16 @@
       "latitude": 5365693.522,
       "longitude": 471577.5653,
       "cuisine": "North American",
-      "tripadvisor_rating": 4.7,
+      "tripadvisor_rating": 3.6,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.robin_hood_inn___suites.ca",
+      "website_url": "robinhoodinn.ca",
       "menu_text_file": "txt/robin_hood_inn___suites.txt",
-      "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Starters",
-          "items": [
-            {
-              "name": "Mac and Cheese Bites",
-              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
-              "price": 12.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Cobb Salad",
-              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
-              "price": 17.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "milk",
-                "eggs"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Meatloaf",
-              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
-              "price": 20.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk",
-                "eggs"
-              ]
-            },
-            {
-              "name": "Pulled Pork Sandwich",
-              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
-              "price": 18.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "milk"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "DELTA VICTORIA OCEAN POINTE RESORT AND SPA",
-      "slug": "delta_victoria_ocean_pointe_resort_and_spa",
-      "address": "100 HARBOUR RD\r\nVICTORIA BC  V9A 0G1",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5363846.0898,
-      "longitude": 472262.1587,
-      "cuisine": "North American",
-      "tripadvisor_rating": 4.0,
-      "cost_indicator": 1,
-      "num_locations": 1,
-      "has_allergen_symbols": false,
-      "has_allergen_statement": false,
-      "has_separate_menu": false,
-      "has_separate_chart": false,
-      "website_url": "www.delta_victoria_ocean_pointe_resort_and_spa.ca",
-      "menu_text_file": "txt/delta_victoria_ocean_pointe_resort_and_spa.txt",
-      "menu_pdf_file": "pdf/delta_victoria_ocean_pointe_resort_and_spa.pdf",
+      "menu_pdf_file": "pdf/robin_hood_inn___suites.pdf",
       "menu_sections": [
         {
           "name": "Starters",
@@ -8277,14 +7342,14 @@
       "latitude": 5363315.4751,
       "longitude": 473053.2685,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.6,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.7,
+      "cost_indicator": 1,
       "num_locations": 1,
-      "has_allergen_symbols": true,
+      "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.chateau_victoria_hotel.ca",
+      "website_url": "duckduckgo.com",
       "menu_text_file": "txt/chateau_victoria_hotel.txt",
       "menu_pdf_file": "pdf/chateau_victoria_hotel.pdf",
       "menu_sections": [
@@ -8295,7 +7360,7 @@
               "name": "Hashbrowns",
               "description": "Crispy diner-style potatoes.",
               "price": 5.0,
-              "is_gf_marked": true,
+              "is_gf_marked": false,
               "is_vegan": false,
               "is_vegetarian": false,
               "allergens": []
@@ -8368,16 +7433,16 @@
       "latitude": 5363833.7087,
       "longitude": 472725.579,
       "cuisine": "Asian-Fusion",
-      "tripadvisor_rating": 3.9,
+      "tripadvisor_rating": 4.1,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.infusion_play.ca",
+      "website_url": "infusion-play.com",
       "menu_text_file": "txt/infusion_play.txt",
-      "menu_pdf_file": "pdf/infusion_play.pdf",
+      "menu_pdf_file": null,
       "menu_sections": [
         {
           "name": "Appetizers",
@@ -8448,16 +7513,16 @@
       "latitude": 5364143.7668,
       "longitude": 472559.0431,
       "cuisine": "Bar/Pub",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 2,
+      "tripadvisor_rating": 4.0,
+      "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.craft_beer_market.ca",
+      "website_url": "craftbeermarket.com",
       "menu_text_file": "txt/craft_beer_market.txt",
-      "menu_pdf_file": null,
+      "menu_pdf_file": "pdf/craft_beer_market.pdf",
       "menu_sections": [
         {
           "name": "Pub Fare",
@@ -8539,14 +7604,14 @@
       "latitude": 5366012.794,
       "longitude": 472677.8561,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 3.9,
+      "tripadvisor_rating": 4.0,
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": false,
+      "has_allergen_statement": true,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.menbow_ramen_express.ca",
+      "website_url": "menbowramenbar.com",
       "menu_text_file": "txt/menbow_ramen_express.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -8642,14 +7707,14 @@
       "latitude": 5363774.5373,
       "longitude": 472692.7574,
       "cuisine": "Brunch/bagel",
-      "tripadvisor_rating": 4.9,
+      "tripadvisor_rating": 4.2,
       "cost_indicator": 2,
       "num_locations": 1,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.saint_cecilia_coffee___brands_ltd.ca",
+      "website_url": "saint-cecilia.ca",
       "menu_text_file": "txt/saint_cecilia_coffee___brands_ltd.txt",
       "menu_pdf_file": null,
       "menu_sections": [
@@ -8733,15 +7798,289 @@
       "latitude": 5363623.1854,
       "longitude": 472884.2551,
       "cuisine": "East-Asian",
-      "tripadvisor_rating": 3.9,
-      "cost_indicator": 1,
+      "tripadvisor_rating": 4.8,
+      "cost_indicator": 2,
       "num_locations": 1,
+      "has_allergen_symbols": true,
+      "has_allergen_statement": true,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "umisushiexpress.com",
+      "menu_text_file": "txt/umi_sushi_express.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Appetizers",
+          "items": [
+            {
+              "name": "Edamame",
+              "description": "Steamed soybeans with sea salt. Contains: soybeans",
+              "price": 6.0,
+              "is_gf_marked": true,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "soybeans"
+              ]
+            },
+            {
+              "name": "Gyoza",
+              "description": "Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans",
+              "price": 9.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "soybeans"
+              ]
+            },
+            {
+              "name": "Tempura App",
+              "description": "Crispy prawns and vegetables with soy dip. Contains: gluten, crustaceans, soybeans",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "crustaceans",
+                "soybeans"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Sushi Combo",
+              "description": "Assorted sushi pieces with pickled ginger. Contains: fish",
+              "price": 24.0,
+              "is_gf_marked": true,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "fish"
+              ]
+            },
+            {
+              "name": "Tonkotsu Ramen",
+              "description": "Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans",
+              "price": 19.5,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "eggs",
+                "soybeans"
+              ]
+            },
+            {
+              "name": "Miso Glazed Salmon",
+              "description": "Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans",
+              "price": 26.0,
+              "is_gf_marked": true,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "fish",
+                "soybeans"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RUDI RESTAURANT",
+      "slug": "rudi_restaurant",
+      "address": "710 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363961.8475,
+      "longitude": 473109.7746,
+      "cuisine": "Asian-Fusion",
+      "tripadvisor_rating": 4.5,
+      "cost_indicator": 2,
+      "num_locations": 2,
+      "has_allergen_symbols": true,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.rudi_restaurant.ca",
+      "menu_text_file": "txt/rudi_restaurant.txt",
+      "menu_pdf_file": "pdf/rudi_restaurant.pdf",
+      "menu_sections": [
+        {
+          "name": "Appetizers",
+          "items": [
+            {
+              "name": "Korean Fried Cauliflower",
+              "description": "Sweet and spicy gochujang glaze, sesame seeds. Contains: sesame, gluten",
+              "price": 13.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "sesame",
+                "gluten"
+              ]
+            },
+            {
+              "name": "Tuna Tataki",
+              "description": "Seared albacore tuna, ponzu sauce. Contains: fish, soybeans, gluten",
+              "price": 15.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "fish",
+                "soybeans",
+                "gluten"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Teriyaki Rice Bowl",
+              "description": "Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "soybeans",
+                "gluten"
+              ]
+            },
+            {
+              "name": "Curry Coconut Mussels",
+              "description": "Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten",
+              "price": 22.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "molluscs",
+                "gluten"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VICTORIA BBQ HOUSE & BAKERY (2001)",
+      "slug": "victoria_bbq_house___bakery__2001",
+      "address": "1714 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Z5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364118.0801,
+      "longitude": 472822.6389,
+      "cuisine": "Brunch/bagel",
+      "tripadvisor_rating": 4.2,
+      "cost_indicator": 2,
+      "num_locations": 2,
       "has_allergen_symbols": false,
       "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.umi_sushi_express.ca",
-      "menu_text_file": "txt/umi_sushi_express.txt",
+      "website_url": "www.victoria_bbq_house___bakery__2001.ca",
+      "menu_text_file": "txt/victoria_bbq_house___bakery__2001.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Sides",
+          "items": [
+            {
+              "name": "Hashbrowns",
+              "description": "Crispy diner-style potatoes.",
+              "price": 5.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": []
+            },
+            {
+              "name": "Sourdough Toast",
+              "description": "House-baked sourdough toast with butter. Contains: gluten, milk",
+              "price": 4.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Breakfast Plates",
+          "items": [
+            {
+              "name": "Classic Eggs Benny",
+              "description": "Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk",
+              "price": 17.5,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "eggs",
+                "gluten",
+                "milk"
+              ]
+            },
+            {
+              "name": "Avocado Toast",
+              "description": "Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs",
+              "price": 16.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Buttermilk Pancakes",
+              "description": "Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs",
+              "price": 15.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CHIMAC KOREAN PUB & FRIED CHICKEN",
+      "slug": "chimac_korean_pub___fried_chicken",
+      "address": "512 YATES ST\r\nVICTORIA BC  V8W 1K8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363846.3452,
+      "longitude": 472639.5708,
+      "cuisine": "East-Asian",
+      "tripadvisor_rating": 4.3,
+      "cost_indicator": 1,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": true,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.chimac_korean_pub___fried_chicken.ca",
+      "menu_text_file": "txt/chimac_korean_pub___fried_chicken.txt",
       "menu_pdf_file": null,
       "menu_sections": [
         {
@@ -8822,6 +8161,655 @@
               "allergens": [
                 "fish",
                 "soybeans"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AMETHYST INN AT REGENTS PARK",
+      "slug": "amethyst_inn_at_regents_park",
+      "address": "1501 FORT ST\r\nVICTORIA BC  V8S 1Z6",
+      "neighborhood": "ROCKLAND",
+      "latitude": 5363638.2194,
+      "longitude": 474930.3155,
+      "cuisine": "North American",
+      "tripadvisor_rating": 4.2,
+      "cost_indicator": 2,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.amethyst_inn_at_regents_park.ca",
+      "menu_text_file": "txt/amethyst_inn_at_regents_park.txt",
+      "menu_pdf_file": "pdf/amethyst_inn_at_regents_park.pdf",
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GREEK ON THE STREET",
+      "slug": "greek_on_the_street",
+      "address": "492 BAY ST\r\nVICTORIA BC  V8T 5H2",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5364789.0758,
+      "longitude": 472356.0125,
+      "cuisine": "North American",
+      "tripadvisor_rating": 4.7,
+      "cost_indicator": 2,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.greek_on_the_street.ca",
+      "menu_text_file": "txt/greek_on_the_street.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MR PRETZELS",
+      "slug": "mr_pretzels",
+      "address": "102-1150 DOUGLAS ST\r\nVICTORIA BC  V8W 3M9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363623.1854,
+      "longitude": 472884.2551,
+      "cuisine": "North American",
+      "tripadvisor_rating": 4.1,
+      "cost_indicator": 2,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.mr_pretzels.ca",
+      "menu_text_file": "txt/mr_pretzels.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TACOFINO",
+      "slug": "tacofino",
+      "address": "760 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363961.8475,
+      "longitude": 473109.7746,
+      "cuisine": "Latin American/Caribbean",
+      "tripadvisor_rating": 4.3,
+      "cost_indicator": 2,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.tacofino.ca",
+      "menu_text_file": "txt/tacofino.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Guacamole and Chips",
+              "description": "Freshly smashed avocado, pico de gallo, corn tortilla chips.",
+              "price": 10.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": []
+            },
+            {
+              "name": "Empanadas",
+              "description": "Two fried pastries filled with beef or cheese. Contains: gluten, milk",
+              "price": 11.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Taco Platter",
+              "description": "Three corn tortillas, cilantro, onions, choice of meat.",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": []
+            },
+            {
+              "name": "Jerk Chicken Bowl",
+              "description": "Marinated jerk chicken, rice and peas, fried plantains.",
+              "price": 21.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": []
+            },
+            {
+              "name": "Quesadilla",
+              "description": "Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk",
+              "price": 16.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "0807628 BC LTD",
+      "slug": "0807628_bc_ltd",
+      "address": "123 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5365582.0664,
+      "longitude": 471456.2256,
+      "cuisine": "North American",
+      "tripadvisor_rating": 4.0,
+      "cost_indicator": 2,
+      "num_locations": 2,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.0807628_bc_ltd.ca",
+      "menu_text_file": "txt/0807628_bc_ltd.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MANTU AFGHAN PERSIAN CUISINE",
+      "slug": "mantu_afghan_persian_cuisine",
+      "address": "101-1420 QUADRA ST\r\nVICTORIA BC  V8W 2L1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363845.5736,
+      "longitude": 473417.2213,
+      "cuisine": "North American",
+      "tripadvisor_rating": 3.8,
+      "cost_indicator": 2,
+      "num_locations": 2,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.mantu_afghan_persian_cuisine.ca",
+      "menu_text_file": "txt/mantu_afghan_persian_cuisine.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PRIOR CASTLE INN",
+      "slug": "prior_castle_inn",
+      "address": "620 ST CHARLES ST\r\nVICTORIA BC  V8S 3N7",
+      "neighborhood": "ROCKLAND",
+      "latitude": 5362932.7595,
+      "longitude": 474954.9865,
+      "cuisine": "North American",
+      "tripadvisor_rating": 4.0,
+      "cost_indicator": 3,
+      "num_locations": 1,
+      "has_allergen_symbols": true,
+      "has_allergen_statement": true,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.prior_castle_inn.ca",
+      "menu_text_file": "txt/prior_castle_inn.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": true,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JAGASILK",
+      "slug": "jagasilk",
+      "address": "A17-633 COURTNEY ST\r\nVICTORIA BC  V8W 1B9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363363.2182,
+      "longitude": 472888.6645,
+      "cuisine": "North American",
+      "tripadvisor_rating": 3.9,
+      "cost_indicator": 2,
+      "num_locations": 1,
+      "has_allergen_symbols": false,
+      "has_allergen_statement": false,
+      "has_separate_menu": false,
+      "has_separate_chart": false,
+      "website_url": "www.jagasilk.ca",
+      "menu_text_file": "txt/jagasilk.txt",
+      "menu_pdf_file": null,
+      "menu_sections": [
+        {
+          "name": "Starters",
+          "items": [
+            {
+              "name": "Mac and Cheese Bites",
+              "description": "Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs",
+              "price": 12.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Cobb Salad",
+              "description": "Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs",
+              "price": 17.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "milk",
+                "eggs"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Mains",
+          "items": [
+            {
+              "name": "Meatloaf",
+              "description": "Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs",
+              "price": 20.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk",
+                "eggs"
+              ]
+            },
+            {
+              "name": "Pulled Pork Sandwich",
+              "description": "Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk",
+              "price": 18.0,
+              "is_gf_marked": false,
+              "is_vegan": false,
+              "is_vegetarian": false,
+              "allergens": [
+                "gluten",
+                "milk"
               ]
             }
           ]

@@ -5,4 +5,3 @@ Item: Tuna Tataki | Description: Seared albacore tuna, ponzu sauce. Contains: fi
 SECTION: Mains
 Item: Teriyaki Rice Bowl | Description: Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten | Price: 18.0
 Item: Curry Coconut Mussels | Description: Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten | Price: 22.0
-

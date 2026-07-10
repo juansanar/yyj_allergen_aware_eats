@@ -6,4 +6,3 @@ SECTION: Breakfast Plates
 Item: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5
 Item: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0
 Item: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0
-

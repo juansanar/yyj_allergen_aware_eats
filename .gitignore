@@ -43,6 +43,7 @@ next-env.d.ts
 /data/*.db
 /data/*.db-journal
 /data/*.db-wal
+/data/*.db-shm
 
 # python virtual environment
 /.venv

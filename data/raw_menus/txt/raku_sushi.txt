@@ -9,3 +9,4 @@ SECTION: Mains
 Item: Sushi Combo [GF] | Description: Assorted sushi pieces with pickled ginger. Contains: fish | Price: 24.0
 Item: Tonkotsu Ramen | Description: Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans | Price: 19.5
 Item: Miso Glazed Salmon [GF] | Description: Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans | Price: 26.0
+

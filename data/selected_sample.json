@@ -123,14 +123,6 @@
       "licence_number": "00027360"
     },
     {
-      "name": "CACTUS CLUB CAFE",
-      "address": "1125 DOUGLAS ST\r\nVICTORIA BC  V8W 3L7",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363585.4695,
-      "longitude": 473000.2228,
-      "licence_number": "12875"
-    },
-    {
       "name": "SUSHI ISLAND JAPANESE RESTAURANT",
       "address": "105-1633 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C4",
       "neighborhood": "OAKLANDS",
@@ -153,14 +145,6 @@
       "latitude": 5362507.5587,
       "longitude": 472330.3379,
       "licence_number": "00044082"
-    },
-    {
-      "name": "MANCHU WOK",
-      "address": "FC9-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "licence_number": "00029405"
     },
     {
       "name": "CHIBA SUSHI",
@@ -251,14 +235,6 @@
       "licence_number": "15098"
     },
     {
-      "name": "TACO TIME",
-      "address": "FC3-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "licence_number": "00032180"
-    },
-    {
       "name": "LOCAL PIZZA",
       "address": "105-1483 DOUGLAS ST\r\nVICTORIA BC  V8W 3K4",
       "neighborhood": "DOWNTOWN",
@@ -321,14 +297,6 @@
       "latitude": 5363782.3368,
       "longitude": 472643.1054,
       "licence_number": "8188"
-    },
-    {
-      "name": "BROWNS CRAFTHOUSE VIC WEST",
-      "address": "100-184 WILSON ST\r\nVICTORIA BC  V9A 7N6",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364485.7827,
-      "longitude": 471827.5917,
-      "licence_number": "00037340"
     },
     {
       "name": "DOSA PARAGON",
@@ -395,14 +363,6 @@
       "licence_number": "00047848"
     },
     {
-      "name": "PITA LAND",
-      "address": "110-182 WILSON ST\r\nVICTORIA BC  V9A 7N6",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364485.7827,
-      "longitude": 471827.5917,
-      "licence_number": "00050096"
-    },
-    {
       "name": "CHOTIROS THAI RESTAURANT",
       "address": "1813 DOUGLAS ST\r\nVICTORIA BC  V8T 4K5",
       "neighborhood": "DOWNTOWN",
@@ -449,14 +409,6 @@
       "latitude": 5364115.8499,
       "longitude": 472871.4562,
       "licence_number": "00032318"
-    },
-    {
-      "name": "MCDONALDS RESTAURANTS OF CANADA LTD",
-      "address": "1200 DOUGLAS ST\r\nVICTORIA BC  V8W 2E5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363672.3797,
-      "longitude": 472957.0107,
-      "licence_number": "00029202"
     },
     {
       "name": "LE PHO HOMESTYLE VIETNAMESE CUISINE",
@@ -531,14 +483,6 @@
       "licence_number": "00049312"
     },
     {
-      "name": "TRAVELODGE VICTORIA",
-      "address": "123 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365582.0664,
-      "longitude": 471456.2256,
-      "licence_number": "00037536"
-    },
-    {
       "name": "PICNIC TOO",
       "address": "1019 FORT ST\r\nVICTORIA BC  V8V 3K5",
       "neighborhood": "DOWNTOWN",
@@ -587,14 +531,6 @@
       "licence_number": "16056"
     },
     {
-      "name": "BB.Q CHICKEN",
-      "address": "317-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "licence_number": "00050169"
-    },
-    {
       "name": "OX KING NOODLES",
       "address": "105-1029 VIEW ST\r\nVICTORIA BC  V8V 0C9",
       "neighborhood": "DOWNTOWN",
@@ -609,14 +545,6 @@
       "latitude": 5363382.9879,
       "longitude": 472783.8557,
       "licence_number": "00037993"
-    },
-    {
-      "name": "ALL FORTUNE CONSULTING LTD\r\nHOWARD JOHNSON HOTEL",
-      "address": "310 GORGE RD E\r\nVICTORIA BC  V8T 2W2",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365637.4349,
-      "longitude": 472005.5215,
-      "licence_number": "00036062"
     },
     {
       "name": "KOFFI",
@@ -641,14 +569,6 @@
       "latitude": 5364752.3577,
       "longitude": 473425.6235,
       "licence_number": "00039158"
-    },
-    {
-      "name": "QUALITY INN DOWNTOWN INNER HARBOUR VICTORIA",
-      "address": "850 BLANSHARD ST\r\nVICTORIA BC  V8W 2H2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363324.4798,
-      "longitude": 473109.529,
-      "licence_number": "00029928"
     },
     {
       "name": "10 ACRES BISTRO & BAR",
@@ -747,14 +667,6 @@
       "licence_number": "00050350"
     },
     {
-      "name": "DELTA VICTORIA OCEAN POINTE RESORT AND SPA",
-      "address": "100 HARBOUR RD\r\nVICTORIA BC  V9A 0G1",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5363846.0898,
-      "longitude": 472262.1587,
-      "licence_number": "00032263"
-    },
-    {
       "name": "CHATEAU VICTORIA HOTEL",
       "address": "740 BURDETT AVE\r\nVICTORIA BC  V8W 1B2",
       "neighborhood": "DOWNTOWN",
@@ -801,9 +713,7 @@
       "latitude": 5363623.1854,
       "longitude": 472884.2551,
       "licence_number": "20086"
-    }
-  ],
-  "backup_list": [
+    },
     {
       "name": "RUDI RESTAURANT",
       "address": "710 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
@@ -891,7 +801,9 @@
       "latitude": 5363363.2182,
       "longitude": 472888.6645,
       "licence_number": "20121"
-    },
+    }
+  ],
+  "backup_list": [
     {
       "name": "THE ART OF SLOW FOOD",
       "address": "140-780 FISGARD ST\r\nVICTORIA BC  V8W 0E1",
