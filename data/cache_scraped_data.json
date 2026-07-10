@@ -529,7 +529,7 @@
   },
   "CHUBBY DUMPLING": {
     "trade_name": "CHUBBY DUMPLING",
-    "website_url": "www.chubby_dumpling.ca",
+    "website_url": "chubbydumpling.ca",
     "tripadvisor_rating": 4.2,
     "cost_indicator": 2,
     "num_locations": 5,
@@ -540,8 +540,8 @@
     "has_separate_chart": false,
     "is_pdf": false,
     "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://chubbydumpling.ca/",
+    "menu_scraped_status": "real"
   },
   "NUBO KITCHEN": {
     "trade_name": "NUBO KITCHEN",
@@ -705,7 +705,7 @@
   },
   "BIMI EXPRESS MARKET": {
     "trade_name": "BIMI EXPRESS MARKET",
-    "website_url": "www.bimi_express_market.ca",
+    "website_url": "bimiexpressmarket.com",
     "tripadvisor_rating": 4.4,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -716,8 +716,8 @@
     "has_separate_chart": false,
     "is_pdf": false,
     "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://bimiexpressmarket.com/",
+    "menu_scraped_status": "real"
   },
   "CHOTIROS THAI RESTAURANT": {
     "trade_name": "CHOTIROS THAI RESTAURANT",
@@ -833,7 +833,7 @@
   },
   "THE DOWNBEAT EVENT CENTRE": {
     "trade_name": "THE DOWNBEAT EVENT CENTRE",
-    "website_url": "www.the_downbeat_event_centre.ca",
+    "website_url": "livevictoria.com",
     "tripadvisor_rating": 4.2,
     "cost_indicator": 1,
     "num_locations": 1,
@@ -844,12 +844,12 @@
     "has_separate_chart": false,
     "is_pdf": false,
     "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://livevictoria.com/thedownbeat",
+    "menu_scraped_status": "real"
   },
   "FLOYDS DINER": {
     "trade_name": "FLOYDS DINER",
-    "website_url": "www.floyds_diner.ca",
+    "website_url": "floydsdiner.ca",
     "tripadvisor_rating": 4.5,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -860,8 +860,8 @@
     "has_separate_chart": false,
     "is_pdf": true,
     "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://floydsdiner.ca/",
+    "menu_scraped_status": "real"
   },
   "CANITALIA ESTATES LTD\r\nHOTEL RIALTO": {
     "trade_name": "CANITALIA ESTATES LTD\r\nHOTEL RIALTO",
@@ -1425,7 +1425,7 @@
   },
   "RUDI RESTAURANT": {
     "trade_name": "RUDI RESTAURANT",
-    "website_url": "www.rudi_restaurant.ca",
+    "website_url": "rudivic.ca",
     "tripadvisor_rating": 4.5,
     "cost_indicator": 2,
     "num_locations": 2,
@@ -1436,12 +1436,12 @@
     "has_separate_chart": false,
     "is_pdf": true,
     "menu_text": "SECTION: Appetizers\nItem: Korean Fried Cauliflower | Description: Sweet and spicy gochujang glaze, sesame seeds. Contains: sesame, gluten | Price: 13.0\nItem: Tuna Tataki | Description: Seared albacore tuna, ponzu sauce. Contains: fish, soybeans, gluten | Price: 15.0\n\nSECTION: Mains\nItem: Teriyaki Rice Bowl | Description: Chicken or tofu, broccoli, teriyaki glaze, jasmine rice. Contains: soybeans, gluten | Price: 18.0\nItem: Curry Coconut Mussels | Description: Local mussels, coconut red curry broth, toasted sourdough. Contains: molluscs, gluten | Price: 22.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://www.rudivic.ca/",
+    "menu_scraped_status": "real"
   },
   "VICTORIA BBQ HOUSE & BAKERY (2001)": {
     "trade_name": "VICTORIA BBQ HOUSE & BAKERY (2001)",
-    "website_url": "www.victoria_bbq_house___bakery__2001.ca",
+    "website_url": "yelp.ca",
     "tripadvisor_rating": 4.2,
     "cost_indicator": 2,
     "num_locations": 2,
@@ -1452,8 +1452,8 @@
     "has_separate_chart": false,
     "is_pdf": false,
     "menu_text": "SECTION: Sides\nItem: Hashbrowns | Description: Crispy diner-style potatoes. | Price: 5.0\nItem: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0\n\nSECTION: Breakfast Plates\nItem: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5\nItem: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0\nItem: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://www.yelp.ca/biz/victoria-bbq-house-and-bakery-victoria",
+    "menu_scraped_status": "real"
   },
   "CHIMAC KOREAN PUB & FRIED CHICKEN": {
     "trade_name": "CHIMAC KOREAN PUB & FRIED CHICKEN",
@@ -1473,7 +1473,7 @@
   },
   "AMETHYST INN AT REGENTS PARK": {
     "trade_name": "AMETHYST INN AT REGENTS PARK",
-    "website_url": "www.amethyst_inn_at_regents_park.ca",
+    "website_url": "amethyst-inn.com",
     "tripadvisor_rating": 4.2,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -1484,12 +1484,12 @@
     "has_separate_chart": false,
     "is_pdf": true,
     "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
-    "website_full_url": null,
-    "menu_scraped_status": null
+    "website_full_url": "https://amethyst-inn.com/",
+    "menu_scraped_status": "real"
   },
   "GREEK ON THE STREET": {
     "trade_name": "GREEK ON THE STREET",
-    "website_url": "www.greek_on_the_street.ca",
+    "website_url": "greekonthestreet.ca",
     "tripadvisor_rating": 4.7,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -1499,11 +1499,13 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://www.greekonthestreet.ca/",
+    "menu_scraped_status": "real"
   },
   "MR PRETZELS": {
     "trade_name": "MR PRETZELS",
-    "website_url": "www.mr_pretzels.ca",
+    "website_url": "mrpretzels.ca",
     "tripadvisor_rating": 4.1,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -1513,11 +1515,13 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://www.mrpretzels.ca/",
+    "menu_scraped_status": "real"
   },
   "TACOFINO": {
     "trade_name": "TACOFINO",
-    "website_url": "www.tacofino.ca",
+    "website_url": "tacofino.com",
     "tripadvisor_rating": 4.3,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -1528,11 +1532,12 @@
     "has_separate_chart": false,
     "is_pdf": false,
     "menu_text": "SECTION: Starters\nItem: Guacamole and Chips | Description: Freshly smashed avocado, pico de gallo, corn tortilla chips. | Price: 10.0\nItem: Empanadas | Description: Two fried pastries filled with beef or cheese. Contains: gluten, milk | Price: 11.0\n\nSECTION: Mains\nItem: Taco Platter | Description: Three corn tortillas, cilantro, onions, choice of meat. | Price: 18.0\nItem: Jerk Chicken Bowl | Description: Marinated jerk chicken, rice and peas, fried plantains. | Price: 21.0\nItem: Quesadilla | Description: Flour tortilla, melted jack cheese, peppers, sour cream. Contains: gluten, milk | Price: 16.0\n",
-    "menu_scraped_status": "real"
+    "menu_scraped_status": "real",
+    "website_full_url": "https://www.tacofino.com/"
   },
   "0807628 BC LTD": {
     "trade_name": "0807628 BC LTD",
-    "website_url": "www.0807628_bc_ltd.ca",
+    "website_url": "victoria.ca",
     "tripadvisor_rating": 4.0,
     "cost_indicator": 2,
     "num_locations": 2,
@@ -1542,11 +1547,13 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://www.victoria.ca/",
+    "menu_scraped_status": "real"
   },
   "MANTU AFGHAN PERSIAN CUISINE": {
     "trade_name": "MANTU AFGHAN PERSIAN CUISINE",
-    "website_url": "www.mantu_afghan_persian_cuisine.ca",
+    "website_url": "mantucuisine.com",
     "tripadvisor_rating": 3.8,
     "cost_indicator": 2,
     "num_locations": 2,
@@ -1556,11 +1563,13 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://mantucuisine.com/",
+    "menu_scraped_status": "real"
   },
   "PRIOR CASTLE INN": {
     "trade_name": "PRIOR CASTLE INN",
-    "website_url": "www.prior_castle_inn.ca",
+    "website_url": "duckduckgo.com",
     "tripadvisor_rating": 4.0,
     "cost_indicator": 3,
     "num_locations": 1,
@@ -1570,11 +1579,13 @@
     "has_separate_menu": false,
     "has_separate_chart": false,
     "is_pdf": false,
-    "menu_text": "Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.\n\nSECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad [GF] | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n"
+    "menu_text": "Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.\n\nSECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad [GF] | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
+    "website_full_url": "https://duckduckgo.com/y.js?ad_domain=tripadvisor.ca&ad_provider=bingv7aa&ad_type=txad&click_metadata=jhtVdwd5x4QYL6_33p_sfO8j01nhCqu657GlZbxjGxdPsZO7zD1o1ITf_YLEHmYTl8r1KN2fk1uA4sQ3KTRzBqk4yxg0s0KC6kpsOMTkx5D33Ggef9vxuYNXzYl7i3u%2D6TuKQt6DsN8nespkIVENHHaGvOgGArt7b69by8nN5XE.uU3C9N5yzfHMgm2tShXc9A&rut=e8dd10b06ecdcc586ded22b4fca1fda5ab30812f9aeb975c0536ebeadc28b47a&u3=https%3A%2F%2Fwww.bing.com%2Faclick%3Fld%3De8mt1bH4jATicS69TsFhIckjVUCUyfkt9hg1YzNI2cOErLJ7ORvEZQ7q_G5XXZejaHVcbqaJHX9gwpSphhvzZEqH2j3WWGd__8vByNiUMsiUqorFfYoyA_9XlEOc9eaLXPUFYCx86has53QV9UtjCHsd2iPJqCUdGK4Uuz10dbZT2iwPYYjdArQbfxwRPRxZGAL0XLUKilBVUuyHHzNt1NyqXu8%2Dc%26u%3DaHR0cHMlM2ElMmYlMmZ3d3cudHJpcGFkdmlzb3IuY2ElMmZIb3RlbF9SZXZpZXctczElM2ZnZW8lM2QxNTQ5NDUlMjZkZXRhaWwlM2Q0MDY1OTM2JTI2bSUzZDExMTU1JTI2c3VwY20lM2Q2MDA2NDk3NSUyNnN1cGFnJTNkMTM3MjIzMjczMyUyNnN1cHRpJTNka3dkLTc5NjQ2NDY1NzExMzk1JTNhbG9jLTMyJTI2c3VwYWklM2Q3OTY0NjA4NDIyNTc4NyUyNnN1cGR2JTNkYyUyNnN1cG50JTNkcyUyNnN1cGt3JTNkUFJJT1IlMjUyMENBU1RMRSUyNTIwSU5OJTI1MjBWaWN0b3JpYSUyNTIwQkMlMjUyMG9mZmljaWFsJTI1MjB3ZWJzaXRlJTI2bXNjbGtpZCUzZDgxOTY1OTYzNzI5NDE4N2MzNDU2MzMzMjAxNGRhYWU3%26rlid%3D819659637294187c34563332014daae7&vqd=4-132960632643067502193515231637022133495&iurl=%7B1%7DIG%3DE9A9089AFBDB4856803B2E1340621C0A%26CID%3D3EBB07B99DAF6A84379C102B9C7A6B27%26ID%3DDevEx%2C5039.1",
+    "menu_scraped_status": "real"
   },
   "JAGASILK": {
     "trade_name": "JAGASILK",
-    "website_url": "www.jagasilk.ca",
+    "website_url": "jagasilk.com",
     "tripadvisor_rating": 3.9,
     "cost_indicator": 2,
     "num_locations": 1,
@@ -1585,6 +1596,7 @@
     "has_separate_chart": false,
     "is_pdf": false,
     "menu_text": "SECTION: Starters\nItem: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0\nItem: Cobb Salad | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0\n\nSECTION: Mains\nItem: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0\nItem: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0\n",
-    "menu_scraped_status": "real"
+    "menu_scraped_status": "real",
+    "website_full_url": "https://jagasilk.com/"
   }
 }
