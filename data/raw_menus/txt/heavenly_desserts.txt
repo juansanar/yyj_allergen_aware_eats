@@ -1,0 +1,8 @@
+SECTION: Sides
+Item: Hashbrowns [GF] | Description: Crispy diner-style potatoes. | Price: 5.0
+Item: Sourdough Toast | Description: House-baked sourdough toast with butter. Contains: gluten, milk | Price: 4.0
+
+SECTION: Breakfast Plates
+Item: Classic Eggs Benny | Description: Two poached eggs, English muffin, hollandaise, hashbrowns. Contains: eggs, gluten, milk | Price: 17.5
+Item: Avocado Toast | Description: Smashed avocado, cherry tomatoes, feta, poached egg. Contains: gluten, milk, eggs | Price: 16.0
+Item: Buttermilk Pancakes | Description: Three fluffy pancakes with maple syrup and whipped cream. Contains: gluten, milk, eggs | Price: 15.0

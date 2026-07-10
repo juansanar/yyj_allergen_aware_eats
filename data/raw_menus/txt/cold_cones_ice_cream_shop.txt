@@ -1,0 +1,8 @@
+SECTION: Appetizers
+Item: Hummus Plate | Description: Warm pita, cucumber, olives, olive oil. | Price: 11.0
+Item: Crispy Cauliflower Wings | Description: Battered cauliflower with spicy buffalo glaze. Contains: gluten | Price: 13.0
+
+SECTION: Mains
+Item: Buddha Bowl | Description: Quinoa, roasted sweet potatoes, avocado, kale, tahini. Contains: sesame | Price: 18.0
+Item: Vegan Burger | Description: Plant-based patty, vegan cheese, lettuce, tomato, gluten-free bun. | Price: 19.5
+Item: Tofu Stirfry | Description: Mixed seasonal vegetables, tofu, ginger soy sauce. Contains: soybeans | Price: 17.5

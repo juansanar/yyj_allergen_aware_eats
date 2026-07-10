@@ -1,0 +1,8 @@
+SECTION: Starters
+Item: French Onion Soup | Description: Rich beef broth, caramelized onions, gruyere crouton. Contains: gluten, milk | Price: 12.0
+Item: Beef Carpaccio [GF] | Description: Thinly sliced raw beef, capers, mustard aioli, parmigiano. Contains: mustard, milk, eggs | Price: 16.5
+
+SECTION: Mains
+Item: Steak Frites [GF] | Description: Grilled ribeye steak, house-cut fries, herb butter. Contains: milk | Price: 38.0
+Item: Wild Mushroom Risotto [GF] | Description: Arborio rice, forest mushrooms, white wine, parmesan cheese. Contains: milk | Price: 24.0
+Item: Duck Confit [GF] | Description: Slow-cooked duck leg, roasted fingerling potatoes, cherry jus. | Price: 32.0

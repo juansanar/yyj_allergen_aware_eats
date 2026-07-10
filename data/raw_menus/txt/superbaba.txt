@@ -1,0 +1,8 @@
+SECTION: Mezze
+Item: Falafel Plate | Description: Four crispy falafels, tahini, pickles. Contains: sesame | Price: 9.0
+Item: Tabbouleh Salad | Description: Chopped parsley, mint, tomatoes, bulgur, lemon dress. Contains: gluten | Price: 11.5
+
+SECTION: Mains
+Item: Chicken Shawarma | Description: Shaved chicken shawarma, garlic sauce, pita bread. Contains: gluten | Price: 18.0
+Item: Lamb Kebabs | Description: Spiced ground lamb skewers, saffron rice, grilled tomato. | Price: 23.0
+

@@ -1,0 +1,9 @@
+SECTION: Starters
+Item: Garlic Bread | Description: Toasted baguette with garlic butter and herbs. Contains: gluten, milk | Price: 8.0
+Item: Caesar Salad | Description: Romaine lettuce, house croutons, parmesan, Caesar dressing. Contains: gluten, milk, fish, eggs | Price: 14.0
+
+SECTION: Pizzas
+Item: Margherita Pizza | Description: San Marzano tomato sauce, fresh mozzarella, fresh basil. Contains: gluten, milk | Price: 19.0
+Item: Pepperoni Pizza | Description: Pepperoni, mozzarella, oregano, tomato sauce. Contains: gluten, milk | Price: 22.0
+Item: Prosciutto & Arugula | Description: Prosciutto, wild arugula, shaved parmesan, olive oil. Contains: gluten, milk | Price: 24.0
+

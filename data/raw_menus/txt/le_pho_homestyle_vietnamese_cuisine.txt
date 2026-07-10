@@ -1,0 +1,10 @@
+DISCLAIMER: Please notify your server of any food allergies before ordering. We take precautions to avoid cross-contact, but cannot guarantee a 100% allergen-free environment.
+
+SECTION: Starters
+Item: Spring Rolls | Description: Crispy fried vegetable rolls with sweet chili sauce. Contains: gluten | Price: 8.5
+Item: Satay Chicken Skewers | Description: Grilled skewers with peanut sauce. Contains: peanuts | Price: 11.0
+
+SECTION: Mains
+Item: Pad Thai | Description: Rice noodles, tofu, bean sprouts, peanuts, tamarind sauce. Contains: peanuts, eggs | Price: 18.0
+Item: Green Curry | Description: Spicy green coconut milk curry with bamboo shoots and basil. Contains: crustaceans | Price: 19.5
+Item: Pho Bo | Description: Vietnamese beef noodle soup with rice noodles and fresh herbs. | Price: 17.5

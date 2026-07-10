@@ -1,0 +1,10 @@
+Allergy Warning: Our dishes may contain or come into contact with wheat, dairy, peanuts, tree nuts, eggs, and shellfish. Inform your waiter if you have a severe allergy.
+
+SECTION: Pub Fare
+Item: Chicken Wings | Description: Crispy wings with hot sauce or honey garlic. Contains: gluten | Price: 16.0
+Item: Soft Pretzels | Description: Warm salted pretzels with beer cheese dip. Contains: gluten, milk | Price: 11.0
+
+SECTION: Mains
+Item: Classic Burger | Description: Beef patty, cheddar, lettuce, tomato, brioche bun, house fries. Contains: gluten, milk | Price: 18.5
+Item: Fish and Chips | Description: Beer-battered cod, double-cooked chips, tartar sauce. Contains: fish, gluten, eggs | Price: 21.0
+Item: Steak Sandwich | Description: 6oz sirloin on garlic toast with onion rings. Contains: gluten, milk | Price: 25.0

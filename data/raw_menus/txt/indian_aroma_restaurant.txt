@@ -1,0 +1,9 @@
+SECTION: Appetizers
+Item: Vegetable Samosas | Description: Crispy pastry filled with spiced potatoes and peas. Contains: gluten | Price: 8.0
+Item: Chicken Tikka | Description: Tandoori chicken pieces marinated in yogurt and spices. Contains: milk | Price: 14.0
+
+SECTION: Curries
+Item: Butter Chicken | Description: Tandoori chicken cooked in a rich tomato, butter, and cream sauce. Contains: milk | Price: 20.0
+Item: Chana Masala | Description: Chickpeas cooked in an onion and tomato masala gravy. | Price: 17.0
+Item: Garlic Naan | Description: Leavened clay-oven flatbread with garlic. Contains: gluten, milk | Price: 4.5
+
