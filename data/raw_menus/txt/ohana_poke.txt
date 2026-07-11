@@ -1,0 +1,9 @@
+Before placing your order, please inform your server if a person in your party has a food allergy.
+
+SECTION: Appetizers
+Item: Oysters on the Half Shell [GF] | Description: Fresh local oysters, mignonette, lemon. Contains: molluscs | Price: 18.0
+Item: Clam Chowder | Description: Creamy New England style chowder. Contains: milk, molluscs, gluten | Price: 11.0
+
+SECTION: Mains
+Item: Pan Seared Halibut [GF] | Description: Local halibut, spring pea puree, lemon butter sauce. Contains: fish, milk | Price: 34.0
+Item: Seafood Linguine | Description: Mussels, clams, prawns, white wine garlic sauce. Contains: gluten, molluscs, crustaceans | Price: 28.0

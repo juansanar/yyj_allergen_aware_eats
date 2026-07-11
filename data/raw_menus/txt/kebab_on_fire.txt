@@ -5,3 +5,4 @@ Item: Tabbouleh Salad | Description: Chopped parsley, mint, tomatoes, bulgur, le
 SECTION: Mains
 Item: Chicken Shawarma | Description: Shaved chicken shawarma, garlic sauce, pita bread. Contains: gluten | Price: 18.0
 Item: Lamb Kebabs | Description: Spiced ground lamb skewers, saffron rice, grilled tomato. | Price: 23.0
+

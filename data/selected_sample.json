@@ -1,758 +1,14 @@
 {
   "seed": 42,
-  "total_eligible_population": 728,
+  "total_eligible_population": 312,
   "primary_sample": [
     {
-      "name": "BLOCK KITCHEN AND BAR",
-      "address": "101-538 YATES ST\r\nVICTORIA BC  V8W 1K8",
+      "name": "THE MINT RESTAURANT CORP",
+      "address": "B-1414 DOUGLAS ST\r\nVICTORIA BC  V8W 2G1",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363834.2373,
-      "longitude": 472709.484,
-      "licence_number": "00043693"
-    },
-    {
-      "name": "FISHER HOUSE BED & BREAKFAST",
-      "address": "333 SIMCOE ST\r\nVICTORIA BC  V8V 1K9",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362700.8576,
-      "longitude": 472063.9437,
-      "licence_number": "20095"
-    },
-    {
-      "name": "SEN ZUSHI (2004) INC",
-      "address": "940 FORT ST\r\nVICTORIA BC  V8V 3K2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363498.2984,
-      "longitude": 473521.4691,
-      "licence_number": "13463"
-    },
-    {
-      "name": "DISCOVERY COFFEE",
-      "address": "281 MENZIES ST\r\nVICTORIA BC  V8V 2G6",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362671.7268,
-      "longitude": 472414.0844,
-      "licence_number": "23216"
-    },
-    {
-      "name": "49 BELOW ICE CREAM",
-      "address": "420 CRAIGFLOWER RD\r\nVICTORIA BC  V9A 2V8",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364894.8689,
-      "longitude": 471268.5534,
-      "licence_number": "00050856"
-    },
-    {
-      "name": "TIBETAN KITCHEN CAFE",
-      "address": "680 BROUGHTON ST\r\nVICTORIA BC  V8W 1C9",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363512.4909,
-      "longitude": 472930.0118,
-      "licence_number": "00030283"
-    },
-    {
-      "name": "LA TAQUISA RESTAURANT",
-      "address": "1017 BLANSHARD ST\r\nVICTORIA BC  V8W 2H4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363492.7535,
-      "longitude": 473210.262,
-      "licence_number": "00026706"
-    },
-    {
-      "name": "KANPAI ASIAN EATERY & BAR",
-      "address": "990 BLANSHARD ST\r\nVICTORIA BC  V8W 2H3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363415.8371,
-      "longitude": 473119.4841,
-      "licence_number": "00043738"
-    },
-    {
-      "name": "CERA",
-      "address": "102-506 FORT ST\r\nVICTORIA BC  V8W 1E6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363634.9379,
-      "longitude": 472680.8408,
-      "licence_number": "00048013"
-    },
-    {
-      "name": "HOTEL GRAND PACIFIC",
-      "address": "463 BELLEVILLE ST\r\nVICTORIA BC  V8V 1X3",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363126.599,
-      "longitude": 472452.6286,
-      "licence_number": "6709"
-    },
-    {
-      "name": "CAFFE FANTASTICO",
-      "address": "102-398 HARBOUR RD\r\nVICTORIA BC  V9A 0B7",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364407.3478,
-      "longitude": 472012.2291,
-      "licence_number": "19203"
-    },
-    {
-      "name": "THE LOCAL KITCHEN",
-      "address": "1205 WHARF ST\r\nVICTORIA BC  V8W 1T9",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363743.3895,
-      "longitude": 472646.8564,
-      "licence_number": "16754"
-    },
-    {
-      "name": "MILANO COFFEE",
-      "address": "817 GOVERNMENT ST\r\nVICTORIA BC  V8W 1W8",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363415.808,
-      "longitude": 472779.2219,
-      "licence_number": "00035704"
-    },
-    {
-      "name": "DONOHUE, DIANNE",
-      "address": "251 SUPERIOR ST\r\nVICTORIA BC  V8V 1T4",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363048.5561,
-      "longitude": 472046.34,
-      "licence_number": "00048715"
-    },
-    {
-      "name": "THE KRAKEN BY THE BREAKWATER",
-      "address": "199 DALLAS RD\r\nVICTORIA BC  V8V 1A1",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362592.5742,
-      "longitude": 471211.3929,
-      "licence_number": "00027360"
-    },
-    {
-      "name": "SUSHI ISLAND JAPANESE RESTAURANT",
-      "address": "105-1633 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C4",
-      "neighborhood": "OAKLANDS",
-      "latitude": 5365812.428,
-      "longitude": 475273.8406,
-      "licence_number": "00028137"
-    },
-    {
-      "name": "ENCORE BY PAPARAZZI",
-      "address": "1415 BROAD ST\r\nVICTORIA BC  V8W 2B2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363913.9822,
-      "longitude": 472961.1649,
-      "licence_number": "00047670"
-    },
-    {
-      "name": "PIGGY AND PAISLEY TEA ROOM",
-      "address": "143 MENZIES ST\r\nVICTORIA BC  V8V 2G4",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362507.5587,
-      "longitude": 472330.3379,
-      "licence_number": "00044082"
-    },
-    {
-      "name": "CHIBA SUSHI",
-      "address": "B-2630 QUADRA ST\r\nVICTORIA BC  V8T 4E4",
-      "neighborhood": "HILLSIDE / QUADRA",
-      "latitude": 5365076.8737,
-      "longitude": 473428.8513,
-      "licence_number": "17385"
-    },
-    {
-      "name": "BOND BONDS BAKERY",
-      "address": "1010 BLANSHARD ST\r\nVICTORIA BC  V8W 2H5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363462.8561,
-      "longitude": 473146.3268,
-      "licence_number": "15528"
-    },
-    {
-      "name": "ROSSOUW, JONATHAN",
-      "address": "310-760 JOHNSON ST\r\nVICTORIA BC  V8W 0A4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363844.9756,
-      "longitude": 473203.2914,
-      "licence_number": "00046293"
-    },
-    {
-      "name": "NOODLE BOX",
-      "address": "818 DOUGLAS ST\r\nVICTORIA BC  V8W 2B6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363358.1966,
-      "longitude": 472904.0072,
-      "licence_number": "00040411"
-    },
-    {
-      "name": "ROYAL SCOT SUITE HOTEL",
-      "address": "425 QUEBEC ST\r\nVICTORIA BC  V8V 1W7",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363051.8041,
-      "longitude": 472386.683,
-      "licence_number": "3932"
-    },
-    {
-      "name": "ALI BABA PIZZA",
-      "address": "775 FORT ST\r\nVICTORIA BC  V8W 1G9",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363509.7096,
-      "longitude": 473109.3566,
-      "licence_number": "2552"
-    },
-    {
-      "name": "SUSHI TIME EXPRESS",
-      "address": "120-735 YATES ST\r\nVICTORIA BC  V8W 1L6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363696.5839,
-      "longitude": 473109.4949,
-      "licence_number": "00026912"
-    },
-    {
-      "name": "VICTORIA MARRIOTT INNER HARBOUR",
-      "address": "728 HUMBOLDT ST\r\nVICTORIA BC  V8W 3Z5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363214.8676,
-      "longitude": 473032.8198,
-      "licence_number": "12080"
-    },
-    {
-      "name": "HUNTINGDON MANOR",
-      "address": "330 QUEBEC ST\r\nVICTORIA BC  V8V 1W3",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363224.4518,
-      "longitude": 472237.2032,
-      "licence_number": "00026730"
-    },
-    {
-      "name": "FINEST AT SEA SEAFOOD BOUTIQUE",
-      "address": "27 ERIE ST\r\nVICTORIA BC  V8V 1P8",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363199.7821,
-      "longitude": 471617.0552,
-      "licence_number": "00028682"
-    },
-    {
-      "name": "JACKSON'S ICE CREAM FLOAT",
-      "address": "1 DALLAS RD\r\nVICTORIA BC  V8V 0B2",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363387.846,
-      "longitude": 471628.1309,
-      "licence_number": "15098"
-    },
-    {
-      "name": "LOCAL PIZZA",
-      "address": "105-1483 DOUGLAS ST\r\nVICTORIA BC  V8W 3K4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363897.8674,
-      "longitude": 473059.2769,
-      "licence_number": "00036345"
-    },
-    {
-      "name": "TANDOORI TRAILS",
-      "address": "D-456 GORGE RD E\r\nVICTORIA BC  V8T 2W4",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365385.8879,
-      "longitude": 472366.8787,
-      "licence_number": "00049989"
-    },
-    {
-      "name": "BOLD BUTCHERY & GRILL",
-      "address": "103A-1420 QUADRA ST\r\nVICTORIA BC  V8W 2L1",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363845.5736,
-      "longitude": 473417.2213,
-      "licence_number": "00033728"
-    },
-    {
-      "name": "IRISH TIMES PUB",
-      "address": "1200 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Y3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363694.7682,
-      "longitude": 472770.526,
-      "licence_number": "00038511"
-    },
-    {
-      "name": "CHUBBY DUMPLING",
-      "address": "100-1619 STORE ST\r\nVICTORIA BC  V8W 3K3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364048.3677,
-      "longitude": 472682.1491,
-      "licence_number": "00039719"
-    },
-    {
-      "name": "NUBO KITCHEN",
-      "address": "490 PANDORA AVE\r\nVICTORIA BC  V8W 0E3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364021.7307,
-      "longitude": 472604.9593,
-      "licence_number": "00034393"
-    },
-    {
-      "name": "HUNTERS BAR & GRILL",
-      "address": "330 QUEBEC ST\r\nVICTORIA BC  V8V 1W3",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363224.4518,
-      "longitude": 472237.2032,
-      "licence_number": "00026731"
-    },
-    {
-      "name": "LUCKY BAR",
-      "address": "517 YATES ST\r\nVICTORIA BC  V8W 1K7",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363782.3368,
-      "longitude": 472643.1054,
-      "licence_number": "8188"
-    },
-    {
-      "name": "DOSA PARAGON",
-      "address": "1218 WHARF ST\r\nVICTORIA BC  V8W 1T8",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363766.6635,
-      "longitude": 472592.7506,
-      "licence_number": "00044271"
-    },
-    {
-      "name": "ABBEYMOORE MANOR B&B",
-      "address": "1470 ROCKLAND AVE\r\nVICTORIA BC  V8S 1W2",
-      "neighborhood": "ROCKLAND",
-      "latitude": 5363055.9633,
-      "longitude": 474876.1631,
-      "licence_number": "00045989"
-    },
-    {
-      "name": "THE BREAKFAST SHOP",
-      "address": "1025 COOK ST\r\nVICTORIA BC  V8V 3Z7",
-      "neighborhood": "FAIRFIELD",
-      "latitude": 5363385.4643,
-      "longitude": 473844.2078,
-      "licence_number": "00047890"
-    },
-    {
-      "name": "THE BOHO",
-      "address": "731 VANCOUVER ST\r\nVICTORIA BC  V8V 3V4",
-      "neighborhood": "FAIRFIELD",
-      "latitude": 5363068.0334,
-      "longitude": 473558.6738,
-      "licence_number": "00046912"
-    },
-    {
-      "name": "JAMES BAY INN LTD",
-      "address": "270 GOVERNMENT ST\r\nVICTORIA BC  V8V 2L2",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362534.157,
-      "longitude": 472655.99,
-      "licence_number": "2510"
-    },
-    {
-      "name": "LOYOLA, MARGARITA",
-      "address": "503-760 JOHNSON ST\r\nVICTORIA BC  V8W 0A4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363844.9756,
-      "longitude": 473203.2914,
-      "licence_number": "00050044"
-    },
-    {
-      "name": "DAYS INN VICTORIA UPTOWN",
-      "address": "229 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365555.4639,
-      "longitude": 471703.8581,
-      "licence_number": "00050345"
-    },
-    {
-      "name": "BIMI EXPRESS MARKET",
-      "address": "888 FORT ST\r\nVICTORIA BC  V8W 1H8",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363523.3226,
-      "longitude": 473373.3732,
-      "licence_number": "00047848"
-    },
-    {
-      "name": "CHOTIROS THAI RESTAURANT",
-      "address": "1813 DOUGLAS ST\r\nVICTORIA BC  V8T 4K5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364243.4828,
-      "longitude": 473069.8364,
-      "licence_number": "00042855"
-    },
-    {
-      "name": "PAPARAZZI NIGHTCLUB",
-      "address": "634 JOHNSON ST\r\nVICTORIA BC  V8W 1M6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363876.3631,
-      "longitude": 472964.2545,
-      "licence_number": "6268"
-    },
-    {
-      "name": "METRO INN LTD",
-      "address": "680 GARBALLY RD\r\nVICTORIA BC  V8T 2K2",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365400.6457,
-      "longitude": 472657.8212,
-      "licence_number": "00030642"
-    },
-    {
-      "name": "SURA KOREAN GRILL HOUSE",
-      "address": "1696 DOUGLAS ST\r\nVICTORIA BC  V8W 2G6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364064.5596,
-      "longitude": 473008.1411,
-      "licence_number": "00046471"
-    },
-    {
-      "name": "BOBADOG",
-      "address": "1108 BLANSHARD ST\r\nVICTORIA BC  V8W 2H6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363558.9821,
-      "longitude": 473162.9883,
-      "licence_number": "00041130"
-    },
-    {
-      "name": "QV CAFE & BAKERY",
-      "address": "1701 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Z4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364115.8499,
-      "longitude": 472871.4562,
-      "licence_number": "00032318"
-    },
-    {
-      "name": "LE PHO HOMESTYLE VIETNAMESE CUISINE",
-      "address": "103-1990 FORT ST\r\nVICTORIA BC  V8R 6V4",
-      "neighborhood": "NORTH JUBILEE",
-      "latitude": 5364409.4336,
-      "longitude": 476120.2922,
-      "licence_number": "00045866"
-    },
-    {
-      "name": "THE DOWNBEAT EVENT CENTRE",
-      "address": "1325 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Y9",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363858.0379,
-      "longitude": 472859.1039,
-      "licence_number": "00047730"
-    },
-    {
-      "name": "FLOYDS DINER",
-      "address": "123 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365582.0664,
-      "longitude": 471456.2256,
-      "licence_number": "00046036"
-    },
-    {
-      "name": "CANITALIA ESTATES LTD\r\nHOTEL RIALTO",
-      "address": "1450 DOUGLAS ST\r\nVICTORIA BC  V8W 2G1",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363925.6536,
-      "longitude": 473000.6296,
-      "licence_number": "1245"
-    },
-    {
-      "name": "2% JAZZ COFFEE",
-      "address": "105-740 HILLSIDE AVE\r\nVICTORIA BC  V8T 1Z4",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365163.4413,
-      "longitude": 472959.0866,
-      "licence_number": "6822"
-    },
-    {
-      "name": "BIG WHEEL BURGER",
-      "address": "210-172 WILSON ST\r\nVICTORIA BC  V9A 7N6",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364485.7827,
-      "longitude": 471827.5917,
-      "licence_number": "00033158"
-    },
-    {
-      "name": "UNION CLUB OF BC",
-      "address": "805 GORDON ST\r\nVICTORIA BC  V8W 1Z6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363363.2816,
-      "longitude": 472846.9257,
-      "licence_number": "6525"
-    },
-    {
-      "name": "SUSHI FIELD INC",
-      "address": "5-1594 FAIRFIELD RD\r\nVICTORIA BC  V8S 1G1",
-      "neighborhood": "FAIRFIELD",
-      "latitude": 5362234.8722,
-      "longitude": 474964.1764,
-      "licence_number": "24779"
-    },
-    {
-      "name": "MIDNIGHT TEA PARTY",
-      "address": "6-S10-1701 DOUGLAS ST\r\nVICTORIA BC  V8W 0C1",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364141.0289,
-      "longitude": 473091.4825,
-      "licence_number": "00049312"
-    },
-    {
-      "name": "PICNIC TOO",
-      "address": "1019 FORT ST\r\nVICTORIA BC  V8V 3K5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363417.2248,
-      "longitude": 473655.9339,
-      "licence_number": "16553"
-    },
-    {
-      "name": "RAKU SUSHI",
-      "address": "3190 SHELBOURNE ST\r\nVICTORIA BC  V8T 3A8",
-      "neighborhood": "OAKLANDS",
-      "latitude": 5365928.5985,
-      "longitude": 475128.5993,
-      "licence_number": "00042869"
-    },
-    {
-      "name": "TASTE OF VILLAGE INDIAN KITCHEN & BAR LTD",
-      "address": "980 BLANSHARD ST\r\nVICTORIA BC  V8W 2H3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363415.8371,
-      "longitude": 473119.4841,
-      "licence_number": "00049834"
-    },
-    {
-      "name": "VICTORIA SUSHI",
-      "address": "100-176 WILSON ST\r\nVICTORIA BC  V9A 7N6",
-      "neighborhood": "VICTORIA WEST",
-      "latitude": 5364485.7827,
-      "longitude": 471827.5917,
-      "licence_number": "00029501"
-    },
-    {
-      "name": "REID, MICHAEL\r\nREID, CHRIS",
-      "address": "427 POWELL ST\r\nVICTORIA BC  V8V 2J3",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362651.0092,
-      "longitude": 472587.6753,
-      "licence_number": "00051125"
-    },
-    {
-      "name": "BACKPACKERS INN / TURTLE HOSTEL",
-      "address": "1608 QUADRA ST\r\nVICTORIA BC  V8W 2L4",
-      "neighborhood": "NORTH PARK",
-      "latitude": 5363970.7632,
-      "longitude": 473423.5918,
-      "licence_number": "16056"
-    },
-    {
-      "name": "OX KING NOODLES",
-      "address": "105-1029 VIEW ST\r\nVICTORIA BC  V8V 0C9",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363508.1198,
-      "longitude": 473675.4603,
-      "licence_number": "00028331"
-    },
-    {
-      "name": "TRACTOR EVERYDAY HEALTHY FOODS",
-      "address": "805 GOVERNMENT ST\r\nVICTORIA BC  V8W 1W8",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363382.9879,
-      "longitude": 472783.8557,
-      "licence_number": "00037993"
-    },
-    {
-      "name": "KOFFI",
-      "address": "1441 HAULTAIN ST\r\nVICTORIA BC  V8R 2J8",
-      "neighborhood": "FERNWOOD",
-      "latitude": 5364817.5307,
-      "longitude": 474842.7728,
-      "licence_number": "17013"
-    },
-    {
-      "name": "MACCHIATO CAFFE",
-      "address": "780 JOHNSON ST\r\nVICTORIA BC  V8W 0A4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363844.9756,
-      "longitude": 473203.2914,
-      "licence_number": "24242"
-    },
-    {
-      "name": "ROYAL BRITISH COLUMBIA MUSEUM CORPORATION",
-      "address": "IMAX-675 BELLEVILLE ST\r\nVICTORIA BC  V8W 1A1",
-      "neighborhood": "NORTH JUBILEE",
-      "latitude": 5364752.3577,
-      "longitude": 473425.6235,
-      "licence_number": "00039158"
-    },
-    {
-      "name": "10 ACRES BISTRO & BAR",
-      "address": "611 COURTNEY ST\r\nVICTORIA BC  V8W 1B7",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363411.0821,
-      "longitude": 472799.3448,
-      "licence_number": "00029874"
-    },
-    {
-      "name": "YUKATSU UBURGER",
-      "address": "1008 BLANSHARD ST\r\nVICTORIA BC  V8W 2H5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363462.8561,
-      "longitude": 473146.3268,
-      "licence_number": "00043622"
-    },
-    {
-      "name": "LEVANTINE MIDDLE EASTERN RESTAURANT",
-      "address": "103-225 MENZIES ST\r\nVICTORIA BC  V8V 2G6",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5362593.8891,
-      "longitude": 472388.8149,
-      "licence_number": "00047886"
-    },
-    {
-      "name": "THE FLYING OTTER GRILL",
-      "address": "950 WHARF ST\r\nVICTORIA BC  V8W 1T3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363467.675,
-      "longitude": 472554.0113,
-      "licence_number": "19870"
-    },
-    {
-      "name": "HANDS BUSINESS SOLUTIONS INC",
-      "address": "402-595 PANDORA AVE\r\nVICTORIA BC  V8W 1N5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363959.0833,
-      "longitude": 472783.5204,
-      "licence_number": "00039949"
-    },
-    {
-      "name": "TOURIST",
-      "address": "1002 BLANSHARD ST\r\nVICTORIA BC  V8W 2H5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363462.8561,
-      "longitude": 473146.3268,
-      "licence_number": "00044891"
-    },
-    {
-      "name": "YES WE WOOD HOLDINGS INC",
-      "address": "2150 QUADRA ST\r\nVICTORIA BC  V8T 4C5",
-      "neighborhood": "NORTH PARK",
-      "latitude": 5364475.3413,
-      "longitude": 473451.829,
-      "licence_number": "00048488"
-    },
-    {
-      "name": "ROUTINE COFFEE & SUPPLY",
-      "address": "1036 FORT ST\r\nVICTORIA BC  V8V 3K4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363465.5961,
-      "longitude": 473714.9506,
-      "licence_number": "00048297"
-    },
-    {
-      "name": "THE HIDDEN GEM",
-      "address": "337 COOK ST\r\nVICTORIA BC  V8V 3X5",
-      "neighborhood": "FAIRFIELD",
-      "latitude": 5362463.6501,
-      "longitude": 473658.7247,
-      "licence_number": "00040485"
-    },
-    {
-      "name": "G3 A RESTAURANT",
-      "address": "G-3-1001 DOUGLAS ST\r\nVICTORIA BC  V8W 2C5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363490.3851,
-      "longitude": 473011.5168,
-      "licence_number": "00049138"
-    },
-    {
-      "name": "TORCH SONG CAFE",
-      "address": "1812 GOVERNMENT ST\r\nVICTORIA BC  V8T 4N5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364229.9219,
-      "longitude": 472820.1679,
-      "licence_number": "00043656"
-    },
-    {
-      "name": "ROBIN HOOD INN & SUITES",
-      "address": "136 GORGE RD E\r\nVICTORIA BC  V9A 1L4",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365693.522,
-      "longitude": 471577.5653,
-      "licence_number": "00050350"
-    },
-    {
-      "name": "CHATEAU VICTORIA HOTEL",
-      "address": "740 BURDETT AVE\r\nVICTORIA BC  V8W 1B2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363315.4751,
-      "longitude": 473053.2685,
-      "licence_number": "1821"
-    },
-    {
-      "name": "INFUSION PLAY",
-      "address": "102-546 YATES ST\r\nVICTORIA BC  V8W 1K8",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363833.7087,
-      "longitude": 472725.579,
-      "licence_number": "00051071"
-    },
-    {
-      "name": "CRAFT BEER MARKET",
-      "address": "450 SWIFT ST\r\nVICTORIA BC  V8W 1S3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364143.7668,
-      "longitude": 472559.0431,
-      "licence_number": "00043382"
-    },
-    {
-      "name": "MENBOW RAMEN EXPRESS",
-      "address": "FC6-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5366012.794,
-      "longitude": 472677.8561,
-      "licence_number": "00045575"
-    },
-    {
-      "name": "SAINT CECILIA COFFEE & BRANDS LTD",
-      "address": "101-535 YATES ST\r\nVICTORIA BC  V8W 2Z6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363774.5373,
-      "longitude": 472692.7574,
-      "licence_number": "00036739"
-    },
-    {
-      "name": "UMI SUSHI EXPRESS",
-      "address": "412-1150 DOUGLAS ST\r\nVICTORIA BC  V8W 3M9",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363623.1854,
-      "longitude": 472884.2551,
-      "licence_number": "20086"
-    },
-    {
-      "name": "RUDI RESTAURANT",
-      "address": "710 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363961.8475,
-      "longitude": 473109.7746,
-      "licence_number": "00045901"
-    },
-    {
-      "name": "VICTORIA BBQ HOUSE & BAKERY (2001)",
-      "address": "1714 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Z5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364118.0801,
-      "longitude": 472822.6389,
-      "licence_number": "8964"
-    },
-    {
-      "name": "CHIMAC KOREAN PUB & FRIED CHICKEN",
-      "address": "512 YATES ST\r\nVICTORIA BC  V8W 1K8",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363846.3452,
-      "longitude": 472639.5708,
-      "licence_number": "00033682"
-    },
-    {
-      "name": "AMETHYST INN AT REGENTS PARK",
-      "address": "1501 FORT ST\r\nVICTORIA BC  V8S 1Z6",
-      "neighborhood": "ROCKLAND",
-      "latitude": 5363638.2194,
-      "longitude": 474930.3155,
-      "licence_number": "00038744"
-    },
-    {
-      "name": "GREEK ON THE STREET",
-      "address": "325 COOK ST\r\nVICTORIA BC  V8V 3X5",
-      "neighborhood": "FAIRFIELD",
-      "latitude": 5362445.1716,
-      "longitude": 473654.2484,
-      "licence_number": "00041705"
+      "latitude": 5363888.421,
+      "longitude": 472994.2133,
+      "licence_number": "12462"
     },
     {
       "name": "MR PRETZELS",
@@ -763,214 +19,132 @@
       "licence_number": "00037429"
     },
     {
-      "name": "TACOFINO",
-      "address": "760 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
+      "name": "HEY HAPPY",
+      "address": "122-560 JOHNSON ST\r\nVICTORIA BC  V8W 3C6",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363961.8475,
-      "longitude": 473109.7746,
-      "licence_number": "00028400"
+      "latitude": 5363944.6017,
+      "longitude": 472716.2453,
+      "licence_number": "00027865"
     },
     {
-      "name": "0807628 BC LTD",
-      "address": "123 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365582.0664,
-      "longitude": 471456.2256,
-      "licence_number": "17610"
+      "name": "KAPPO MARTA",
+      "address": "1600 BAY ST\r\nVICTORIA BC  V8R 2B6",
+      "neighborhood": "FERNWOOD",
+      "latitude": 5364629.3976,
+      "longitude": 475148.8529,
+      "licence_number": "00036251"
     },
     {
-      "name": "MANTU AFGHAN PERSIAN CUISINE",
-      "address": "101-1420 QUADRA ST\r\nVICTORIA BC  V8W 2L1",
+      "name": "JOHNS PLACE",
+      "address": "723 PANDORA AVE\r\nVICTORIA BC  V8W 1N9",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363845.5736,
-      "longitude": 473417.2213,
-      "licence_number": "00044658"
+      "latitude": 5363899.1488,
+      "longitude": 473092.0854,
+      "licence_number": "2545"
     },
     {
-      "name": "PRIOR CASTLE INN",
-      "address": "620 ST CHARLES ST\r\nVICTORIA BC  V8S 3N7",
-      "neighborhood": "ROCKLAND",
-      "latitude": 5362932.7595,
-      "longitude": 474954.9865,
-      "licence_number": "00049760"
-    },
-    {
-      "name": "JAGASILK",
-      "address": "A17-633 COURTNEY ST\r\nVICTORIA BC  V8W 1B9",
+      "name": "PINHALLA PINBALL PIZZERIA",
+      "address": "516 FISGARD ST\r\nVICTORIA BC  V8W 1S5",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363363.2182,
-      "longitude": 472888.6645,
-      "licence_number": "20121"
-    }
-  ],
-  "backup_list": [
-    {
-      "name": "THE ART OF SLOW FOOD",
-      "address": "140-780 FISGARD ST\r\nVICTORIA BC  V8W 0E1",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364124.3078,
-      "longitude": 473155.8723,
-      "licence_number": "00040889"
+      "latitude": 5364134.4182,
+      "longitude": 472712.4502,
+      "licence_number": "00045287"
     },
     {
-      "name": "ZIYU FOODY CO",
-      "address": "554 PANDORA AVE\r\nVICTORIA BC  V8W 1N7",
+      "name": "DUMPLING DROP",
+      "address": "A-556 PANDORA AVE\r\nVICTORIA BC  V8W 1N7",
       "neighborhood": "DOWNTOWN",
       "latitude": 5364024.4405,
       "longitude": 472806.4442,
-      "licence_number": "00040372"
+      "licence_number": "00038478"
     },
     {
-      "name": "COSMOS 2 FOR 1 PIZZA & PASTA",
-      "address": "1557 PANDORA AVE\r\nVICTORIA BC  V8R 6P9",
-      "neighborhood": "FERNWOOD",
-      "latitude": 5363703.6686,
-      "longitude": 474921.3079,
-      "licence_number": "00049065"
+      "name": "KENTUCKY FRIED CHICKEN #1980",
+      "address": "FC8-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "00032636"
     },
     {
-      "name": "MARILENA CAFE AND RAW BAR",
-      "address": "1525 DOUGLAS ST\r\nVICTORIA BC  V8W 2G4",
+      "name": "OLD SPAGHETTI FACTORY",
+      "address": "703 DOUGLAS ST\r\nVICTORIA BC  V8W 2B4",
+      "neighborhood": "NORTH JUBILEE",
+      "latitude": 5364752.3577,
+      "longitude": 473425.6235,
+      "licence_number": "7745"
+    },
+    {
+      "name": "KINTON RAMEN VICTORIA DOWNTOWN",
+      "address": "813 WHARF ST\r\nVICTORIA BC  V8W 1T2",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363419.8274,
+      "longitude": 472715.0883,
+      "licence_number": "00049060"
+    },
+    {
+      "name": "EVA SCHNITZELHAUS",
+      "address": "509 FISGARD ST\r\nVICTORIA BC  V8W 1R3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364066.6445,
+      "longitude": 472681.778,
+      "licence_number": "00041519"
+    },
+    {
+      "name": "IL TERRAZZO",
+      "address": "555 JOHNSON ST\r\nVICTORIA BC  V8W 1M2",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363869.1954,
+      "longitude": 472725.7323,
+      "licence_number": "5544"
+    },
+    {
+      "name": "THE PALMS RESTAURANT AND LOUNGE",
+      "address": "1450 DOUGLAS ST\r\nVICTORIA BC  V8W 2G1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363925.6536,
+      "longitude": 473000.6296,
+      "licence_number": "00039086"
+    },
+    {
+      "name": "DENNYS RESTAURANT",
+      "address": "2852 DOUGLAS ST\r\nVICTORIA BC  V8T 4M5",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5365200.8324,
+      "longitude": 472757.2318,
+      "licence_number": "00045993"
+    },
+    {
+      "name": "EAST GARDEN RESTAURANT",
+      "address": "2888 BELMONT AVE\r\nVICTORIA BC  V8R 6T3",
+      "neighborhood": "OAKLANDS",
+      "latitude": 5365492.0743,
+      "longitude": 474909.3054,
+      "licence_number": "00037934"
+    },
+    {
+      "name": "CAIROMUM",
+      "address": "1807 FORT ST\r\nVICTORIA BC  V8R 1J6",
+      "neighborhood": "SOUTH JUBILEE",
+      "latitude": 5364083.8642,
+      "longitude": 475593.8902,
+      "licence_number": "00050117"
+    },
+    {
+      "name": "HESLAA SRILANKA",
+      "address": "636 JOHNSON ST\r\nVICTORIA BC  V8W 1M6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363876.3631,
+      "longitude": 472964.2545,
+      "licence_number": "00049816"
+    },
+    {
+      "name": "NUBO SUSHI ROLL & ROLL",
+      "address": "754 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
       "neighborhood": "DOWNTOWN",
       "latitude": 5363961.8475,
       "longitude": 473109.7746,
-      "licence_number": "00037703"
-    },
-    {
-      "name": "THE FOOD KART",
-      "address": "901 KINGS RD\r\nVICTORIA BC  V8T 1W5",
-      "neighborhood": "HILLSIDE / QUADRA",
-      "latitude": 5364933.0546,
-      "longitude": 473300.5017,
-      "licence_number": "00031332"
-    },
-    {
-      "name": "GRIND 1294 CAFE EATERY",
-      "address": "1294 BROAD ST\r\nVICTORIA BC  V8W 2A5",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363739.166,
-      "longitude": 472878.2478,
-      "licence_number": "00037571"
-    },
-    {
-      "name": "DODD, TANYA\r\nCOHOSTS",
-      "address": "402-960 YATES ST\r\nVICTORIA BC  V8V 3M3",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363685.6179,
-      "longitude": 473580.9025,
-      "licence_number": "00044814"
-    },
-    {
-      "name": "HOTEL ZED",
-      "address": "3110 DOUGLAS ST\r\nVICTORIA BC  V8Z 3K4",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365937.0739,
-      "longitude": 472489.5142,
-      "licence_number": "3001"
-    },
-    {
-      "name": "FISHERMAN'S WHARF BED & BREAKFAST",
-      "address": "B2-1 DALLAS RD\r\nVICTORIA BC  V8V 0B2",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363387.846,
-      "longitude": 471628.1309,
-      "licence_number": "00048300"
-    },
-    {
-      "name": "SAINT FRANKS",
-      "address": "727 YATES ST\r\nVICTORIA BC  V8W 1L6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363698.7563,
-      "longitude": 473075.2546,
-      "licence_number": "00030224"
-    },
-    {
-      "name": "MY THAI CAFE",
-      "address": "1020 COOK ST\r\nVICTORIA BC  V8V 3Z5",
-      "neighborhood": "FAIRFIELD",
-      "latitude": 5363342.1428,
-      "longitude": 473765.7711,
-      "licence_number": "00031772"
-    },
-    {
-      "name": "PEACOCK BILLARDS LTD",
-      "address": "1C-1175 DOUGLAS ST\r\nVICTORIA BC  V8W 2E1",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363618.1488,
-      "longitude": 473024.3462,
-      "licence_number": "2201"
-    },
-    {
-      "name": "OCEAN GARDEN RESTAURANT (VICTORIA)",
-      "address": "568 FISGARD ST\r\nVICTORIA BC  V8W 1R4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5364118.0801,
-      "longitude": 472822.6389,
-      "licence_number": "24155"
-    },
-    {
-      "name": "CASA PHILIPPINES CUISINE INC.",
-      "address": "102-1483 DOUGLAS ST\r\nVICTORIA BC  V8W 3K4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363897.8674,
-      "longitude": 473059.2769,
-      "licence_number": "00049742"
-    },
-    {
-      "name": "SUPERFLUX CABANA",
-      "address": "201-804 BROUGHTON ST\r\nVICTORIA BC  V8W 1E4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363456.3323,
-      "longitude": 473204.0195,
-      "licence_number": "00041471"
-    },
-    {
-      "name": "ROYAL BC MUSEUM CORP",
-      "address": "675 BELLEVILLE ST\r\nVICTORIA BC  V8W 1A1",
-      "neighborhood": "JAMES BAY",
-      "latitude": 5363024.0392,
-      "longitude": 472809.1774,
-      "licence_number": "13170"
-    },
-    {
-      "name": "CAFE MEXICO",
-      "address": "130-560 JOHNSON ST\r\nVICTORIA BC  V8W 3C6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363944.6017,
-      "longitude": 472716.2453,
-      "licence_number": "00051078"
-    },
-    {
-      "name": "MAVRIKOS, RIA",
-      "address": "505-838 BROUGHTON ST\r\nVICTORIA BC  V8W 1E4",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363442.6328,
-      "longitude": 473294.4227,
-      "licence_number": "00049864"
-    },
-    {
-      "name": "STRATHCONA HOTEL OF VICTORIA LTD",
-      "address": "919 DOUGLAS ST\r\nVICTORIA BC  V8W 2C2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363411.7729,
-      "longitude": 472976.8726,
-      "licence_number": "1110"
-    },
-    {
-      "name": "GREEN CUISINE INC",
-      "address": "5-560 JOHNSON ST\r\nVICTORIA BC  V8W 3C6",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363944.6017,
-      "longitude": 472716.2453,
-      "licence_number": "5187"
-    },
-    {
-      "name": "BOOMTOWN",
-      "address": "950 YATES ST\r\nVICTORIA BC  V8V 3M2",
-      "neighborhood": "DOWNTOWN",
-      "latitude": 5363690.206,
-      "longitude": 473553.6683,
-      "licence_number": "00040778"
+      "licence_number": "00038842"
     },
     {
       "name": "HOPE KEY RESTAURANT",
@@ -981,52 +155,348 @@
       "licence_number": "13962"
     },
     {
-      "name": "PRETTY PATTY",
-      "address": "642 YATES ST\r\nVICTORIA BC  V8W 1L3",
+      "name": "SALLY BUN",
+      "address": "1030 FORT ST\r\nVICTORIA BC  V8V 3K4",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363782.576,
-      "longitude": 472948.3432,
-      "licence_number": "00050799"
+      "latitude": 5363465.5961,
+      "longitude": 473714.9506,
+      "licence_number": "21657"
     },
     {
-      "name": "SPOON'S DINER",
-      "address": "2915 DOUGLAS ST\r\nVICTORIA BC  V8T 4M8",
+      "name": "WHEELIES MOTORCYCLES",
+      "address": "2620 ROCK BAY AVE\r\nVICTORIA BC  V8T 4R7",
       "neighborhood": "BURNSIDE",
-      "latitude": 5365484.3484,
-      "longitude": 472779.2394,
-      "licence_number": "20899"
+      "latitude": 5364953.7675,
+      "longitude": 472636.7844,
+      "licence_number": "00026764"
     },
     {
-      "name": "AVALON RESTAURANT",
-      "address": "1075 FORT ST\r\nVICTORIA BC  V8V 3K5",
+      "name": "REFUGE TAP ROOM",
+      "address": "832 FORT ST\r\nVICTORIA BC  V8W 1H8",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363402.0024,
-      "longitude": 473746.2515,
-      "licence_number": "00034748"
+      "latitude": 5363538.5556,
+      "longitude": 473283.2096,
+      "licence_number": "00037357"
     },
     {
-      "name": "CITRUS & CANE",
-      "address": "1900 DOUGLAS ST\r\nVICTORIA BC  V8T 4K8",
+      "name": "ISLAND POKE",
+      "address": "1674 DOUGLAS ST\r\nVICTORIA BC  V8W 2G6",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5364325.8672,
-      "longitude": 472949.6449,
-      "licence_number": "00039524"
+      "latitude": 5364064.5596,
+      "longitude": 473008.1411,
+      "licence_number": "00034447"
     },
     {
-      "name": "CS CHAN WONTONS & DUMPLINGS RESTAURANT",
-      "address": "102-240 COOK ST\r\nVICTORIA BC  V8V 3X3",
+      "name": "SA TACOS",
+      "address": "2-1115 NORTH PARK ST\r\nVICTORIA BC  V8T 1C7",
+      "neighborhood": "FERNWOOD",
+      "latitude": 5364072.3771,
+      "longitude": 473933.7265,
+      "licence_number": "00050124"
+    },
+    {
+      "name": "GOLDEN CITY RESTAURANT",
+      "address": "721 FISGARD ST\r\nVICTORIA BC  V8W 1R8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364066.6141,
+      "longitude": 473123.7968,
+      "licence_number": "00041895"
+    },
+    {
+      "name": "WAH LAI YUEN RESTAURANT",
+      "address": "560 FISGARD ST\r\nVICTORIA BC  V8W 1R4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364113.9142,
+      "longitude": 472804.4104,
+      "licence_number": "20681"
+    },
+    {
+      "name": "THE FLYING OTTER GRILL",
+      "address": "950 WHARF ST\r\nVICTORIA BC  V8W 1T3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363467.675,
+      "longitude": 472554.0113,
+      "licence_number": "19870"
+    },
+    {
+      "name": "THE HIDDEN GEM",
+      "address": "337 COOK ST\r\nVICTORIA BC  V8V 3X5",
+      "neighborhood": "FAIRFIELD",
+      "latitude": 5362463.6501,
+      "longitude": 473658.7247,
+      "licence_number": "00040485"
+    },
+    {
+      "name": "BURGER CRUSH",
+      "address": "787 FORT ST\r\nVICTORIA BC  V8W 1G9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363504.617,
+      "longitude": 473139.5945,
+      "licence_number": "00039773"
+    },
+    {
+      "name": "COCO GRILL VICTORIA",
+      "address": "1 DALLAS RD\r\nVICTORIA BC  V8V 0B2",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5363387.846,
+      "longitude": 471628.1309,
+      "licence_number": "00042283"
+    },
+    {
+      "name": "BIKIMBAB",
+      "address": "107-240 COOK ST\r\nVICTORIA BC  V8V 3X3",
       "neighborhood": "FAIRFIELD",
       "latitude": 5362428.0171,
       "longitude": 473557.9796,
-      "licence_number": "00050752"
+      "licence_number": "00048035"
     },
     {
-      "name": "RAI, SHARON\r\nDLAY, KAL",
-      "address": "1001-728 YATES ST\r\nVICTORIA BC  V8W 0C8",
+      "name": "STANDARD PIZZA",
+      "address": "B-1515 COOK ST\r\nVICTORIA BC  V8T 5E5",
+      "neighborhood": "FERNWOOD",
+      "latitude": 5363873.7405,
+      "longitude": 473894.2869,
+      "licence_number": "00028709"
+    },
+    {
+      "name": "SOOKJAI THAI (2013) RESTAURANT LTD",
+      "address": "893 FORT ST\r\nVICTORIA BC  V8W 1H6",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363763.3539,
-      "longitude": 473119.3581,
-      "licence_number": "00049597"
+      "latitude": 5363457.1122,
+      "longitude": 473359.0734,
+      "licence_number": "25767"
+    },
+    {
+      "name": "LOCAL PIZZA",
+      "address": "105-1483 DOUGLAS ST\r\nVICTORIA BC  V8W 3K4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363897.8674,
+      "longitude": 473059.2769,
+      "licence_number": "00036345"
+    },
+    {
+      "name": "BODEGA",
+      "address": "1210 BROAD ST\r\nVICTORIA BC  V8W 2A5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363709.8716,
+      "longitude": 472871.7061,
+      "licence_number": "00045837"
+    },
+    {
+      "name": "UGLY DUCKLING DINING & PROVISIONS",
+      "address": "543 FISGARD ST\r\nVICTORIA BC  V8W 1R3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364060.4587,
+      "longitude": 472771.9965,
+      "licence_number": "00044169"
+    },
+    {
+      "name": "LIDO WATERFRONT BISTRO",
+      "address": "1234 WHARF ST\r\nVICTORIA BC  V8W 3H9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363766.1178,
+      "longitude": 472570.5954,
+      "licence_number": "19930"
+    },
+    {
+      "name": "LEYLA SHAWARMA",
+      "address": "B-2639 QUADRA ST\r\nVICTORIA BC  V8T 4E3",
+      "neighborhood": "HILLSIDE / QUADRA",
+      "latitude": 5365156.1104,
+      "longitude": 473476.0652,
+      "licence_number": "00050815"
+    },
+    {
+      "name": "BB.Q CHICKEN",
+      "address": "317-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "00050169"
+    },
+    {
+      "name": "EARL'S RESTAURANT (THE BAY CENTRE) LTD",
+      "address": "1199 GOVERNMENT ST\r\nVICTORIA BC  V8W 3M9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363623.1854,
+      "longitude": 472884.2551,
+      "licence_number": "15605"
+    },
+    {
+      "name": "GOOD FILLING SANKAKU",
+      "address": "1314 DOUGLAS ST\r\nVICTORIA BC  V8W 1M7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363823.8979,
+      "longitude": 472982.2529,
+      "licence_number": "00048788"
+    },
+    {
+      "name": "MR. PRETZELS",
+      "address": "K02-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "00049102"
+    },
+    {
+      "name": "ROYALITY PIZZA & CHICKEN",
+      "address": "A-999 HILLSIDE AVE\r\nVICTORIA BC  V8T 1Z9",
+      "neighborhood": "HILLSIDE / QUADRA",
+      "latitude": 5365173.6856,
+      "longitude": 473410.7447,
+      "licence_number": "00044996"
+    },
+    {
+      "name": "PICNIC TOO",
+      "address": "1019 FORT ST\r\nVICTORIA BC  V8V 3K5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363417.2248,
+      "longitude": 473655.9339,
+      "licence_number": "16553"
+    },
+    {
+      "name": "UCHIDA EATERY",
+      "address": "22-633 COURTNEY ST\r\nVICTORIA BC  NCA",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363363.2182,
+      "longitude": 472888.6645,
+      "licence_number": "24440"
+    },
+    {
+      "name": "YIFANG FRUIT TEA",
+      "address": "100-608 BROUGHTON ST\r\nVICTORIA BC  V8W 1C7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363532.3092,
+      "longitude": 472830.1286,
+      "licence_number": "00040480"
+    },
+    {
+      "name": "KOFFI",
+      "address": "1441 HAULTAIN ST\r\nVICTORIA BC  V8R 2J8",
+      "neighborhood": "FERNWOOD",
+      "latitude": 5364817.5307,
+      "longitude": 474842.7728,
+      "licence_number": "17013"
+    },
+    {
+      "name": "BROUGHTON STREET DELI",
+      "address": "648 BROUGHTON ST\r\nVICTORIA BC  V8W 1C9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363520.7976,
+      "longitude": 472900.6485,
+      "licence_number": "15292"
+    },
+    {
+      "name": "NUBO KITCHEN",
+      "address": "490 PANDORA AVE\r\nVICTORIA BC  V8W 0E3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364021.7307,
+      "longitude": 472604.9593,
+      "licence_number": "00034393"
+    },
+    {
+      "name": "THAI FOOD NEAR ME",
+      "address": "102-915 FORT ST\r\nVICTORIA BC  V8V 3K3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363453.9481,
+      "longitude": 473439.1068,
+      "licence_number": "00047898"
+    },
+    {
+      "name": "CHOTIROS THAI RESTAURANT",
+      "address": "1813 DOUGLAS ST\r\nVICTORIA BC  V8T 4K5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364243.4828,
+      "longitude": 473069.8364,
+      "licence_number": "00042855"
+    },
+    {
+      "name": "KEBAB ON FIRE",
+      "address": "890 GOVERNMENT ST\r\nVICTORIA BC  V8W 0G5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363419.8274,
+      "longitude": 472715.0883,
+      "licence_number": "00048497"
+    },
+    {
+      "name": "JEMPOYS LECHON",
+      "address": "102-515 CHATHAM ST\r\nVICTORIA BC  V8T 1E1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364246.1625,
+      "longitude": 472691.662,
+      "licence_number": "00050517"
+    },
+    {
+      "name": "BEIJING BISTRO",
+      "address": "769 FORT ST\r\nVICTORIA BC  V8W 1G9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363509.7096,
+      "longitude": 473109.3566,
+      "licence_number": "00028951"
+    },
+    {
+      "name": "VICTORIA SUSHI",
+      "address": "100-176 WILSON ST\r\nVICTORIA BC  V9A 7N6",
+      "neighborhood": "VICTORIA WEST",
+      "latitude": 5364485.7827,
+      "longitude": 471827.5917,
+      "licence_number": "00029501"
+    },
+    {
+      "name": "THE LOCAL KITCHEN",
+      "address": "1205 WHARF ST\r\nVICTORIA BC  V8W 1T9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363743.3895,
+      "longitude": 472646.8564,
+      "licence_number": "16754"
+    },
+    {
+      "name": "PEACOCK BILLARDS LTD",
+      "address": "1C-1175 DOUGLAS ST\r\nVICTORIA BC  V8W 2E1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363618.1488,
+      "longitude": 473024.3462,
+      "licence_number": "2201"
+    },
+    {
+      "name": "VICTORIA POCHA",
+      "address": "650 YATES ST\r\nVICTORIA BC  V8W 1L3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363788.6219,
+      "longitude": 472967.7559,
+      "licence_number": "00043731"
+    },
+    {
+      "name": "THE VICIOUS POODLE",
+      "address": "726 JOHNSON ST\r\nVICTORIA BC  V8W 1N1",
+      "neighborhood": "NORTH JUBILEE",
+      "latitude": 5364752.3577,
+      "longitude": 473425.6235,
+      "licence_number": "00037908"
+    },
+    {
+      "name": "THE FORT",
+      "address": "G-FLR-777 FORT ST\r\nVICTORIA BC  V8W 1G9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363506.1501,
+      "longitude": 473130.3697,
+      "licence_number": "00042918"
+    },
+    {
+      "name": "SMASHYY & MORE",
+      "address": "759 YATES ST\r\nVICTORIA BC  V8W 0E2",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363686.936,
+      "longitude": 473166.6515,
+      "licence_number": "00050936"
+    },
+    {
+      "name": "CHOCOLAT & CO",
+      "address": "703 FORT ST\r\nVICTORIA BC  V8W 1G9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363526.7354,
+      "longitude": 473008.5185,
+      "licence_number": "00039375"
     },
     {
       "name": "FOO ASIAN STREET FOOD",
@@ -1037,12 +507,20 @@
       "licence_number": "20301"
     },
     {
-      "name": "THE BEDFORD HOTEL",
-      "address": "1140 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Y2",
+      "name": "PIZZA GARDEN",
+      "address": "898 GOVERNMENT ST\r\nVICTORIA BC  V8W 0G5",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363666.2533,
-      "longitude": 472765.9872,
-      "licence_number": "00049737"
+      "latitude": 5363419.8274,
+      "longitude": 472715.0883,
+      "licence_number": "00047923"
+    },
+    {
+      "name": "CHICKEN 649",
+      "address": "2224 QUADRA ST\r\nVICTORIA BC  V8T 4C6",
+      "neighborhood": "NORTH PARK",
+      "latitude": 5364578.8715,
+      "longitude": 473475.403,
+      "licence_number": "00033375"
     },
     {
       "name": "LA TAQUISA RESTAURANT INC",
@@ -1053,20 +531,164 @@
       "licence_number": "23316"
     },
     {
-      "name": "THE LOFT PUB",
-      "address": "229 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
-      "neighborhood": "BURNSIDE",
-      "latitude": 5365555.4639,
-      "longitude": 471703.8581,
-      "licence_number": "00047973"
+      "name": "LE PHO HOMESTYLE VIETNAMESE CUISINE",
+      "address": "103-1990 FORT ST\r\nVICTORIA BC  V8R 6V4",
+      "neighborhood": "NORTH JUBILEE",
+      "latitude": 5364409.4336,
+      "longitude": 476120.2922,
+      "licence_number": "00045866"
     },
     {
-      "name": "PHILLIPS BREWING LP",
-      "address": "2010 GOVERNMENT ST\r\nVICTORIA BC  V8T 4P1",
+      "name": "SIZZLING WOK",
+      "address": "434-1150 DOUGLAS ST\r\nVICTORIA BC  V8W 3M9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363623.1854,
+      "longitude": 472884.2551,
+      "licence_number": "8538"
+    },
+    {
+      "name": "PANAGOPOULOS PIZZA PLACE",
+      "address": "1575 VANCOUVER ST\r\nVICTORIA BC  V8V 3P5",
+      "neighborhood": "NORTH PARK",
+      "latitude": 5363938.7496,
+      "longitude": 473673.5428,
+      "licence_number": "6303"
+    },
+    {
+      "name": "BOBADOG",
+      "address": "FC25-1644 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C5",
+      "neighborhood": "OAKLANDS",
+      "latitude": 5365928.5985,
+      "longitude": 475128.5993,
+      "licence_number": "00050363"
+    },
+    {
+      "name": "PHO TRU",
+      "address": "FC11-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
       "neighborhood": "BURNSIDE",
-      "latitude": 5364396.6531,
-      "longitude": 472789.0352,
-      "licence_number": "00034746"
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "00026097"
+    },
+    {
+      "name": "REAL THAI RESTAURANT",
+      "address": "211 MENZIES ST\r\nVICTORIA BC  V8V 2G6",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5362558.8574,
+      "longitude": 472366.0832,
+      "licence_number": "10684"
+    },
+    {
+      "name": "BAAN THAI RESTAURANT",
+      "address": "1117 BLANSHARD ST\r\nVICTORIA BC  V8W 2H7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363569.8114,
+      "longitude": 473219.0163,
+      "licence_number": "9032"
+    },
+    {
+      "name": "NEW YORK FRIES",
+      "address": "FC9-1644 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C5",
+      "neighborhood": "OAKLANDS",
+      "latitude": 5365928.5985,
+      "longitude": 475128.5993,
+      "licence_number": "00028743"
+    },
+    {
+      "name": "THE ART OF SLOW FOOD",
+      "address": "140-780 FISGARD ST\r\nVICTORIA BC  V8W 0E1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364124.3078,
+      "longitude": 473155.8723,
+      "licence_number": "00040889"
+    },
+    {
+      "name": "HAULTAIN FISH & CHIPS",
+      "address": "1127 HAULTAIN ST\r\nVICTORIA BC  V8T 1V4",
+      "neighborhood": "FERNWOOD",
+      "latitude": 5364835.3004,
+      "longitude": 474076.2935,
+      "licence_number": "00034066"
+    },
+    {
+      "name": "BROWNS SOCIALHOUSE",
+      "address": "809 DOUGLAS ST\r\nVICTORIA BC  V8W 2B9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363326.4004,
+      "longitude": 472970.5322,
+      "licence_number": "21122"
+    },
+    {
+      "name": "OPA SOUVLAKI",
+      "address": "FC10-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "00043626"
+    },
+    {
+      "name": "NOODLE BOX",
+      "address": "818 DOUGLAS ST\r\nVICTORIA BC  V8W 2B6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363358.1966,
+      "longitude": 472904.0072,
+      "licence_number": "00040411"
+    },
+    {
+      "name": "DONER DELIGHT",
+      "address": "1280 BROAD ST\r\nVICTORIA BC  V8W 2A5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363739.166,
+      "longitude": 472878.2478,
+      "licence_number": "00049800"
+    },
+    {
+      "name": "BEACON DRIVE IN LTD",
+      "address": "126 DOUGLAS ST\r\nVICTORIA BC  V8V 2N9",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5362115.5461,
+      "longitude": 472710.2056,
+      "licence_number": "13213"
+    },
+    {
+      "name": "JIANGYUN NOODLE HOUSE",
+      "address": "830 FORT ST\r\nVICTORIA BC  V8W 1H8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363538.5556,
+      "longitude": 473283.2096,
+      "licence_number": "00044081"
+    },
+    {
+      "name": "FLOYDS DINER",
+      "address": "123 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5365582.0664,
+      "longitude": 471456.2256,
+      "licence_number": "00046036"
+    },
+    {
+      "name": "OCEAN GARDEN RESTAURANT (VICTORIA)",
+      "address": "568 FISGARD ST\r\nVICTORIA BC  V8W 1R4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364118.0801,
+      "longitude": 472822.6389,
+      "licence_number": "24155"
+    },
+    {
+      "name": "CENOTE RESTURANT AND LOUNGE",
+      "address": "768 YATES ST\r\nVICTORIA BC  V8W 1L4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363757.52,
+      "longitude": 473160.262,
+      "licence_number": "24289"
+    },
+    {
+      "name": "SAINT FRANKS",
+      "address": "727 YATES ST\r\nVICTORIA BC  V8W 1L6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363698.7563,
+      "longitude": 473075.2546,
+      "licence_number": "00030224"
     },
     {
       "name": "OHANA POKE",
@@ -1077,44 +699,510 @@
       "licence_number": "00041290"
     },
     {
-      "name": "O'BRIAN, TRAVIS M\r\nALY O'BRIAN, JASMINE",
-      "address": "1666 ROSS ST\r\nVICTORIA BC  V8S 1K2",
-      "neighborhood": "GONZALES",
-      "latitude": 5362046.3334,
-      "longitude": 475324.1832,
-      "licence_number": "00034920"
-    },
-    {
-      "name": "MENTORA RAMEN",
-      "address": "1609 STORE ST\r\nVICTORIA BC  V8W 3K3",
+      "name": "FRANKIE'S MODERN DINER",
+      "address": "38-910 GOVERNMENT ST\r\nVICTORIA BC  V8W 1X3",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5364022.2509,
-      "longitude": 472687.3917,
-      "licence_number": "00049496"
+      "latitude": 5363487.2575,
+      "longitude": 472710.3222,
+      "licence_number": "00030997"
     },
     {
-      "name": "SANKYODAI ASIAN BAR",
-      "address": "413-1150 DOUGLAS ST\r\nVICTORIA BC  V8W 3M9",
+      "name": "RED FISH BLUE FISH",
+      "address": "1006 WHARF ST\r\nVICTORIA BC  V8W 1T4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363728.6376,
+      "longitude": 472554.1151,
+      "licence_number": "17147"
+    },
+    {
+      "name": "OLD COACHMAN EATERY",
+      "address": "229 GORGE RD E\r\nVICTORIA BC  V9A 1L1",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5365555.4639,
+      "longitude": 471703.8581,
+      "licence_number": "00047974"
+    },
+    {
+      "name": "BLACKBALL DESERT",
+      "address": "110-759 YATES ST\r\nVICTORIA BC  V8W 1L6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363686.936,
+      "longitude": 473166.6515,
+      "licence_number": "00036717"
+    },
+    {
+      "name": "WHITE SPOT",
+      "address": "1871 FORT ST\r\nVICTORIA BC  V8R 1K1",
+      "neighborhood": "SOUTH JUBILEE",
+      "latitude": 5364231.8922,
+      "longitude": 475782.009,
+      "licence_number": "00047133"
+    },
+    {
+      "name": "SHIZEN JAPANESE RESTAURANT INC",
+      "address": "1706 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Z5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364118.0801,
+      "longitude": 472822.6389,
+      "licence_number": "15617"
+    },
+    {
+      "name": "BLUE NILE RESTAURANT",
+      "address": "1724 DOUGLAS ST\r\nVICTORIA BC  V8W 2G7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364157.8057,
+      "longitude": 473004.6198,
+      "licence_number": "00047940"
+    },
+    {
+      "name": "SUPERIOR PIZZA",
+      "address": "475 SIMCOE ST\r\nVICTORIA BC  V8V 4T4",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5362539.0086,
+      "longitude": 472235.9992,
+      "licence_number": "23425"
+    },
+    {
+      "name": "SUSHI ISLAND JAPANESE RESTAURANT",
+      "address": "105-1633 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C4",
+      "neighborhood": "OAKLANDS",
+      "latitude": 5365812.428,
+      "longitude": 475273.8406,
+      "licence_number": "00028137"
+    },
+    {
+      "name": "BEAN AROUND THE WORLD",
+      "address": "533 FISGARD ST\r\nVICTORIA BC  V8W 1R3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364041.8124,
+      "longitude": 472751.0153,
+      "licence_number": "6501"
+    },
+    {
+      "name": "MARBLE SLAB CREAMERY",
+      "address": "200B-1150 DOUGLAS ST\r\nVICTORIA BC  V8W 3M9",
       "neighborhood": "DOWNTOWN",
       "latitude": 5363623.1854,
       "longitude": 472884.2551,
-      "licence_number": "00049769"
+      "licence_number": "00034798"
     },
     {
-      "name": "BA-LE",
-      "address": "774 FORT ST\r\nVICTORIA BC  V8W 1H2",
+      "name": "TACO TIME",
+      "address": "FC3-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "00032180"
+    },
+    {
+      "name": "COOPS CHICKEN & SMASH BURGERS",
+      "address": "609 YATES ST\r\nVICTORIA BC  V8W 1L1",
       "neighborhood": "DOWNTOWN",
-      "latitude": 5363562.6763,
-      "longitude": 473140.4942,
-      "licence_number": "00036962"
+      "latitude": 5363745.2739,
+      "longitude": 472844.7626,
+      "licence_number": "00049646"
+    }
+  ],
+  "backup_list": [
+    {
+      "name": "BIG ORANGE",
+      "address": "410-1150 DOUGLAS ST\r\nVICTORIA BC  V8W 3M9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363623.1854,
+      "longitude": 472884.2551,
+      "licence_number": "25815"
     },
     {
-      "name": "SCHNURR, EMILY",
-      "address": "1857 FERN ST\r\nVICTORIA BC  V8R 4K4",
-      "neighborhood": "NORTH JUBILEE",
-      "latitude": 5364098.9791,
-      "longitude": 475247.2593,
-      "licence_number": "00036289"
+      "name": "POPEYES LOUISIANA KITCHEN",
+      "address": "1313 COOK ST\r\nVICTORIA BC  V8V 0H5",
+      "neighborhood": "FERNWOOD",
+      "latitude": 5363640.3634,
+      "longitude": 473877.3467,
+      "licence_number": "00049930"
+    },
+    {
+      "name": "SIZZLING TANDOOR RESTAURANT",
+      "address": "637 JOHNSON ST\r\nVICTORIA BC  V8W 1M7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363830.1807,
+      "longitude": 472947.1705,
+      "licence_number": "22072"
+    },
+    {
+      "name": "TACOFINO",
+      "address": "760 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363961.8475,
+      "longitude": 473109.7746,
+      "licence_number": "00028400"
+    },
+    {
+      "name": "KATSUCO.",
+      "address": "1005 LANGLEY ST\r\nVICTORIA BC  V8W 1V7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363539.5517,
+      "longitude": 472733.0866,
+      "licence_number": "00034266"
+    },
+    {
+      "name": "GOLDEN FOUNTAIN FOODS LTD",
+      "address": "312-3147 DOUGLAS ST\r\nVICTORIA BC  V8Z 6E3",
+      "neighborhood": "BURNSIDE",
+      "latitude": 5366012.794,
+      "longitude": 472677.8561,
+      "licence_number": "25576"
+    },
+    {
+      "name": "TORA TIKI",
+      "address": "714 CORMORANT ST\r\nVICTORIA BC  V8W 1P8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364024.5869,
+      "longitude": 473074.3614,
+      "licence_number": "00040468"
+    },
+    {
+      "name": "FAIRMONT EMPRESS - VERANDA",
+      "address": "721 GOVERNMENT ST\r\nVICTORIA BC  V8W 1W5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363219.1221,
+      "longitude": 472814.5255,
+      "licence_number": "00030583"
+    },
+    {
+      "name": "MOKA HOUSE",
+      "address": "345 COOK ST\r\nVICTORIA BC  V8V 3X8",
+      "neighborhood": "FAIRFIELD",
+      "latitude": 5362526.1736,
+      "longitude": 473682.6271,
+      "licence_number": "00031443"
+    },
+    {
+      "name": "BIMI EXPRESS MARKET",
+      "address": "888 FORT ST\r\nVICTORIA BC  V8W 1H8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363523.3226,
+      "longitude": 473373.3732,
+      "licence_number": "00047848"
+    },
+    {
+      "name": "ROLL N BOWL",
+      "address": "788 YATES ST\r\nVICTORIA BC  V8W 1L4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363752.6846,
+      "longitude": 473182.6353,
+      "licence_number": "00047079"
+    },
+    {
+      "name": "ZIYU FOODY CO",
+      "address": "554 PANDORA AVE\r\nVICTORIA BC  V8W 1N7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364024.4405,
+      "longitude": 472806.4442,
+      "licence_number": "00040372"
+    },
+    {
+      "name": "JAGASILK",
+      "address": "A17-633 COURTNEY ST\r\nVICTORIA BC  V8W 1B9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363363.2182,
+      "longitude": 472888.6645,
+      "licence_number": "20121"
+    },
+    {
+      "name": "DON MEE RESTAURANT",
+      "address": "538 FISGARD ST\r\nVICTORIA BC  V8W 1R4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364117.0825,
+      "longitude": 472767.7725,
+      "licence_number": "4818"
+    },
+    {
+      "name": "WILD FIRE BREAD & PASTRY",
+      "address": "1517 QUADRA ST\r\nVICTORIA BC  V8W 2L3",
+      "neighborhood": "NORTH PARK",
+      "latitude": 5363935.6246,
+      "longitude": 473464.3515,
+      "licence_number": "8103"
+    },
+    {
+      "name": "SHIKI SUSHI LTD",
+      "address": "1113 BLANSHARD ST\r\nVICTORIA BC  V8W 2H7",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363550.7413,
+      "longitude": 473211.0685,
+      "licence_number": "13112"
+    },
+    {
+      "name": "EGGS 'N' PLANTS",
+      "address": "1-230 MENZIES ST\r\nVICTORIA BC  V8V 2G7",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5362590.3432,
+      "longitude": 472316.3673,
+      "licence_number": "00040503"
+    },
+    {
+      "name": "DRIFTWOOD RESTAURANT (VICTORIA) LTD",
+      "address": "615 YATES ST\r\nVICTORIA BC  V8W 1L1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363739.166,
+      "longitude": 472878.2478,
+      "licence_number": "00050085"
+    },
+    {
+      "name": "MURDER BURGER",
+      "address": "332 MENZIES ST\r\nVICTORIA BC  V8V 2G9",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5362828.4113,
+      "longitude": 472416.4028,
+      "licence_number": "00047556"
+    },
+    {
+      "name": "CHIPOTLE MEXICAN GRILL",
+      "address": "1070 DOUGLAS ST\r\nVICTORIA BC  V8W 2C4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363539.0421,
+      "longitude": 472934.572,
+      "licence_number": "00047525"
+    },
+    {
+      "name": "LEVANTINE MIDDLE EASTERN RESTAURANT",
+      "address": "103-225 MENZIES ST\r\nVICTORIA BC  V8V 2G6",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5362593.8891,
+      "longitude": 472388.8149,
+      "licence_number": "00047886"
+    },
+    {
+      "name": "L'AUTHENTIQUE POUTINE AND BURGERS",
+      "address": "100-1208 WHARF ST\r\nVICTORIA BC  V8W 1T8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363741.4041,
+      "longitude": 472598.3394,
+      "licence_number": "00039638"
+    },
+    {
+      "name": "UNI MODERN JAPANESE RESTAURANT",
+      "address": "1245 WHARF ST\r\nVICTORIA BC  V8W 1T9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363782.3368,
+      "longitude": 472643.1054,
+      "licence_number": "00046494"
+    },
+    {
+      "name": "INDIAN AROMA RESTAURANT",
+      "address": "612 FISGARD ST\r\nVICTORIA BC  V8W 1R6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364119.1623,
+      "longitude": 472886.4668,
+      "licence_number": "00041784"
+    },
+    {
+      "name": "SUSHI NOMI",
+      "address": "739 PANDORA AVE\r\nVICTORIA BC  V8W 1N9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363897.6865,
+      "longitude": 473110.3774,
+      "licence_number": "00034706"
+    },
+    {
+      "name": "CHUBBY DUMPLING",
+      "address": "100-1619 STORE ST\r\nVICTORIA BC  V8W 3K3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364048.3677,
+      "longitude": 472682.1491,
+      "licence_number": "00039719"
+    },
+    {
+      "name": "SUSHI VILLAGE",
+      "address": "2635 QUADRA ST\r\nVICTORIA BC  V8T 4E3",
+      "neighborhood": "HILLSIDE / QUADRA",
+      "latitude": 5365088.9443,
+      "longitude": 473511.2175,
+      "licence_number": "00037043"
+    },
+    {
+      "name": "KUNG PAO WOK",
+      "address": "FC3-1644 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C5",
+      "neighborhood": "OAKLANDS",
+      "latitude": 5365928.5985,
+      "longitude": 475128.5993,
+      "licence_number": "00037039"
+    },
+    {
+      "name": "PIRATE PIZZA CO. INC",
+      "address": "C1-1 DALLAS RD\r\nVICTORIA BC  V8V 0B2",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5363387.846,
+      "longitude": 471628.1309,
+      "licence_number": "00036903"
+    },
+    {
+      "name": "PIZZA HUT",
+      "address": "182-911 YATES ST\r\nVICTORIA BC  V8V 4X3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363605.4158,
+      "longitude": 473539.7277,
+      "licence_number": "15956"
+    },
+    {
+      "name": "BRASSERIE L'ECOLE",
+      "address": "1715 GOVERNMENT ST\r\nVICTORIA BC  V8W 1Z4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364143.3866,
+      "longitude": 472877.0116,
+      "licence_number": "00048656"
+    },
+    {
+      "name": "PANINIS",
+      "address": "749 VIEW ST\r\nVICTORIA BC  V8W 1J9",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363599.8359,
+      "longitude": 473133.0106,
+      "licence_number": "00050420"
+    },
+    {
+      "name": "LUMACHE",
+      "address": "G-2A-1001 DOUGLAS ST\r\nVICTORIA BC  V8W 2C5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363490.3851,
+      "longitude": 473011.5168,
+      "licence_number": "00049998"
+    },
+    {
+      "name": "HOT HOUSE PIZZA",
+      "address": "351 COOK ST\r\nVICTORIA BC  V8V 3X8",
+      "neighborhood": "FAIRFIELD",
+      "latitude": 5362558.2833,
+      "longitude": 473690.5294,
+      "licence_number": "22305"
+    },
+    {
+      "name": "BROWNS CRAFTHOUSE VIC WEST",
+      "address": "100-184 WILSON ST\r\nVICTORIA BC  V9A 7N6",
+      "neighborhood": "VICTORIA WEST",
+      "latitude": 5364485.7827,
+      "longitude": 471827.5917,
+      "licence_number": "00037340"
+    },
+    {
+      "name": "ALYSA'S PHO & BANH MI DINER INC",
+      "address": "A-2630 QUADRA ST\r\nVICTORIA BC  V8T 4E4",
+      "neighborhood": "HILLSIDE / QUADRA",
+      "latitude": 5365076.8737,
+      "longitude": 473428.8513,
+      "licence_number": "00042654"
+    },
+    {
+      "name": "VICTORIA HARBOUR HOUSE RESTAURANT",
+      "address": "607 OSWEGO ST\r\nVICTORIA BC  V8V 4W9",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5363166.7653,
+      "longitude": 472296.1615,
+      "licence_number": "00036659"
+    },
+    {
+      "name": "J & J WONTON NOODLE HOUSE",
+      "address": "1012 FORT ST\r\nVICTORIA BC  V8V 3K4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363475.5746,
+      "longitude": 473655.9734,
+      "licence_number": "6067"
+    },
+    {
+      "name": "FLOYD'S DINER JAMES BAY LTD",
+      "address": "425 QUEBEC ST\r\nVICTORIA BC  V8V 1W7",
+      "neighborhood": "JAMES BAY",
+      "latitude": 5363051.8041,
+      "longitude": 472386.683,
+      "licence_number": "00035536"
+    },
+    {
+      "name": "RUDI RESTAURANT",
+      "address": "710 PANDORA AVE\r\nVICTORIA BC  V8W 0E4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363961.8475,
+      "longitude": 473109.7746,
+      "licence_number": "00045901"
+    },
+    {
+      "name": "KEG STEAKHOUSE",
+      "address": "500 FORT ST\r\nVICTORIA BC  V8W 1E6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363629.8611,
+      "longitude": 472662.5664,
+      "licence_number": "7494"
+    },
+    {
+      "name": "LA FOGATA MEXICANA RESTAURANT LTD",
+      "address": "1310 DOUGLAS ST\r\nVICTORIA BC  V8W 2E8",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363797.5841,
+      "longitude": 472987.7306,
+      "licence_number": "00042372"
+    },
+    {
+      "name": "CORA BREAKFAST AND LUNCH",
+      "address": "150-850 DOUGLAS ST\r\nVICTORIA BC  V8W 2B6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363385.6849,
+      "longitude": 472908.7416,
+      "licence_number": "00044328"
+    },
+    {
+      "name": "SOGAI INDUSTRIES INC",
+      "address": "734 BROUGHTON ST\r\nVICTORIA BC  V8W 1E1",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363479.6092,
+      "longitude": 473074.7979,
+      "licence_number": "25818"
+    },
+    {
+      "name": "70'EES PIZZA LTD",
+      "address": "1680 DOUGLAS ST\r\nVICTORIA BC  V8W 2G6",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364064.5596,
+      "longitude": 473008.1411,
+      "licence_number": "00043508"
+    },
+    {
+      "name": "PERSIAN YALLA CUISINE INC",
+      "address": "1011 BLANSHARD ST\r\nVICTORIA BC  V8W 2H4",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5363472.8473,
+      "longitude": 473197.5609,
+      "licence_number": "00039877"
+    },
+    {
+      "name": "MATADORA TAPAS",
+      "address": "559 FISGARD ST\r\nVICTORIA BC  V8W 1R5",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364061.1502,
+      "longitude": 472810.9783,
+      "licence_number": "00046336"
+    },
+    {
+      "name": "MENBOW RAMEN",
+      "address": "98-1644 HILLSIDE AVE\r\nVICTORIA BC  V8T 2C5",
+      "neighborhood": "OAKLANDS",
+      "latitude": 5365928.5985,
+      "longitude": 475128.5993,
+      "licence_number": "00044908"
+    },
+    {
+      "name": "CRAFT BEER MARKET",
+      "address": "450 SWIFT ST\r\nVICTORIA BC  V8W 1S3",
+      "neighborhood": "DOWNTOWN",
+      "latitude": 5364143.7668,
+      "longitude": 472559.0431,
+      "licence_number": "00043382"
+    },
+    {
+      "name": "SZECHUAN PROVINCE RESTAURANT LTD",
+      "address": "853 CALEDONIA AVE\r\nVICTORIA BC  V8T 1E6",
+      "neighborhood": "NORTH PARK",
+      "latitude": 5364228.8877,
+      "longitude": 473409.2852,
+      "licence_number": "00042688"
     }
   ]
 }

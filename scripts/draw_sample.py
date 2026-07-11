@@ -31,23 +31,41 @@ def main():
         print(f"Error fetching data: {e}")
         return
 
-    # Filter for active restaurants
+    # Filter for active restaurants strictly matching full-service/limited-service eating places
     restaurants = []
+    
+    EXCLUDE_KEYWORDS = [
+        "HOTEL", "MOTEL", "INN", "SUITES", "HOSTEL", "ACCOMMODATION", "LODGING", "MANOR", "BED & BREAKFAST", "B&B",
+        "CAFE", "CAFÉ", "CAFFE", "COFFEE", "BAKERY", "BAKESHOP", "ROASTERS", "TEA HOUSE", "TEA ROOM", "ICE CREAM",
+        "GELATO", "DONUT", "JUICE", "SMOOTHIE", "SWEETS", "SNACK", "CATERING", "NIGHTCLUB", "PUB", "BAR", "CLUB",
+        "BREWING", "WINERY", "DISTILLERY", "HOLDINGS", "SOLUTIONS", "CONSULTING", "ENTERPRISES", "INVESTMENTS",
+        "ASSOCIATION", "SYSTEMS", "GROUP", "MANAGEMENT", "SERVICES", "SOCIETY", "MUSEUM", "THEATRE", "CINEMA",
+        "ARENA", "SCHOOL", "UNIVERSITY", "COLLEGE", "CHURCH", "TEMPLE", "HOSPITAL", "CLINIC"
+    ]
+    
     for row in all_rows:
         status = row.get("licence_status", "")
-        type_name = row.get("LICENCE_TYPE_NAME", "")
-        desc = row.get("trade_description", "")
         naics = row.get("naics_description", "")
         
         is_active = (status == "APPROVED")
-        is_food_service = ("RESTAURANT" in type_name or 
-                           "RESTAURANT" in desc or 
-                           "food services" in naics.lower() or 
-                           "eating place" in naics.lower())
+        # Strictly select Full-Service Restaurants & Limited-Service Eating Places (excludes lodging, taverns, catering)
+        is_restaurant_naics = (naics == "Accommodation & food services / Food services & drinking places / Full-serv. rest. & limited-serv. eating place")
         
-        if is_active and is_food_service:
+        if is_active and is_restaurant_naics:
             trade_name = row.get("TRADE_NAME", "").strip()
-            if trade_name and not is_chain(trade_name):
+            if not trade_name:
+                continue
+                
+            upper_name = trade_name.upper()
+            
+            # Exclude corporate holdings, individual personal names (e.g. containing comma), and lodging/cafes
+            is_excluded = (
+                "," in trade_name or
+                any(keyword in upper_name for keyword in EXCLUDE_KEYWORDS) or
+                is_chain(trade_name)
+            )
+            
+            if not is_excluded:
                 restaurants.append({
                     "name": trade_name,
                     "address": row.get("CIVIC_ADDRESS", "").strip(),

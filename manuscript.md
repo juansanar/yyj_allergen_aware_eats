@@ -17,11 +17,11 @@ To assess the prevalence and predictors of food allergen disclosure practices (s
 A cross-sectional study was conducted using the City of Victoria's 2026 Open Data portal as the sampling frame. A sample of 100 active, independent restaurants was audited. Online menus (HTML pages and PDF documents) were scraped and coded for: (1) presence of at least one allergen symbol, (2) presence of an allergen statement/disclaimer, (3) provision of a separate allergen menu, and (4) provision of a separate allergen chart. Generalized Estimating Equation (GEE) logistic regression models were fitted to examine the association between restaurant characteristics (primary cuisine type, TripAdvisor/Yelp ratings, price level indicator, and local location count) and the presence of allergen markings.
 
 ### Results
-Of the 100 restaurants audited, 10.0% (n = 10) featured at least one allergen symbol (e.g. GF, V), and 17.0% (n = 17) included an allergen warning or statement on their menu. Only 1.0% (n = 1) provided a dedicated separate allergen/gluten-free menu, and 2.0% (n = 2) had a structured allergen chart. 
-Cuisine type was associated with allergen accommodation: 40.0% of Asian-Fusion restaurants and 16.7% of East-Asian restaurants featured allergen symbols on their menus. In multivariable GEE logistic regression, the cost indicator was a marginally significant predictor of displaying allergen symbols (OR = 2.4136, 95% CI: 0.9810–5.9383, p = 0.055), indicating that higher price points are associated with visual disclosures. No significant association was found between Google/TripAdvisor ratings or locations count and allergen disclosure practices.
+Of the 100 restaurants audited, 15.0% (n = 15) featured at least one allergen symbol (e.g. GF, V), and 18.0% (n = 18) included an allergen warning or statement on their menu. Only 2.0% (n = 2) provided a dedicated separate allergen/gluten-free menu, and 1.0% (n = 1) had a structured allergen chart. 
+Cuisine type was associated with allergen accommodation: 55.6% of Southeast-Asian restaurants and 50.0% of Seafood restaurants featured allergen symbols on their menus. In multivariable GEE logistic regression, the cost indicator was a statistically significant predictor of displaying allergen symbols (OR = 3.6010, 95% CI: 1.3398–9.6789, p = 0.011), indicating that higher price points are associated with visual disclosures. No significant association was found between TripAdvisor ratings or locations count and allergen disclosure practices.
 
 ### Conclusion
-Voluntary allergen disclosure on online menus in Victoria remains low (10% for symbols, 17% for statements), matching the rates observed in Toronto (10% and 16% respectively). The lack of strong predictors highlights a generalized gap in standardized menu labeling across independent restaurants, indicating that public health policies or standardized guidelines could increase safety for consumers with food allergies.
+Voluntary allergen disclosure on online menus in Victoria remains low (15% for symbols, 18% for statements), comparable to the rates observed in Toronto (10% and 16% respectively). The cost indicator represents the only significant predictor, indicating a generalized gap in standardized menu labeling across low-to-mid tier independent dining, which suggests that targeted public health policies could improve dining safety.
 
 ---
 
@@ -69,31 +69,32 @@ Predictors included TripAdvisor/Yelp star ratings, cost indicators, and the numb
 
 ### 3.1. Descriptive Prevalence
 Audits of the 100 independent restaurant menus revealed that:
-- **10.0% (n = 10)** featured at least one allergen symbol, which matches the 10% rate in Toronto.
-- **17.0% (n = 17)** included an allergen disclaimer or warning statement, showing a slightly higher disclosure rate than Toronto (15.9%).
-- **1.0% (n = 1)** offered a separate gluten-free or allergen-friendly menu.
-- **2.0% (n = 2)** provided a dedicated allergen chart/matrix.
+- **15.0% (n = 15)** featured at least one allergen symbol, which is slightly higher than the 10.0% rate in Toronto.
+- **18.0% (n = 18)** included an allergen disclaimer or warning statement, compared to 15.9% in Toronto.
+- **2.0% (n = 2)** offered a separate gluten-free or allergen-friendly menu.
+- **1.0% (n = 1)** provided a dedicated allergen chart/matrix.
 
-Table 1 displays the prevalence of allergen symbols and statements across the 12 cuisine types.
+Table 1 displays the prevalence of allergen symbols and statements across the 13 cuisine types.
 
 #### Table 1: Cross-Tabulation of Allergen Accommodations by Cuisine Type
 | Cuisine Type | Total Sampled (N) | Has Allergen Symbols (n, %) | Has Allergen Statement (n, %) |
 | :--- | :--- | :--- | :--- |
-| North American | 47 | 4 (8.5%) | 7 (14.9%) |
-| Brunch/bagel | 15 | 0 (0.0%) | 2 (13.3%) |
-| East-Asian | 12 | 2 (16.7%) | 4 (33.3%) |
-| Bar/Pub | 5 | 0 (0.0%) | 0 (0.0%) |
-| Asian-Fusion | 5 | 2 (40.0%) | 0 (0.0%) |
-| Southeast-Asian | 4 | 0 (0.0%) | 0 (0.0%) |
-| BBQ/steakhouse | 3 | 0 (0.0%) | 2 (66.7%) |
-| Seafood | 2 | 1 (50.0%) | 2 (100.0%) |
-| Latin American/Caribbean | 2 | 0 (0.0%) | 0 (0.0%) |
-| Pizzeria | 2 | 0 (0.0%) | 0 (0.0%) |
-| South-Asian | 2 | 0 (0.0%) | 0 (0.0%) |
-| Middle Eastern | 1 | 1 (100.0%) | 0 (0.0%) |
-| **Total** | **100** | **10 (10.0%)** | **17 (17.0%)** |
+| North American | 45 | 3 (6.7%) | 7 (15.6%) |
+| Asian-Fusion | 10 | 1 (10.0%) | 0 (0.0%) |
+| East-Asian | 9 | 1 (11.1%) | 2 (22.2%) |
+| Southeast-Asian | 9 | 5 (55.6%) | 5 (55.6%) |
+| Pizzeria | 7 | 1 (14.3%) | 2 (28.6%) |
+| Seafood | 4 | 2 (50.0%) | 1 (25.0%) |
+| Brunch/bagel | 4 | 0 (0.0%) | 0 (0.0%) |
+| Latin American/Caribbean | 3 | 0 (0.0%) | 0 (0.0%) |
+| Middle Eastern | 3 | 0 (0.0%) | 0 (0.0%) |
+| Bar/Pub | 2 | 0 (0.0%) | 0 (0.0%) |
+| BBQ/steakhouse | 2 | 2 (100.0%) | 1 (50.0%) |
+| European | 1 | 0 (0.0%) | 0 (0.0%) |
+| African | 1 | 0 (0.0%) | 0 (0.0%) |
+| **Total** | **100** | **15 (15.0%)** | **18 (18.0%)** |
 
-Asian-Fusion restaurants were highly likely to have symbols (40.0%), followed by East-Asian (16.7%) and North American (8.5%) establishments. 
+Southeast-Asian restaurants were highly likely to have symbols (55.6%), followed by Seafood (50.0%) and Pizzeria (14.3%) establishments.
 
 ### 3.2. Regression Analysis
 Multivariable GEE logistic regression models analyzed the relationship between restaurant characteristics and allergen disclosure.
@@ -102,32 +103,32 @@ Multivariable GEE logistic regression models analyzed the relationship between r
 | Model / Predictor | Coefficient | Odds Ratio (OR) | 95% Confidence Interval (CI) | P-value |
 | :--- | :---: | :---: | :---: | :---: |
 | **Model 1: Allergen Symbols** | | | | |
-| Intercept | -7.6792 | 0.0005 | 0.0000 – 7.9063 | 0.1225 |
-| Cost Indicator (1–4) | 0.8811 | 2.4136 | **0.9810 – 5.9383** | **0.0551** |
-| TripAdvisor Rating | 0.7648 | 2.1487 | 0.2145 – 21.5188 | 0.5153 |
-| Number of Locations | 0.4120 | 1.5098 | 0.9041 – 2.5212 | 0.1153 |
+| Intercept | -7.8502 | 0.0004 | 0.0000 – 0.7758 | 0.0428* |
+| Cost Indicator (1–4) | 1.2812 | 3.6010 | 1.3398 – 9.6789 | 0.0111* |
+| TripAdvisor Rating | 0.5638 | 1.7573 | 0.6526 – 4.7323 | 0.2646 |
+| Number of Locations | 1.0839 | 2.9562 | 0.4381 – 19.9501 | 0.2659 |
 | | | | | |
 | **Model 2: Allergen Statements** | | | | |
-| Intercept | -5.0434 | 0.0065 | **0.0002 – 0.2229** | **0.0053*** |
-| Cost Indicator (1–4) | 0.7181 | 2.0505 | 0.7999 – 5.2566 | 0.1349 |
-| TripAdvisor Rating | 0.5041 | 1.6554 | 0.8393 – 3.2650 | 0.1458 |
-| Number of Locations | -0.0084 | 0.9916 | 0.6715 – 1.4644 | 0.9663 |
+| Intercept | -8.5814 | 0.0002 | 0.0000 – 0.1012 | 0.0075* |
+| Cost Indicator (1–4) | 0.5737 | 1.7748 | 0.8174 – 3.8538 | 0.1470 |
+| TripAdvisor Rating | 1.2318 | 3.4274 | 0.4902 – 23.9623 | 0.2144 |
+| Number of Locations | 0.6276 | 1.8731 | 0.5548 – 6.3240 | 0.3120 |
 
 *\* Indicates statistical significance at p < 0.05.*
 
-In Model 1 (Allergen Symbols), the cost indicator was a marginally significant positive predictor (OR = 2.4136, p = 0.055). Higher-priced independent dining establishments showed a higher likelihood of adopting visual symbols. Star ratings and number of locations were not statistically significant predictors. In Model 2 (Allergen Statements), the intercept was highly significant, indicating low baseline statement rates. None of the multivariable predictors (cost, rating, local branches) were statistically significant.
+In Model 1 (Allergen Symbols), the cost indicator was a statistically significant positive predictor (OR = 3.6010, p = 0.0111). Higher-priced independent dining establishments showed a higher likelihood of adopting visual symbols. Star ratings and number of locations were not statistically significant predictors. In Model 2 (Allergen Statements), the intercept was highly significant, indicating low baseline statement rates. None of the multivariable predictors (cost, rating, local branches) were statistically significant.
 
 ---
 
 ## 4. Discussion
 
-The results of this study suggest that voluntary food allergen labeling in Victoria, BC, is very similar to Toronto (10.0% symbols in both cities, and 17.0% statements in Victoria vs. 15.9% in Toronto). This refutes the hypothesis that Victoria's local independent dining sector has a significantly higher voluntary labeling rate, despite its reputation for a health-conscious lifestyle. 
+The results of this study suggest that voluntary food allergen labeling in Victoria, BC, is comparable to Toronto (15.0% symbols in Victoria vs. 10.0% in Toronto, and 18.0% statements in Victoria vs. 15.9% in Toronto). While slightly elevated, this largely confirms that Victoria's local independent dining sector has a similarly low voluntary labeling rate, despite its reputation for a health-conscious lifestyle. 
 
-Overall rates remain low: more than 80% of independent restaurants offer no online allergen disclaimers, and 90% do not use visual allergen symbols on their online menus. This leaves a significant information gap for allergic consumers, who must rely on verbal communication with staff, a process prone to human error and miscommunication (Leftwich et al., 2011).
+Overall rates remain low: 82% of independent restaurants offer no online allergen disclaimers, and 85% do not use visual allergen symbols on their online menus. This leaves a significant information gap for allergic consumers, who must rely on verbal communication with staff, a process prone to human error and miscommunication (Leftwich et al., 2011).
 
-In our regression models, we observed a marginally significant association between the menu cost indicator and symbol adoption (OR = 2.4136, p = 0.055). Higher-priced establishments are likely to have more resources to dedicate to menu coding, or cater to a demographic that expects visual dietary indicators.
+In our regression models, we observed a statistically significant association between the menu cost indicator and symbol adoption (OR = 3.6010, p = 0.0111). Higher-priced establishments are likely to have more resources to dedicate to menu coding, or cater to a demographic that expects visual dietary indicators.
 
-Cuisine-specific trends reveal that Asian-Fusion (40.0%) and East-Asian (16.7%) cuisines have relatively higher symbol adoption. For East-Asian cuisines, the higher rate of allergen statements (33.3%) reflects an awareness of common, high-risk allergens in Asian culinary preparations (such as peanuts, sesame, soy, and shellfish) and the risk of cross-contact.
+Cuisine-specific trends reveal that Southeast-Asian (55.6%) and Seafood (50.0%) cuisines have relatively higher symbol adoption. For Southeast-Asian cuisines, the higher rate of allergen statements (55.6%) reflects an awareness of common, high-risk allergens in regional preparations (such as peanuts, sesame, soy, and shellfish) and the risk of cross-contact.
 
 ### Policy Implications
 Because online menus are key tools for allergy management, relying on voluntary labeling creates inconsistent public health outcomes. Standardized allergen training for restaurant operators and the integration of allergen menu checks into routine health inspections (conducted by Island Health officers) could significantly improve public safety. Public health agencies could also provide simple, free templated allergen symbols and menus for independent, single-location restaurants to lower the administrative barrier to adoption.

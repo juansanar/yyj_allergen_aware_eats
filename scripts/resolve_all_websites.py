@@ -22,10 +22,89 @@ def clean_restaurant_name(name):
     name = re.sub(r'\b(2004|INC|LTD|LLC|CORP|CO|RESTAURANT|RESTAURANTS|LIMITED|INCORPORATED)\b', '', name, flags=re.IGNORECASE)
     return name.strip()
 
+# Pre-defined mapping of known brands to guarantee instant correct domain resolution
+KNOWN_DOMAINS = {
+    "WHITE SPOT": "https://www.whitespot.ca/",
+    "TACO TIME": "https://www.tacotimecanada.com/",
+    "DENNYS RESTAURANT": "https://www.dennys.ca/",
+    "IL TERRAZZO": "https://www.ilterrazzo.com/",
+    "KINTON RAMEN VICTORIA DOWNTOWN": "https://kintonramen.com/location/victoria-downtown/",
+    "EARL'S RESTAURANT (THE BAY CENTRE) LTD": "https://earls.ca/",
+    "NEW YORK FRIES": "https://www.newyorkfries.com/",
+    "MARBLE SLAB CREAMERY": "https://www.marbleslab.ca/",
+    "OPA SOUVLAKI": "https://opasouvlaki.ca/",
+    "BROWNS SOCIALHOUSE": "https://www.brownssocialhouse.com/",
+    "BB.Q CHICKEN": "https://bbqchickenca.com/",
+    "A&W RESTAURANT": "https://web.aw.ca/en/home",
+    "OLD SPAGHETTI FACTORY": "https://oldspaghettifactory.ca/locations/victoria/",
+    "KENTUCKY FRIED CHICKEN #1980": "https://www.kfc.ca/",
+    "HESLAA SRILANKA": "https://www.facebook.com/HESLAAsrilanka/",
+    "NUBO SUSHI": "https://www.nubosushi.com/",
+    "HOPE KEY RESTAURANT": "http://www.hopekeyrestaurant.ca/",
+    "SALLY BUN": "https://sallybun.com/",
+    "WHEELIES MOTORCYCLES": "https://www.wheeliesmotorcycles.ca/",
+    "REFUGE TAP ROOM": "https://www.refugetaproom.com/",
+    "GOLDEN CITY RESTAURANT": "https://www.goldencityvictoria.com/",
+    "BIKIMBAB": "https://www.bikimbab.ca/",
+    "STANDARD PIZZA": "https://standardpizza.ca/",
+    "UGLY DUCKLING": "https://uglyducklingdinings.com/",
+    "GOOD FILLING SANKAKU": "https://www.instagram.com/goodfillingsankaku/",
+    "MR. PRETZELS": "https://mrpretzels.ca/",
+    "ROYALITY PIZZA": "https://royaltypizza.ca/",
+    "UCHIDA EATERY": "https://www.uchidaeatery.com/",
+    "BEIJING BISTRO": "http://beijingbistrovictoria.com/",
+    "PEACOCK BILLARDS": "http://peacockbilliards.com/",
+    "THE FORT": "https://www.facebook.com/thefortcommon/",
+    "SMASHYY & MORE": "https://www.smashyyandmore.com/",
+    "CHOCOLAT & CO": "https://chocolatandco.ca/",
+    "FOO ASIAN STREET FOOD": "http://foostreetfood.ca/",
+    "PIZZA GARDEN": "https://pizzagarden.ca/",
+    "CHICKEN 649": "https://chicken649.ca/",
+    "SIZZLING WOK": "https://sizzlingwok.com/",
+    "BAAN THAI RESTAURANT": "https://baanthai.com/",
+    "THE ART OF SLOW FOOD": "https://theartofslowfood.com/",
+    "HAULTAIN FISH & CHIPS": "https://haultainfishandchips.ca/",
+    "JIANGYUN NOODLE HOUSE": "https://jiangyunnoodlehouse.ca/",
+    "OCEAN GARDEN RESTAURANT": "https://oceangardenvictoria.com/",
+    "CENOTE RESTURANT AND LOUNGE": "https://www.cenotelounge.ca/",
+    "FRANKIE'S MODERN DINER": "https://frankiesmoderndiner.com/",
+    "RED FISH BLUE FISH": "https://www.redfishbluefish.com/",
+}
+
+def resolve_domain_lite(name):
+    clean_name = clean_restaurant_name(name)
+    query = f"{clean_name} Victoria BC official menu website"
+    url = "https://lite.duckduckgo.com/lite/"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Content-Type': 'application/x-www-form-urlencoded'
+    }
+    data = urllib.parse.urlencode({'q': query}).encode('utf-8')
+    req = urllib.request.Request(url, data=data, headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=10) as response:
+            soup = BeautifulSoup(response.read(), 'html.parser')
+            # Look at td result links inside the simple table layout
+            for td in soup.find_all('td', class_='result-link'):
+                a = td.find('a')
+                if a and 'href' in a.attrs:
+                    href = a['href']
+                    if not any(k in href for k in ["duckduckgo.com", "bing.com", "google.com", "yahoo.com"]):
+                        return href.strip()
+    except Exception as e:
+        print(f"  [Lite Search Error] {name}: {e}")
+    return None
+
 def resolve_domain(name):
+    # 1. Check known domains dictionary bypass
+    name_upper = name.strip().upper()
+    for brand, url in KNOWN_DOMAINS.items():
+        if brand in name_upper:
+            return url
+            
+    # 2. Try standard HTML search
     clean_name = clean_restaurant_name(name)
     query = f"{clean_name} Victoria BC official website"
-    # Search DuckDuckGo HTML
     search_url = f"https://html.duckduckgo.com/html/?q={urllib.parse.quote(query)}"
     
     headers = {
@@ -39,7 +118,6 @@ def resolve_domain(name):
     try:
         with urllib.request.urlopen(req, timeout=10) as response:
             soup = BeautifulSoup(response.read(), 'html.parser')
-            # First result link
             a_tag = soup.find('a', class_='result__url')
             if a_tag:
                 href = a_tag['href']
@@ -50,8 +128,10 @@ def resolve_domain(name):
                         return qs['uddg'][0]
                 return href.strip()
     except Exception as e:
-        print(f"  [Search Error] {name}: {e}")
-    return None
+        pass
+        
+    # 3. Fallback to DuckDuckGo Lite search
+    return resolve_domain_lite(name)
 
 def main():
     if not os.path.exists(CACHE_PATH):
@@ -95,8 +175,8 @@ def main():
         else:
             print("  -> Resolution failed.")
             
-        # Politeness sleep (6-12 seconds)
-        sleep_time = random.uniform(6.0, 12.0)
+        # Politeness sleep (1.5 - 3.5 seconds)
+        sleep_time = random.uniform(1.5, 3.5)
         time.sleep(sleep_time)
 
     print(f"\nWebsite resolution completed.")

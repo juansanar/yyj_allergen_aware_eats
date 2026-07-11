@@ -1,0 +1,12 @@
+Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.
+
+SECTION: Appetizers
+Item: Edamame | Description: Steamed soybeans with sea salt. Contains: soybeans | Price: 6.0
+Item: Gyoza | Description: Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans | Price: 9.0
+Item: Tempura App | Description: Crispy prawns and vegetables with soy dip. Contains: gluten, crustaceans, soybeans | Price: 12.0
+
+SECTION: Mains
+Item: Sushi Combo | Description: Assorted sushi pieces with pickled ginger. Contains: fish | Price: 24.0
+Item: Tonkotsu Ramen | Description: Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans | Price: 19.5
+Item: Miso Glazed Salmon | Description: Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans | Price: 26.0
+

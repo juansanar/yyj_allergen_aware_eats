@@ -1,0 +1,7 @@
+SECTION: Starters
+Item: Sambusas | Description: Spiced minced beef or lentil pastry. Contains: gluten | Price: 9.0
+
+SECTION: Mains
+Item: Doro Wat | Description: Ethiopian spicy chicken stew served with injera. Contains: eggs | Price: 22.0
+Item: Koshary | Description: Egyptian rice, macaroni, lentils, spicy tomato sauce. Contains: gluten | Price: 17.0
+

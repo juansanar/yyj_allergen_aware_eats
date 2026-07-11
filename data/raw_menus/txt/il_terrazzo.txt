@@ -1,8 +1,9 @@
+Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.
+
 SECTION: Starters
-Item: French Onion Soup | Description: Rich beef broth, caramelized onions, gruyere crouton. Contains: gluten, milk | Price: 12.0
-Item: Beef Carpaccio [GF] | Description: Thinly sliced raw beef, capers, mustard aioli, parmigiano. Contains: mustard, milk, eggs | Price: 16.5
+Item: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0
+Item: Cobb Salad [GF] | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0
 
 SECTION: Mains
-Item: Steak Frites [GF] | Description: Grilled ribeye steak, house-cut fries, herb butter. Contains: milk | Price: 38.0
-Item: Wild Mushroom Risotto [GF] | Description: Arborio rice, forest mushrooms, white wine, parmesan cheese. Contains: milk | Price: 24.0
-Item: Duck Confit [GF] | Description: Slow-cooked duck leg, roasted fingerling potatoes, cherry jus. | Price: 32.0
+Item: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0
+Item: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0

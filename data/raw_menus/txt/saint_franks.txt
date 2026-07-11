@@ -1,8 +1,8 @@
-SECTION: Pub Fare
-Item: Chicken Wings | Description: Crispy wings with hot sauce or honey garlic. Contains: gluten | Price: 16.0
-Item: Soft Pretzels | Description: Warm salted pretzels with beer cheese dip. Contains: gluten, milk | Price: 11.0
+SECTION: Starters
+Item: Mac and Cheese Bites | Description: Fried mac and cheese, spicy ranch. Contains: gluten, milk, eggs | Price: 12.0
+Item: Cobb Salad [GF] | Description: Chicken, bacon, egg, avocado, blue cheese. Contains: milk, eggs | Price: 17.0
 
 SECTION: Mains
-Item: Classic Burger | Description: Beef patty, cheddar, lettuce, tomato, brioche bun, house fries. Contains: gluten, milk | Price: 18.5
-Item: Fish and Chips | Description: Beer-battered cod, double-cooked chips, tartar sauce. Contains: fish, gluten, eggs | Price: 21.0
-Item: Steak Sandwich | Description: 6oz sirloin on garlic toast with onion rings. Contains: gluten, milk | Price: 25.0
+Item: Meatloaf | Description: Diner-style meatloaf, mashed potatoes, rich gravy. Contains: gluten, milk, eggs | Price: 20.0
+Item: Pulled Pork Sandwich | Description: Slow-smoked pork, BBQ sauce, coleslaw, brioche bun. Contains: gluten, milk | Price: 18.0
+

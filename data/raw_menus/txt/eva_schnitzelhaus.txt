@@ -1,5 +1,3 @@
-Before placing your order, please inform your server if a person in your party has a food allergy.
-
 SECTION: Starters
 Item: French Onion Soup | Description: Rich beef broth, caramelized onions, gruyere crouton. Contains: gluten, milk | Price: 12.0
 Item: Beef Carpaccio | Description: Thinly sliced raw beef, capers, mustard aioli, parmigiano. Contains: mustard, milk, eggs | Price: 16.5

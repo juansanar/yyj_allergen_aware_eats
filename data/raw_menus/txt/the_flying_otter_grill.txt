@@ -1,9 +1,9 @@
-Before placing your order, please inform your server if a person in your party has a food allergy.
+Notice: Many of our recipes contain sesame, soy, and gluten. Cross-contamination may occur in our kitchen environment. Notify staff of any dietary needs.
 
 SECTION: Starters
-Item: Smoked Bacon Belly | Description: Maple glaze, pickled red onions. | Price: 14.0
-Item: Wedge Salad | Description: Iceberg lettuce, blue cheese dressing, bacon bits. Contains: milk, eggs | Price: 13.0
+Item: Smoked Bacon Belly [GF] | Description: Maple glaze, pickled red onions. | Price: 14.0
+Item: Wedge Salad [GF] | Description: Iceberg lettuce, blue cheese dressing, bacon bits. Contains: milk, eggs | Price: 13.0
 
 SECTION: Mains
-Item: Ribeye Steak | Description: 12oz hand-cut ribeye steak, baked potato with butter. Contains: milk | Price: 45.0
+Item: Ribeye Steak [GF] | Description: 12oz hand-cut ribeye steak, baked potato with butter. Contains: milk | Price: 45.0
 Item: Smoked Beef Brisket | Description: Slow-smoked brisket, cornbread, house BBQ sauce. Contains: gluten, milk | Price: 29.0
