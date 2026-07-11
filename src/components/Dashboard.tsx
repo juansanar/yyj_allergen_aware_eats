@@ -193,7 +193,7 @@ export function Dashboard() {
             {summary.total_restaurants}
           </h2>
           <p style={{ fontSize: "var(--fs-xs)", color: "var(--text-muted)", marginTop: "var(--space-1)" }}>
-            Sourced from 515 Victoria licences
+            Sourced from 312 Victoria licences
           </p>
         </div>
 
