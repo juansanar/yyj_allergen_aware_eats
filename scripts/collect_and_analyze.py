@@ -322,6 +322,56 @@ def main():
     separate_menus_count = int(df["has_separate_menu"].sum())
     separate_charts_count = int(df["has_separate_chart"].sum())
     
+    # Specific allergen labeling counts
+    allergen_counts = {
+        "gluten": 0,
+        "peanuts": 0,
+        "tree_nuts": 0,
+        "dairy": 0,
+        "seafood": 0,
+        "sesame": 0,
+        "soy": 0,
+        "eggs": 0,
+        "mustard": 0,
+        "sulphites": 0
+    }
+    
+    for rest in matched_restaurants:
+        has_al = {k: False for k in allergen_counts.keys()}
+        for sec in rest["menu_sections"]:
+            for item in sec["items"]:
+                if item["is_gf_marked"] or "gluten" in item["allergens"]:
+                    has_al["gluten"] = True
+                if "peanuts" in item["allergens"]:
+                    has_al["peanuts"] = True
+                if "tree-nuts" in item["allergens"]:
+                    has_al["tree_nuts"] = True
+                if "milk" in item["allergens"]:
+                    has_al["dairy"] = True
+                if any(x in item["allergens"] for x in ["fish", "crustaceans", "molluscs"]):
+                    has_al["seafood"] = True
+                if "sesame" in item["allergens"]:
+                    has_al["sesame"] = True
+                if "soybeans" in item["allergens"]:
+                    has_al["soy"] = True
+                if "eggs" in item["allergens"]:
+                    has_al["eggs"] = True
+                if "mustard" in item["allergens"]:
+                    has_al["mustard"] = True
+                if "sulphites" in item["allergens"]:
+                    has_al["sulphites"] = True
+        
+        for k in allergen_counts.keys():
+            if has_al[k]:
+                allergen_counts[k] += 1
+                
+    specific_allergens_summary = {}
+    for k, count in allergen_counts.items():
+        specific_allergens_summary[k] = {
+            "count": count,
+            "percentage": round((count / total_count) * 100, 1)
+        }
+    
     # Cuisine Pareto
     cuisine_counts = df["cuisine"].value_counts().to_dict()
     
@@ -376,7 +426,8 @@ def main():
             "has_separate_chart": {
                 "count": separate_charts_count,
                 "percentage": round((separate_charts_count / total_count) * 100, 1)
-            }
+            },
+            "specific_allergens": specific_allergens_summary
         },
         "cuisine_distribution": cuisine_counts,
         "cuisine_cross_tabulation": cuisine_xtab,

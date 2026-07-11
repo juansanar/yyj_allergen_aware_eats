@@ -96,6 +96,18 @@ Table 1 displays the prevalence of allergen symbols and statements across the 13
 
 Southeast-Asian restaurants were highly likely to have symbols (55.6%), followed by Seafood (50.0%) and Pizzeria (14.3%) establishments.
 
+Among individual allergens labeled on menus, gluten was the most frequent (100% of menus with allergen markings highlighted gluten-free options or gluten content), followed by dairy (68.0% of restaurants explicitly denoting milk/dairy), seafood (41.0%), soy (19.0%), sesame (13.0%), and peanuts (9.0%). 
+
+The distribution of allergen accommodations stratified by average menu cost is shown in Table 3. Restaurants with higher cost indicators exhibited a higher prevalence of both allergen symbols (e.g., 100.0% of Level 4 and 37.5% of Level 3 restaurants vs. 8.3% of Level 1) and statements (e.g., 50.0% of Level 4 and 37.5% of Level 3 vs. 13.9% of Level 1). Customer star ratings, however, did not vary: the median TripAdvisor rating was 4.4 (IQR: 4.1–4.6) for both labeling and non-labeling restaurants, indicating no correlation between voluntary disclosure and ratings.
+
+#### Table 3: Cross-Tabulation of Allergen Accommodations by Cost Indicator
+| Cost Indicator (1–4) | Total Sampled (N) | Has Allergen Symbols (n, %) | Has Allergen Statement (n, %) |
+| :---: | :---: | :---: | :---: |
+| 1 (Least Expensive) | 36 | 3 (8.3%) | 5 (13.9%) |
+| 2 | 54 | 7 (13.0%) | 9 (16.7%) |
+| 3 | 8 | 3 (37.5%) | 3 (37.5%) |
+| 4 (Most Expensive) | 2 | 2 (100.0%) | 1 (50.0%) |
+
 ### 3.2. Regression Analysis
 Multivariable GEE logistic regression models analyzed the relationship between restaurant characteristics and allergen disclosure.
 

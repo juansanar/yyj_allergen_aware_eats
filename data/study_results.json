@@ -16,6 +16,48 @@
     "has_separate_chart": {
       "count": 1,
       "percentage": 1.0
+    },
+    "specific_allergens": {
+      "gluten": {
+        "count": 100,
+        "percentage": 100.0
+      },
+      "peanuts": {
+        "count": 9,
+        "percentage": 9.0
+      },
+      "tree_nuts": {
+        "count": 0,
+        "percentage": 0.0
+      },
+      "dairy": {
+        "count": 68,
+        "percentage": 68.0
+      },
+      "seafood": {
+        "count": 41,
+        "percentage": 41.0
+      },
+      "sesame": {
+        "count": 13,
+        "percentage": 13.0
+      },
+      "soy": {
+        "count": 19,
+        "percentage": 19.0
+      },
+      "eggs": {
+        "count": 80,
+        "percentage": 80.0
+      },
+      "mustard": {
+        "count": 1,
+        "percentage": 1.0
+      },
+      "sulphites": {
+        "count": 0,
+        "percentage": 0.0
+      }
     }
   },
   "cuisine_distribution": {
