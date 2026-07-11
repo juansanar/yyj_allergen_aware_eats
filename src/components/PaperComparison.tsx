@@ -72,37 +72,80 @@ export function PaperComparison() {
     document.head.appendChild(jsScript);
   }, []);
 
-  // 4. Initialize and update Leaflet Map
-  useEffect(() => {
-    if (!leafletLoaded || restaurants.length === 0 || activeTab !== "results") return;
+// Standard UTM Zone 10N to Lat/Lng converter for Victoria BC (WGS84)
+function utmToLatLng(easting: number, northing: number) {
+  const UTM_SCALE_FACTOR = 0.9996;
+  const a = 6378137.0; // WGS84 semi-major axis
+  const f = 1.0 / 298.257223563; // WGS84 flattening
+  const b = a * (1 - f); // semi-minor axis
+  const e2 = (a*a - b*b) / (a*a); // eccentricity squared
+  const ePrime2 = (a*a - b*b) / (b*b); // second eccentricity squared
+  
+  const x = easting - 500000.0;
+  const y = northing;
+  
+  const lambda0 = ((10 - 1) * 6 - 180 + 3) * Math.PI / 180.0; // central meridian for Zone 10
+  
+  const M = y / UTM_SCALE_FACTOR;
+  const mu = M / (a * (1 - e2/4 - 3*e2*e2/64 - 5*Math.pow(e2, 3)/256));
+  
+  const e1 = (1 - Math.sqrt(1 - e2)) / (1 + Math.sqrt(1 - e2));
+  const J1 = (3*e1/2 - 27*Math.pow(e1, 3)/32);
+  const J2 = (21*e1*e1/16 - 55*Math.pow(e1, 4)/32);
+  const J3 = (151*Math.pow(e1, 3)/96);
+  const J4 = (1097*Math.pow(e1, 4)/512);
+  
+  const fp = mu + J1*Math.sin(2*mu) + J2*Math.sin(4*mu) + J3*Math.sin(6*mu) + J4*Math.sin(8*mu);
+  
+  const C1 = ePrime2 * Math.pow(Math.cos(fp), 2);
+  const T1 = Math.pow(Math.tan(fp), 2);
+  const R1 = a * (1 - e2) / Math.pow(1 - e2*Math.sin(fp)*Math.sin(fp), 1.5);
+  const N1 = a / Math.sqrt(1 - e2*Math.sin(fp)*Math.sin(fp));
+  const D = x / (N1 * UTM_SCALE_FACTOR);
+  
+  let lat = fp - (N1 * Math.tan(fp) / R1) * (D*D/2 - (5 + 3*T1 + 10*C1 - 4*C1*C1 - 9*ePrime2)*Math.pow(D, 4)/24 + (61 + 90*T1 + 298*C1 + 45*T1*T1 - 252*ePrime2 - 3*C1*C1)*Math.pow(D, 6)/720);
+  let lon = (D - (1 + 2*T1 + C1)*Math.pow(D, 3)/6 + (5 - 2*C1 + 28*T1 - 3*C1*C1 + 8*C1*C1 + 24*T1*T1)*Math.pow(D, 5)/120) / Math.cos(fp);
+  
+  lat = lat * 180.0 / Math.PI;
+  lon = (lon * 180.0 / Math.PI) + (lambda0 * 180.0 / Math.PI);
+  
+  return { lat, lng: lon };
+}
 
-    const L = (window as any).L;
-    if (!L) return;
+// 4. Initialize and update Leaflet Map
+useEffect(() => {
+  if (!leafletLoaded || restaurants.length === 0 || activeTab !== "results") return;
 
-    // Center map around Downtown/Inner Harbour Victoria, BC
-    const map = L.map("spatial-map").setView([48.4284, -123.3656], 13);
-    mapRef.current = map;
+  const L = (window as any).L;
+  if (!L) return;
 
-    // Use CartoDB Dark Matter tile layer for a sleek premium aesthetic matching our dark theme
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-      subdomains: "abcd",
-      maxZoom: 19,
-    }).addTo(map);
+  // Center map around Downtown/Inner Harbour Victoria, BC
+  const map = L.map("spatial-map").setView([48.4284, -123.3656], 13);
+  mapRef.current = map;
 
-    // Filter out mock coordinates (0, 0 or empty) and add circles
-    restaurants.forEach((r) => {
-      const lat = parseFloat(r.latitude);
-      const lon = parseFloat(r.longitude);
-      if (isNaN(lat) || isNaN(lon) || (lat === 0 && lon === 0)) return;
+  // Use CartoDB Dark Matter tile layer for a sleek premium aesthetic matching our dark theme
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 19,
+  }).addTo(map);
 
-      const hasSymbols = r.tags.includes("allergen-symbols");
-      const hasStatement = r.tags.includes("allergen-statement");
+  // Filter out mock coordinates (0, 0 or empty) and add circles
+  restaurants.forEach((r) => {
+    const latRaw = parseFloat(r.latitude);
+    const lonRaw = parseFloat(r.longitude);
+    if (isNaN(latRaw) || isNaN(lonRaw) || (latRaw === 0 && lonRaw === 0)) return;
 
-      // Visual color-coding: Green (Symbols), Yellow (Statement), Red (None)
-      const color = hasSymbols ? "#10b981" : hasStatement ? "#f59e0b" : "#ef4444";
-      
-      const marker = L.circleMarker([lat, lon], {
+    // Convert UTM coordinates to decimal degrees
+    const { lat, lng } = utmToLatLng(lonRaw, latRaw);
+
+    const hasSymbols = r.tags.includes("allergen-symbols");
+    const hasStatement = r.tags.includes("allergen-statement");
+
+    // Visual color-coding: Green (Symbols), Yellow (Statement), Red (None)
+    const color = hasSymbols ? "#10b981" : hasStatement ? "#f59e0b" : "#ef4444";
+    
+    const marker = L.circleMarker([lat, lng], {
         radius: 6,
         fillColor: color,
         color: "#ffffff",
