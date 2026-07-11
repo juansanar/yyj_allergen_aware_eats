@@ -6,8 +6,8 @@
       "percentage": 10.0
     },
     "has_allergen_statement": {
-      "count": 18,
-      "percentage": 18.0
+      "count": 17,
+      "percentage": 17.0
     },
     "has_separate_menu": {
       "count": 1,
@@ -54,8 +54,8 @@
       "total": 12,
       "has_symbols": 2,
       "symbols_percent": 16.7,
-      "has_statement": 5,
-      "statement_percent": 41.7
+      "has_statement": 4,
+      "statement_percent": 33.3
     },
     {
       "cuisine": "Brunch/bagel",
@@ -136,8 +136,8 @@
       "total": 37,
       "has_symbols": 1,
       "symbols_percent": 2.7,
-      "has_statement": 6,
-      "statement_percent": 16.2
+      "has_statement": 5,
+      "statement_percent": 13.5
     },
     {
       "cost_indicator": 2,
@@ -202,35 +202,35 @@
     "statements_model": [
       {
         "variable": "Intercept",
-        "coefficient": -4.6235,
-        "odds_ratio": 0.0098,
-        "p_value": 0.0119,
-        "ci_95_lower": 0.0003,
-        "ci_95_upper": 0.36
+        "coefficient": -5.0434,
+        "odds_ratio": 0.0065,
+        "p_value": 0.0053,
+        "ci_95_lower": 0.0002,
+        "ci_95_upper": 0.2229
       },
       {
         "variable": "cost_indicator",
-        "coefficient": 0.5781,
-        "odds_ratio": 1.7827,
-        "p_value": 0.295,
-        "ci_95_lower": 0.6042,
-        "ci_95_upper": 5.2592
+        "coefficient": 0.7181,
+        "odds_ratio": 2.0505,
+        "p_value": 0.1349,
+        "ci_95_lower": 0.7999,
+        "ci_95_upper": 5.2566
       },
       {
         "variable": "tripadvisor_rating",
-        "coefficient": 0.4926,
-        "odds_ratio": 1.6366,
-        "p_value": 0.1299,
-        "ci_95_lower": 0.8651,
-        "ci_95_upper": 3.0961
+        "coefficient": 0.5041,
+        "odds_ratio": 1.6554,
+        "p_value": 0.1458,
+        "ci_95_lower": 0.8393,
+        "ci_95_upper": 3.265
       },
       {
         "variable": "num_locations",
-        "coefficient": -0.0345,
-        "odds_ratio": 0.9661,
-        "p_value": 0.8706,
-        "ci_95_lower": 0.6375,
-        "ci_95_upper": 1.464
+        "coefficient": -0.0084,
+        "odds_ratio": 0.9916,
+        "p_value": 0.9663,
+        "ci_95_lower": 0.6715,
+        "ci_95_upper": 1.4644
       }
     ]
   },
@@ -8076,96 +8076,13 @@
       "cost_indicator": 1,
       "num_locations": 1,
       "has_allergen_symbols": false,
-      "has_allergen_statement": true,
+      "has_allergen_statement": false,
       "has_separate_menu": false,
       "has_separate_chart": false,
-      "website_url": "www.chimac_korean_pub___fried_chicken.ca",
+      "website_url": "firebasestorage.googleapis.com",
       "menu_text_file": "txt/chimac_korean_pub___fried_chicken.txt",
       "menu_pdf_file": null,
-      "menu_sections": [
-        {
-          "name": "Appetizers",
-          "items": [
-            {
-              "name": "Edamame",
-              "description": "Steamed soybeans with sea salt. Contains: soybeans",
-              "price": 6.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "soybeans"
-              ]
-            },
-            {
-              "name": "Gyoza",
-              "description": "Pan-fried pork dumplings with dipping sauce. Contains: gluten, soybeans",
-              "price": 9.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "soybeans"
-              ]
-            },
-            {
-              "name": "Tempura App",
-              "description": "Crispy prawns and vegetables with soy dip. Contains: gluten, crustaceans, soybeans",
-              "price": 12.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "crustaceans",
-                "soybeans"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Mains",
-          "items": [
-            {
-              "name": "Sushi Combo",
-              "description": "Assorted sushi pieces with pickled ginger. Contains: fish",
-              "price": 24.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "fish"
-              ]
-            },
-            {
-              "name": "Tonkotsu Ramen",
-              "description": "Rich pork bone broth with wheat noodles, pork belly, and soft boiled egg. Contains: gluten, eggs, soybeans",
-              "price": 19.5,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "gluten",
-                "eggs",
-                "soybeans"
-              ]
-            },
-            {
-              "name": "Miso Glazed Salmon",
-              "description": "Salmon fillet with miso glaze, steamed rice. Contains: fish, soybeans",
-              "price": 26.0,
-              "is_gf_marked": false,
-              "is_vegan": false,
-              "is_vegetarian": false,
-              "allergens": [
-                "fish",
-                "soybeans"
-              ]
-            }
-          ]
-        }
-      ]
+      "menu_sections": []
     },
     {
       "name": "AMETHYST INN AT REGENTS PARK",
