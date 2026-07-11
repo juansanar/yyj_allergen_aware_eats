@@ -1,8 +1,8 @@
 import { PaperComparison } from "@/components/PaperComparison";
 
 export const metadata = {
-  title: "Research Paper Comparison & MedRxiv Preprint | YYJ Allergen-Aware Eats",
-  description: "Compare the restaurant allergen labeling study results between Toronto and Victoria, and read our preprint manuscript draft.",
+  title: "Research Results & MedRxiv Preprint | YYJ Allergen-Aware Eats",
+  description: "Explore the spatial distribution, cuisine categories, and dynamic academic draft paper for our Victoria, BC menu audit study.",
 };
 
 export default function AboutPage() {

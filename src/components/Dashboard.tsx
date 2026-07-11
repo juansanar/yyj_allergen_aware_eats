@@ -181,7 +181,7 @@ export function Dashboard() {
         <span className="badge badge-warning" style={{ marginBottom: "var(--space-2)" }}>Research Study Reproduction</span>
         <h1 style={{ marginBottom: "var(--space-2)" }}>Victoria BC Restaurant Allergen Labeling</h1>
         <p style={{ color: "var(--text-secondary)", maxWidth: "800px" }}>
-          Replicating the 2025 Toronto restaurant online menu audit study. Based on a sample of 100 active, nonchain restaurants selected from the City of Victoria open data.
+          Based on a sample of 100 active, nonchain restaurants selected from the City of Victoria's open business licensing data registry.
         </p>
       </div>
 

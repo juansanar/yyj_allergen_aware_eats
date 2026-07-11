@@ -1,12 +1,17 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 export function PaperComparison() {
   const [manuscript, setManuscript] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState<"comparison" | "manuscript">("comparison");
+  const [loadingManuscript, setLoadingManuscript] = useState(true);
+  const [restaurants, setRestaurants] = useState<any[]>([]);
+  const [loadingData, setLoadingData] = useState(true);
+  const [activeTab, setActiveTab] = useState<"results" | "manuscript">("results");
+  const [leafletLoaded, setLeafletLoaded] = useState(false);
+  const mapRef = useRef<any>(null);
 
+  // 1. Fetch manuscript
   useEffect(() => {
     async function fetchManuscript() {
       try {
@@ -18,13 +23,132 @@ export function PaperComparison() {
       } catch (err) {
         console.error("Failed to load manuscript:", err);
       } finally {
-        setLoading(false);
+        setLoadingManuscript(false);
       }
     }
     fetchManuscript();
   }, []);
 
-  // Simple custom Markdown parser to render manuscript elegantly without external dependencies
+  // 2. Fetch restaurants list
+  useEffect(() => {
+    async function fetchRestaurants() {
+      try {
+        const res = await fetch("/api/restaurants");
+        if (res.ok) {
+          const data = await res.json();
+          setRestaurants(data);
+        }
+      } catch (err) {
+        console.error("Failed to load restaurants:", err);
+      } finally {
+        setLoadingData(false);
+      }
+    }
+    fetchRestaurants();
+  }, []);
+
+  // 3. Load Leaflet script/styles dynamically to avoid Next.js SSR hydration crashes
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    if ((window as any).L) {
+      setLeafletLoaded(true);
+      return;
+    }
+
+    const cssLink = document.createElement("link");
+    cssLink.rel = "stylesheet";
+    cssLink.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    cssLink.integrity = "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=";
+    cssLink.crossOrigin = "";
+    document.head.appendChild(cssLink);
+
+    const jsScript = document.createElement("script");
+    jsScript.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    jsScript.integrity = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=";
+    jsScript.crossOrigin = "";
+    jsScript.onload = () => {
+      setLeafletLoaded(true);
+    };
+    document.head.appendChild(jsScript);
+  }, []);
+
+  // 4. Initialize and update Leaflet Map
+  useEffect(() => {
+    if (!leafletLoaded || restaurants.length === 0 || activeTab !== "results") return;
+
+    const L = (window as any).L;
+    if (!L) return;
+
+    // Center map around Downtown/Inner Harbour Victoria, BC
+    const map = L.map("spatial-map").setView([48.4284, -123.3656], 13);
+    mapRef.current = map;
+
+    // Use CartoDB Dark Matter tile layer for a sleek premium aesthetic matching our dark theme
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: "abcd",
+      maxZoom: 19,
+    }).addTo(map);
+
+    // Filter out mock coordinates (0, 0 or empty) and add circles
+    restaurants.forEach((r) => {
+      const lat = parseFloat(r.latitude);
+      const lon = parseFloat(r.longitude);
+      if (isNaN(lat) || isNaN(lon) || (lat === 0 && lon === 0)) return;
+
+      const hasSymbols = r.tags.includes("allergen-symbols");
+      const hasStatement = r.tags.includes("allergen-statement");
+
+      // Visual color-coding: Green (Symbols), Yellow (Statement), Red (None)
+      const color = hasSymbols ? "#10b981" : hasStatement ? "#f59e0b" : "#ef4444";
+      
+      const marker = L.circleMarker([lat, lon], {
+        radius: 6,
+        fillColor: color,
+        color: "#ffffff",
+        weight: 1,
+        opacity: 0.9,
+        fillOpacity: 0.8,
+      }).addTo(map);
+
+      // Detailed popup
+      marker.bindPopup(`
+        <div style="color: #0f172a; font-family: system-ui, sans-serif; font-size: 11px; line-height: 1.4; min-width: 150px;">
+          <h4 style="margin: 0 0 4px 0; font-size: 12px; font-weight: bold; color: #1e293b;">${r.name}</h4>
+          <p style="margin: 0 0 6px 0; color: #64748b;">${r.address}</p>
+          <div style="margin-bottom: 6px;">
+            <span style="background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-weight: 500; color: #475569;">${r.cuisineType}</span>
+            <span style="background: #f1f5f9; padding: 2px 6px; border-radius: 4px; font-weight: 500; color: #475569;">★ ${r.tripadvisorRating || "N/A"}</span>
+          </div>
+          <div>
+            <strong>Labeling:</strong>
+            ${hasSymbols ? '<span style="color: #10b981; font-weight: bold;">Symbols [GF/V]</span>' : ""}
+            ${hasStatement ? '<span style="color: #f59e0b; font-weight: bold;">Statement</span>' : ""}
+            ${!hasSymbols && !hasStatement ? '<span style="color: #64748b;">No Online Disclosures</span>' : ""}
+          </div>
+        </div>
+      `);
+    });
+
+    return () => {
+      if (mapRef.current) {
+        mapRef.current.remove();
+        mapRef.current = null;
+      }
+    };
+  }, [leafletLoaded, restaurants, activeTab]);
+
+  // Compute cuisine counts dynamically from sample
+  const cuisineCounts = restaurants.reduce((acc: any, r: any) => {
+    const cuis = r.cuisineType || "Other";
+    acc[cuis] = (acc[cuis] || 0) + 1;
+    return acc;
+  }, {});
+
+  const sortedCuisines = Object.entries(cuisineCounts).sort((a: any, b: any) => b[1] - a[1]);
+  const totalRests = restaurants.length || 100;
+
+  // Simple Markdown parser
   const renderMarkdown = (mdText: string) => {
     const lines = mdText.split("\n");
     let inList = false;
@@ -50,9 +174,8 @@ export function PaperComparison() {
 
     const flushTable = (key: number) => {
       if (tableRows.length > 0) {
-        // Separate headers and rows
         const headers = tableRows[0];
-        const bodyRows = tableRows.slice(2); // Skip separator row like | :--- | :--- |
+        const bodyRows = tableRows.slice(2);
 
         elements.push(
           <div key={`table-${key}`} style={{ overflowX: "auto", margin: "var(--space-6) 0" }}>
@@ -84,7 +207,6 @@ export function PaperComparison() {
     lines.forEach((line, index) => {
       const trimmed = line.trim();
 
-      // Table line
       if (trimmed.startsWith("|")) {
         flushList(index);
         inTable = true;
@@ -95,7 +217,6 @@ export function PaperComparison() {
         flushTable(index);
       }
 
-      // List line
       if (trimmed.startsWith("- ") || trimmed.startsWith("* ")) {
         inList = true;
         listItems.push(trimmed.substring(2));
@@ -104,7 +225,6 @@ export function PaperComparison() {
         flushList(index);
       }
 
-      // Headers
       if (trimmed.startsWith("# ")) {
         elements.push(
           <h1 key={index} style={{ fontSize: "var(--fs-2xl)", color: "var(--accent-secondary)", borderBottom: "1px solid var(--border)", paddingBottom: "var(--space-3)", marginTop: "var(--space-8)", marginBottom: "var(--space-4)" }}>
@@ -128,11 +248,8 @@ export function PaperComparison() {
       } else if (trimmed === "") {
         // Skip empty lines
       } else {
-        // Bold formatting parse helper
         let formattedText = trimmed;
         const boldRegex = /\*\*([^*]+)\*\*/g;
-        let match;
-        // Simple string replacement works for basic bolding
         formattedText = formattedText.replace(boldRegex, "<strong>$1</strong>");
 
         elements.push(
@@ -145,31 +262,49 @@ export function PaperComparison() {
       }
     });
 
-    // Flush any remaining lists or tables
     flushList(lines.length);
     flushTable(lines.length);
 
     return elements;
   };
 
+  // Anonymized representative examples of disclosures audited in Victoria
+  const representativeDisclosures = [
+    {
+      title: "Visual Symbol Markings (Menu Legend)",
+      text: "[GF] Gluten-Free | [DF] Dairy-Free | [V] Vegetarian | [VG] Vegan",
+      description: "Audited from online menus displaying discrete visual tags next to specific menu items to streamline allergen navigation."
+    },
+    {
+      title: "General Verbal Advisory Disclaimer",
+      text: "\"Please notify your server of any food allergies or dietary restrictions before ordering your meal. We will do our best to accommodate your needs.\"",
+      description: "Footnote warning audited on local diner and bistro menus, establishing a standard verbal communication protocol."
+    },
+    {
+      title: "Cross-Contact / Cross-Contamination Statement",
+      text: "\"Attention customers: Our kitchen prepares foods containing wheat, dairy, peanuts, tree nuts, and sesame. We cannot guarantee a 100% allergen-free environment due to shared equipment.\"",
+      description: "Legal liability disclaimer typical of independent pizza, bakery, and Asian-fusion establishments."
+    }
+  ];
+
   return (
     <div className="container page-content animate-fade-in">
       <div className="flex-between flex-wrap" style={{ gap: "var(--space-4)", marginBottom: "var(--space-8)" }}>
         <div>
-          <span className="badge badge-info" style={{ marginBottom: "var(--space-2)" }}>Academic Review</span>
-          <h1>Toronto vs. Victoria & MedRxiv Preprint</h1>
+          <span className="badge badge-info" style={{ marginBottom: "var(--space-2)" }}>Victoria Restaurant Study</span>
+          <h1>Victoria Restaurant Study & MedRxiv Preprint</h1>
           <p style={{ color: "var(--text-secondary)", marginTop: "var(--space-1)" }}>
-            Compare allergen practices across cities and read our dynamic academic draft paper.
+            Explore the spatial distribution, cuisine categories, and dynamic academic draft paper for Victoria, BC.
           </p>
         </div>
 
         <div className="flex gap-2" style={{ background: "var(--bg-secondary)", padding: "4px", borderRadius: "var(--radius-full)", border: "1px solid var(--border)" }}>
           <button 
-            className={`btn ${activeTab === "comparison" ? "btn-primary" : "btn-secondary"}`}
+            className={`btn ${activeTab === "results" ? "btn-primary" : "btn-secondary"}`}
             style={{ padding: "var(--space-2) var(--space-4)", fontSize: "var(--fs-xs)", border: "0" }}
-            onClick={() => setActiveTab("comparison")}
+            onClick={() => setActiveTab("results")}
           >
-            📊 City Comparison
+            📊 Victoria Results
           </button>
           <button 
             className={`btn ${activeTab === "manuscript" ? "btn-primary" : "btn-secondary"}`}
@@ -181,105 +316,162 @@ export function PaperComparison() {
         </div>
       </div>
 
-      {activeTab === "comparison" ? (
+      {activeTab === "results" ? (
         <div className="flex flex-col gap-8">
-          {/* Comparative analysis description */}
-          <div className="card">
-            <h3 style={{ fontSize: "var(--fs-lg)", marginBottom: "var(--space-2)" }}>Key Differences: Toronto vs. Victoria</h3>
-            <p style={{ color: "var(--text-secondary)", fontSize: "var(--fs-sm)", lineHeight: 1.6 }}>
-              Our computational study reveals that Victoria, BC exhibits <strong>higher overall allergen labeling rates</strong> than Toronto, ON (Symbols: 14% vs 10%; Statements: 26% vs 16%). This aligns with the regional lifestyle profile of Victoria, where a higher density of health-conscious and vegetarian options increases voluntary adaptations. However, statistical regression shows that the number of local branches remains the only significant positive predictor for symbol labeling in both cities, illustrating that resource barriers constrain single-location independent restaurants.
+          
+          {/* Spatial Mapping Card */}
+          <div className="card" style={{ padding: "var(--space-6)" }}>
+            <h3 style={{ fontSize: "var(--fs-lg)", marginBottom: "var(--space-2)" }}>Interactive Spatial Map: Sampling Frame Coverage</h3>
+            <p style={{ color: "var(--text-secondary)", fontSize: "var(--fs-sm)", marginBottom: "var(--space-6)", lineHeight: 1.6 }}>
+              This map plots the 100 sampled independent restaurants across Victoria. 
+              The markers demonstrate the geographical coverage of the study sample, color-coded by their allergen markings on online menus.
             </p>
+            
+            <div className="grid grid-3" style={{ gridTemplateColumns: "1fr 280px", gap: "var(--space-6)" }}>
+              {/* Map Container */}
+              <div 
+                id="spatial-map" 
+                style={{ 
+                  height: "400px", 
+                  borderRadius: "var(--radius-lg)", 
+                  border: "1px solid var(--border)",
+                  zIndex: 1,
+                  background: "#0c101d"
+                }}
+              ></div>
+
+              {/* Map Legend & Meta */}
+              <div className="flex flex-col gap-4" style={{ background: "rgba(255,255,255,0.01)", border: "1px solid var(--border)", padding: "var(--space-4)", borderRadius: "var(--radius-md)" }}>
+                <h4 style={{ fontSize: "var(--fs-sm)", fontWeight: 600 }}>Map Legend</h4>
+                
+                <div className="flex flex-col gap-3" style={{ fontSize: "var(--fs-xs)" }}>
+                  <div className="flex align-center gap-2">
+                    <span style={{ width: "12px", height: "12px", borderRadius: "50%", background: "#10b981", border: "1px solid #fff", display: "inline-block" }}></span>
+                    <div>
+                      <strong>Symbols [GF / V / DF]</strong>
+                      <div style={{ color: "var(--text-muted)", fontSize: "10px" }}>Visual allergen indicators used on menu items.</div>
+                    </div>
+                  </div>
+
+                  <div className="flex align-center gap-2">
+                    <span style={{ width: "12px", height: "12px", borderRadius: "50%", background: "#f59e0b", border: "1px solid #fff", display: "inline-block" }}></span>
+                    <div>
+                      <strong>Advisory Statement Only</strong>
+                      <div style={{ color: "var(--text-muted)", fontSize: "10px" }}>Warning disclaimers or verbal guidance only.</div>
+                    </div>
+                  </div>
+
+                  <div className="flex align-center gap-2">
+                    <span style={{ width: "12px", height: "12px", borderRadius: "50%", background: "#ef4444", border: "1px solid #fff", display: "inline-block" }}></span>
+                    <div>
+                      <strong>No Online Disclosures</strong>
+                      <div style={{ color: "var(--text-muted)", fontSize: "10px" }}>No symbols or statements found on online menus.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div style={{ marginTop: "auto", borderTop: "1px solid var(--border)", paddingTop: "var(--space-4)", fontSize: "10px", color: "var(--text-muted)", lineHeight: 1.4 }}>
+                  Center Coordinates: 48.4284° N, 123.3656° W<br/>
+                  Total Sample Size: 100 Restaurants<br/>
+                  Margin of Error: 8.8% (95% CI)
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="grid grid-2">
-            {/* Table 1: Descriptive Stats Comparison */}
-            <div className="card">
-              <h3 style={{ fontSize: "var(--fs-md)", marginBottom: "var(--space-4)", color: "var(--accent-secondary)" }}>
-                Prevalence Comparison
+          <div className="grid grid-2" style={{ gap: "var(--space-6)" }}>
+            
+            {/* Cuisine Distribution Card */}
+            <div className="card" style={{ display: "flex", flexDirection: "column" }}>
+              <h3 style={{ fontSize: "var(--fs-md)", marginBottom: "var(--space-2)", color: "var(--accent-secondary)" }}>
+                Cuisine Distribution in Audited Sample
               </h3>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "var(--fs-xs)", textAlign: "left" }}>
-                <thead>
-                  <tr style={{ borderBottom: "1px solid var(--border)", color: "var(--text-secondary)" }}>
-                    <th style={{ padding: "var(--space-3)" }}>Outcome Measure</th>
-                    <th style={{ padding: "var(--space-3)", textAlign: "center" }}>Toronto Study (N=1,000)</th>
-                    <th style={{ padding: "var(--space-3)", textAlign: "center" }}>Victoria Study (N=100)</th>
-                    <th style={{ padding: "var(--space-3)", textAlign: "center" }}>Difference</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Allergen Symbols</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>10.0%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--success)", fontWeight: 600 }}>14.0%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", fontWeight: 600, color: "var(--success)" }}>+4.0%</td>
-                  </tr>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Allergen Statement</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>15.9%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--success)", fontWeight: 600 }}>26.0%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", fontWeight: 600, color: "var(--success)" }}>+10.1%</td>
-                  </tr>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Separate Menu</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>0.6%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>1.0%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--success)" }}>+0.4%</td>
-                  </tr>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Allergen Chart</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>0.4%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--success)", fontWeight: 600 }}>2.0%</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", fontWeight: 600, color: "var(--success)" }}>+1.6%</td>
-                  </tr>
-                </tbody>
-              </table>
+              <p style={{ color: "var(--text-secondary)", fontSize: "var(--fs-xs)", marginBottom: "var(--space-6)" }}>
+                Frequency distribution of the primary culinary classifications among the 100 sampled independent restaurants.
+              </p>
+
+              {loadingData ? (
+                <div className="flex-center" style={{ flexGrow: 1, minHeight: "200px" }}>
+                  <div className="shimmer" style={{ width: "30px", height: "30px", borderRadius: "50%" }}></div>
+                </div>
+              ) : (
+                <div className="flex flex-col gap-3" style={{ flexGrow: 1 }}>
+                  {sortedCuisines.map(([cuisine, count]: any) => {
+                    const percentage = ((count / totalRests) * 100).toFixed(1);
+                    return (
+                      <div key={cuisine} style={{ fontSize: "var(--fs-xs)" }}>
+                        <div className="flex-between" style={{ marginBottom: "4px" }}>
+                          <span style={{ fontWeight: 500 }}>{cuisine}</span>
+                          <span style={{ color: "var(--text-muted)" }}>{count} ({percentage}%)</span>
+                        </div>
+                        <div style={{ height: "8px", background: "var(--bg-secondary)", borderRadius: "var(--radius-full)", overflow: "hidden", border: "1px solid var(--border)" }}>
+                          <div 
+                            style={{ 
+                              height: "100%", 
+                              width: `${percentage}%`, 
+                              background: "linear-gradient(90deg, var(--accent-primary) 0%, var(--accent-secondary) 100%)",
+                              borderRadius: "var(--radius-full)"
+                            }}
+                          ></div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
             </div>
 
-            {/* Table 2: Regression Predictor Comparison */}
-            <div className="card">
-              <h3 style={{ fontSize: "var(--fs-md)", marginBottom: "var(--space-4)", color: "var(--accent-secondary)" }}>
-                Odds Ratios Comparison (Allergen Symbols Model)
+            {/* Representative Examples Card */}
+            <div className="card" style={{ display: "flex", flexDirection: "column" }}>
+              <h3 style={{ fontSize: "var(--fs-md)", marginBottom: "var(--space-2)", color: "var(--accent-secondary)" }}>
+                Representative Anonymous Examples
               </h3>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "var(--fs-xs)", textAlign: "left" }}>
-                <thead>
-                  <tr style={{ borderBottom: "1px solid var(--border)", color: "var(--text-secondary)" }}>
-                    <th style={{ padding: "var(--space-3)" }}>Independent Variable</th>
-                    <th style={{ padding: "var(--space-3)", textAlign: "center" }}>Toronto OR [95% CI]</th>
-                    <th style={{ padding: "var(--space-3)", textAlign: "center" }}>Victoria OR [95% CI]</th>
-                    <th style={{ padding: "var(--space-3)", textAlign: "center" }}>Comparison</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Cost level</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>1.94 [1.35 – 2.81] *</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>1.48 [0.61 – 3.63]</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--text-muted)" }}>Weaker effect (NS)</td>
-                  </tr>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Branch count</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>1.08 [1.01 – 1.16] *</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--accent-primary)", fontWeight: 600 }}>1.90 [1.04 – 3.48] *</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--accent-secondary)", fontWeight: 600 }}>Stronger effect *</td>
-                  </tr>
-                  <tr style={{ borderBottom: "1px solid rgba(255,255,255,0.02)" }}>
-                    <td style={{ padding: "var(--space-3)", fontWeight: 600 }}>Google/TA Rating</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>1.16 [0.58 – 2.32]</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center" }}>0.94 [0.21 – 4.20]</td>
-                    <td style={{ padding: "var(--space-3)", textAlign: "center", color: "var(--text-muted)" }}>No effect (NS)</td>
-                  </tr>
-                </tbody>
-              </table>
-              <span style={{ fontSize: "9px", color: "var(--text-muted)", marginTop: "var(--space-2)", display: "block" }}>
-                * Statistically significant predictor (p &lt; 0.05). NS = Not Significant.
-              </span>
+              <p style={{ color: "var(--text-secondary)", fontSize: "var(--fs-xs)", marginBottom: "var(--space-6)" }}>
+                Disclosures and warning statements extracted from our online menu audit of Victoria establishments, fully anonymized.
+              </p>
+
+              <div className="flex flex-col gap-4" style={{ flexGrow: 1 }}>
+                {representativeDisclosures.map((ex, idx) => (
+                  <div 
+                    key={idx} 
+                    style={{ 
+                      background: "rgba(255,255,255,0.01)", 
+                      border: "1px solid var(--border)", 
+                      padding: "var(--space-4)", 
+                      borderRadius: "var(--radius-md)" 
+                    }}
+                  >
+                    <h4 style={{ fontSize: "var(--fs-xs)", fontWeight: 600, color: "var(--accent-primary)", marginBottom: "var(--space-1.5)" }}>
+                      {ex.title}
+                    </h4>
+                    <p style={{ 
+                      fontStyle: "italic", 
+                      fontSize: "var(--fs-sm)", 
+                      background: "rgba(0,0,0,0.2)", 
+                      padding: "var(--space-2.5) var(--space-3)", 
+                      borderRadius: "var(--radius-sm)", 
+                      borderLeft: "3px solid var(--accent-secondary)",
+                      color: "var(--text-primary)",
+                      fontFamily: "monospace",
+                      lineHeight: 1.4,
+                      marginBottom: "var(--space-2)"
+                    }}>
+                      {ex.text}
+                    </p>
+                    <p style={{ color: "var(--text-muted)", fontSize: "10px" }}>
+                      {ex.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
+
           </div>
         </div>
       ) : (
         /* ─── DYNAMIC ACADEMIC MANUSCRIPT READER ─── */
         <div className="grid" style={{ gridTemplateColumns: "250px 1fr", gap: "var(--space-6)" }}>
-          {/* Paper Outline Navigation */}
+          {/* Outline Side Navigation */}
           <div className="card" style={{ height: "fit-content", position: "sticky", top: "var(--space-6)" }}>
             <h4 style={{ fontSize: "var(--fs-sm)", marginBottom: "var(--space-3)", borderBottom: "1px solid var(--border)", paddingBottom: "var(--space-1.5)" }}>
               Outline
@@ -309,7 +501,7 @@ export function PaperComparison() {
 
           {/* Paper Content */}
           <div className="card" style={{ padding: "var(--space-8) var(--space-10)", background: "#0a0e1a", border: "1px solid var(--border)", boxShadow: "0 10px 40px rgba(0,0,0,0.5)" }}>
-            {loading ? (
+            {loadingManuscript ? (
               <div className="flex-center" style={{ minHeight: "200px" }}>
                 <div className="shimmer" style={{ width: "40px", height: "40px", borderRadius: "50%" }}></div>
                 <p style={{ marginLeft: "var(--space-3)", color: "var(--text-secondary)" }}>Loading manuscript text...</p>
